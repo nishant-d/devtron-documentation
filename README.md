@@ -1,2 +1,2 @@
-# devtron_documentation_part2
-Using ACE Documentation theme of HUGO
+# Devtron Documentation
+Initial commit for the documentation of the Devtron platform
