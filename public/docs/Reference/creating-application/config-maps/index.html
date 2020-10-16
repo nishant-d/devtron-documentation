@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html><head>
+
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="canonical" href="https://www.niveshopstree.tk/docs/reference/creating-application/config-maps/">
+
+    <title>
+        
+         | Devtron Labs tutorial
+        
+    </title>
+
+    
+    <link href="https://www.niveshopstree.tk/css/fontawesome.min.css" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="https://www.niveshopstree.tk/css/ace.min.css">
+
+    
+    
+        
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-154884741-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    
+
+</head>
+<body><nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow sticky-top" id="navbarMain">
+    <div class="container">
+        <div>
+            <a class="navbar-brand" href="/">
+                
+                Devtron Labs tutorial
+            </a>
+        </div>
+        
+    </div>
+</nav>
+<div class="container-fluid">
+            <div class="row">
+
+                <div class="docs-sidenav order-0 col-12 col-md-3 col-lg-2 col-xl-2 position-sticky border-right"><nav class="navbar navbar-expand-md navbar-light pl-0">
+    <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#sidenav-left-collapse" aria-controls="sidenav-left-collapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+     <div class="collapse navbar-collapse align-items-start flex-column" id="sidenav-left-collapse">
+            <form class="form-inline my-2 my-lg-0 searchbox">
+                <input class="form-control mr-sm-2 w-100" data-search-input id="search-by" type="text" placeholder="Search">
+            </form>
+         <ul class="navbar-nav flex-column pt-3">
+    <li data-nav-id="/docs/" class="nav-item my-1 parent haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/"><h6>  </h6></a>
+        <ul class="list-unstyled ml-2">
+    <li data-nav-id="/docs/reference/" class="nav-item my-1 parent haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/"><h6></h6></a>
+        <ul class="list-unstyled ml-2">
+    <li data-nav-id="/docs/reference/creating-application/" class="nav-item my-1 parent haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/creating-application/"><h6></h6></a>
+        <ul class="list-unstyled ml-2">
+        <li data-nav-id="/docs/reference/creating-application/git-material/" class="nav-item my-1">
+                
+                 <a href="/docs/reference/creating-application/git-material/" class="nav-link p-0">
+                    Git Material
+                </a>
+        </li>
+        <li data-nav-id="/docs/reference/creating-application/docker-configuration/" class="nav-item my-1">
+                
+                 <a href="/docs/reference/creating-application/docker-configuration/" class="nav-link p-0">
+                    Docker Configuration
+                </a>
+        </li>
+        <li data-nav-id="/docs/reference/creating-application/deployment-template/" class="nav-item my-1">
+                
+                 <a href="/docs/reference/creating-application/deployment-template/" class="nav-link p-0">
+                    Deployment Template
+                </a>
+        </li>
+    <li data-nav-id="/docs/reference/creating-application/workflows/" class="nav-item my-1 haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/creating-application/workflows/"><h6></h6></a>
+        <ul class="list-unstyled ml-2">
+    <li data-nav-id="/docs/reference/creating-application/workflows/ci-pipelines/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/creating-application/workflows/ci-pipelines/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/reference/creating-application/workflows/cd-pipelines/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/creating-application/workflows/cd-pipelines/"><h6></h6></a>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/docs/reference/creating-application/config-maps/" class="nav-item my-1 parent active
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/creating-application/config-maps/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/reference/creating-application/secrets/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/creating-application/secrets/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/reference/creating-application/environment-overrides/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/creating-application/environment-overrides/"><h6></h6></a>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/docs/reference/cloning-applications/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/cloning-applications/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/reference/deploying-applications/" class="nav-item my-1 haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/deploying-applications/"><h6></h6></a>
+        <ul class="list-unstyled ml-2">
+        <li data-nav-id="/docs/reference/deploying-applications/triggering-ci/" class="nav-item my-1">
+                
+                 <a href="/docs/reference/deploying-applications/triggering-ci/" class="nav-link p-0">
+                    Triggering CI
+                </a>
+        </li>
+        <li data-nav-id="/docs/reference/deploying-applications/triggering-cd/" class="nav-item my-1">
+                
+                 <a href="/docs/reference/deploying-applications/triggering-cd/" class="nav-link p-0">
+                    Triggering CD
+                </a>
+        </li>
+        </ul>
+    </li>
+    <li data-nav-id="/docs/reference/deploy-chart/" class="nav-item my-1 haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/deploy-chart/"><h6></h6></a>
+        <ul class="list-unstyled ml-2">
+        <li data-nav-id="/docs/reference/deploy-chart/overview/" class="nav-item my-1">
+                
+                 <a href="/docs/reference/deploy-chart/overview/" class="nav-link p-0">
+                    Overview of Charts
+                </a>
+        </li>
+    <li data-nav-id="/docs/reference/deploy-chart/examples/" class="nav-item my-1 haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/deploy-chart/examples/"><h6></h6></a>
+        <ul class="list-unstyled ml-2">
+        <li data-nav-id="/docs/reference/deploy-chart/examples/deploying-mysql-helm-chart/" class="nav-item my-1">
+                
+                 <a href="/docs/reference/deploy-chart/examples/deploying-mysql-helm-chart/" class="nav-link p-0">
+                    Deploying mySQL Helm chart
+                </a>
+        </li>
+        <li data-nav-id="/docs/reference/deploy-chart/examples/deploying-mongodb-helm-chart/" class="nav-item my-1">
+                
+                 <a href="/docs/reference/deploy-chart/examples/deploying-mongodb-helm-chart/" class="nav-link p-0">
+                    Deploying MongoDB Helm chart
+                </a>
+        </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/docs/reference/debugging-deployments-and-monitoring/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/debugging-deployments-and-monitoring/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/reference/namespaces-and-environments-/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/namespaces-and-environments-/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/reference/global-configurations/" class="nav-item my-1 haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/global-configurations/"><h6></h6></a>
+        <ul class="list-unstyled ml-2">
+    <li data-nav-id="/docs/reference/global-configurations/manage-notification/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/global-configurations/manage-notification/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/reference/global-configurations/user-access/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/global-configurations/user-access/"><h6></h6></a>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/docs/reference/deleting-applications/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/deleting-applications/"><h6></h6></a>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/docs/use-cases/" class="nav-item my-1 haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/use-cases/"><h6></h6></a>
+        <ul class="list-unstyled ml-2">
+    <li data-nav-id="/docs/use-cases/devtron-generic-charts-to-run-cron-jobs-or-one-time-job/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/use-cases/devtron-generic-charts-to-run-cron-jobs-or-one-time-job/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/use-cases/connect-spring-boot-with-mysql-database/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/use-cases/connect-spring-boot-with-mysql-database/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/use-cases/connect-expressjs-with-mongodb-database/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/use-cases/connect-expressjs-with-mongodb-database/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/use-cases/connect-django-with-mysql-database/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/use-cases/connect-django-with-mysql-database/"><h6></h6></a>
+    </li>
+        </ul>
+    </li>
+        <li data-nav-id="/docs/hidden/" class="nav-item my-1">
+                
+                 <a href="/docs/hidden/" class="nav-link p-0">
+                    
+                </a>
+        </li>
+        </ul>
+    </li>
+        </ul>
+    </div>
+</nav>
+
+
+</div>
+                <div class="docs-toc large order-lg-2 order-md-0 order-xs-1 col-12 col-lg-2 col-xl-2 position-sticky border-left"><div class="docs-toc">
+	<nav id="TableOfContents">
+  <ul>
+    <li><a href="#configmaps">ConfigMaps</a>
+      <ul>
+        <li><a href="#configure-the-configmap">Configure the ConfigMap</a></li>
+        <li><a href="#volume-mount-path">Volume Mount Path</a></li>
+        <li><a href="#kubernetes-external-configmap">Kubernetes External ConfigMap</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+</div>
+                <div class="main col-12 order-1 col-md-9 col-lg-10 col-xl-8 py-3">
+                
+
+<h1></h1>
+
+<h2 id="configmaps">ConfigMaps</h2>
+<p>The ConfigMap API resource holds key-value pairs of configuration data that can be consumed in pods or used to store configuration data for system components such as controllers. ConfigMap is similar to Secrets, but designed to more conveniently support working with strings that do not contain sensitive information.</p>
+<p>Click on <code>Add ConfigMap</code> to add a config map to your application.</p>
+<p>  </p>
+<p><img src="../../cf1.jpg" alt="Config Map" title="Create config map"></p>
+<p>  </p>
+<h3 id="configure-the-configmap">Configure the ConfigMap</h3>
+<p>  </p>
+<p><img src="../../config1.jpg" alt="Config Map" title="Create config map"></p>
+<p>  </p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Data Type(Kubernetes ConfigMap)</code></td>
+<td>ConfigMap that is created by Devtron.</td>
+</tr>
+<tr>
+<td><code>Name</code></td>
+<td>Name of ConfigMap.</td>
+</tr>
+<tr>
+<td><code>Environment Variable</code></td>
+<td>Select if there are Environment Variables to be injected in pods.</td>
+</tr>
+<tr>
+<td><code>Data Volume</code></td>
+<td>Specify, if there is a volume that is accessible to Containers running in a pod needs to be added.</td>
+</tr>
+<tr>
+<td><code>Key</code></td>
+<td>Key.</td>
+</tr>
+<tr>
+<td><code>Value</code></td>
+<td>Value for a given key.</td>
+</tr>
+</tbody>
+</table>
+<p><!-- raw HTML omitted --></p>
+<p>You can Click on &ldquo;YAML&rdquo; or &ldquo;GUI&rdquo; to view the key and Value parameters of the ConfigMap that you have created.</p>
+<p><!-- raw HTML omitted --></p>
+<h3 id="volume-mount-path">Volume Mount Path</h3>
+<p>Specify Volume Mount folder path in <code>Volume Mount Path</code>, path where the data volume needs to be mounted, which will be accessible to the Containers running in a pod.</p>
+<p>You can Select the Data Type as <code>Kubernetes ConfigMap</code> if you wish to use the ConfigMap created by Devtron or <code>Kubernetes External ConfigMap </code> if you have created a ConfigMap using Kubectl command.</p>
+<p>  </p>
+<p><img src="../../config2.jpg" alt="Data Volume" title="Data Volume"></p>
+<p><!-- raw HTML omitted --></p>
+<p>Click <code>Save ConfigMap</code> to save the configMap.</p>
+<p><!-- raw HTML omitted --></p>
+<h3 id="kubernetes-external-configmap">Kubernetes External ConfigMap</h3>
+<p>Kubernetes External ConfigMap is created using <code>kubectl create configmap</code> or you can use ConfigMap generator in kustomization.yaml to create a ConfigMap.</p>
+<p>If you are using Kubernetes External ConfigMap make sure you give the name of ConfigMap same as the name that you have given using <code>kubectl create Configmap &lt;configmap-name&gt; &lt;data source&gt;</code> command, otherwise it might result in error during the built.</p>
+<p>You have to ensure that the External ConfigMap exists and is made available to the pod.</p>
+<p>  </p>
+<p><img src="../../config4.jpg" alt="Config Map Added" title="Config Map is added"></p>
+<p><!-- raw HTML omitted -->
+The config map is created.</p>
+<p>  </p>
+<p><img src="../../arora2.gif" alt="Config Map Added" title="Config Map is added"></p>
+
+
+    
+
+
+                    
+                    <div class="row"><div class="position-relative mx-auto col-lg-9">
+                          <div class="bg-primary overflow-hidden p-3 mt-5 shadow">
+
+    <h4 class="text-white text-center">Read more</h4>
+
+    <div class="d-flex justify-content-center"><a class="p-1 mr-3 d-inline-block text-white" href="/docs/reference/creating-application/workflows/cd-pipelines/" title=""><i class="fas fa-chevron-left p-1"></i></a>
+        <a class="p-1 ml-3 d-inline-block text-white text-right" href="/docs/reference/creating-application/secrets/" title=""><i class="fas fa-chevron-right p-1"></i></a>
+    </div>
+</div>
+
+
+                        </div></div> 
+
+                </div>
+
+            </div> 
+
+        </div> 
+<script src="https://www.niveshopstree.tk/lib/jquery.min.js"></script> 
+<script src="https://www.niveshopstree.tk/lib/popper.min.js"></script> 
+
+<script src="https://www.niveshopstree.tk/js/bootstrap.min.js"></script> 
+
+
+<script type="text/javascript" src="/plugins/lunr.min.js"></script>
+<script type="text/javascript" src="/plugins/auto-complete.js"></script>
+<link href="/plugins/auto-complete.css" rel="stylesheet">
+<script type="text/javascript">
+  
+      var baseurl = "https:\/\/www.niveshopstree.tk\/";
+  
+</script>
+<script type="text/javascript" src="/plugins/search.js"></script>
+
+
+<script type="text/javascript" src="/plugins/clipboard.js"></script>
+<script>
+  new ClipboardJS('.btn');
+</script>
+</body>
+</html>

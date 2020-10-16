@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Devtron Labs tutorial</title>
+    <link>https://www.niveshopstree.tk/docs/reference/deploy-chart/</link>
+    <description>Recent content on Devtron Labs tutorial</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://www.niveshopstree.tk/docs/reference/deploy-chart/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Overview of Charts</title>
+      <link>https://www.niveshopstree.tk/docs/reference/deploy-chart/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.niveshopstree.tk/docs/reference/deploy-chart/overview/</guid>
+      <description>Deploying Charts Charts can be deployed individually or by creating a group of Charts.
+Both methods are mentioned in the given document.
+Deploying Chart   Select Discover and then select the chart that you want to use
+Click on README.MD to get more idea about the configurations of the chart
+Select the Chart Version that you want to use and Chart Value, you can either use the default Values or custom values.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,15 @@
+googleAnalytics = "UA-154884741-1"
+baseURL = "https://www.niveshopstree.tk/"
+languageCode = "en-us"
+title = "Devtron Labs tutorial"
+theme = "ace-documentation"
+toc = true
+disableSearch = false
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+pygmentsCodeFences = true
+pygmentsStyle = "monokailight"
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir= false
+enableMissingTranslationPlaceholders = false

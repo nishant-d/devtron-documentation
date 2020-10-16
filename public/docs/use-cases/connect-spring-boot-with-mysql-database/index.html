@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html><head>
+
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="canonical" href="https://www.niveshopstree.tk/docs/use-cases/connect-spring-boot-with-mysql-database/">
+
+    <title>
+        
+         | Devtron Labs tutorial
+        
+    </title>
+
+    
+    <link href="https://www.niveshopstree.tk/css/fontawesome.min.css" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="https://www.niveshopstree.tk/css/ace.min.css">
+
+    
+    
+        
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-154884741-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    
+
+</head>
+<body><nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow sticky-top" id="navbarMain">
+    <div class="container">
+        <div>
+            <a class="navbar-brand" href="/">
+                
+                Devtron Labs tutorial
+            </a>
+        </div>
+        
+    </div>
+</nav>
+<div class="container-fluid">
+            <div class="row">
+
+                <div class="docs-sidenav order-0 col-12 col-md-3 col-lg-2 col-xl-2 position-sticky border-right"><nav class="navbar navbar-expand-md navbar-light pl-0">
+    <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#sidenav-left-collapse" aria-controls="sidenav-left-collapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+     <div class="collapse navbar-collapse align-items-start flex-column" id="sidenav-left-collapse">
+            <form class="form-inline my-2 my-lg-0 searchbox">
+                <input class="form-control mr-sm-2 w-100" data-search-input id="search-by" type="text" placeholder="Search">
+            </form>
+         <ul class="navbar-nav flex-column pt-3">
+    <li data-nav-id="/docs/" class="nav-item my-1 parent haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/"><h6>  </h6></a>
+        <ul class="list-unstyled ml-2">
+    <li data-nav-id="/docs/reference/" class="nav-item my-1 haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/"><h6></h6></a>
+        <ul class="list-unstyled ml-2">
+    <li data-nav-id="/docs/reference/creating-application/" class="nav-item my-1 haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/creating-application/"><h6></h6></a>
+        <ul class="list-unstyled ml-2">
+        <li data-nav-id="/docs/reference/creating-application/git-material/" class="nav-item my-1">
+                
+                 <a href="/docs/reference/creating-application/git-material/" class="nav-link p-0">
+                    Git Material
+                </a>
+        </li>
+        <li data-nav-id="/docs/reference/creating-application/docker-configuration/" class="nav-item my-1">
+                
+                 <a href="/docs/reference/creating-application/docker-configuration/" class="nav-link p-0">
+                    Docker Configuration
+                </a>
+        </li>
+        <li data-nav-id="/docs/reference/creating-application/deployment-template/" class="nav-item my-1">
+                
+                 <a href="/docs/reference/creating-application/deployment-template/" class="nav-link p-0">
+                    Deployment Template
+                </a>
+        </li>
+    <li data-nav-id="/docs/reference/creating-application/workflows/" class="nav-item my-1 haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/creating-application/workflows/"><h6></h6></a>
+        <ul class="list-unstyled ml-2">
+    <li data-nav-id="/docs/reference/creating-application/workflows/ci-pipelines/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/creating-application/workflows/ci-pipelines/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/reference/creating-application/workflows/cd-pipelines/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/creating-application/workflows/cd-pipelines/"><h6></h6></a>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/docs/reference/creating-application/config-maps/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/creating-application/config-maps/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/reference/creating-application/secrets/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/creating-application/secrets/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/reference/creating-application/environment-overrides/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/creating-application/environment-overrides/"><h6></h6></a>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/docs/reference/cloning-applications/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/cloning-applications/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/reference/deploying-applications/" class="nav-item my-1 haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/deploying-applications/"><h6></h6></a>
+        <ul class="list-unstyled ml-2">
+        <li data-nav-id="/docs/reference/deploying-applications/triggering-ci/" class="nav-item my-1">
+                
+                 <a href="/docs/reference/deploying-applications/triggering-ci/" class="nav-link p-0">
+                    Triggering CI
+                </a>
+        </li>
+        <li data-nav-id="/docs/reference/deploying-applications/triggering-cd/" class="nav-item my-1">
+                
+                 <a href="/docs/reference/deploying-applications/triggering-cd/" class="nav-link p-0">
+                    Triggering CD
+                </a>
+        </li>
+        </ul>
+    </li>
+    <li data-nav-id="/docs/reference/deploy-chart/" class="nav-item my-1 haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/deploy-chart/"><h6></h6></a>
+        <ul class="list-unstyled ml-2">
+        <li data-nav-id="/docs/reference/deploy-chart/overview/" class="nav-item my-1">
+                
+                 <a href="/docs/reference/deploy-chart/overview/" class="nav-link p-0">
+                    Overview of Charts
+                </a>
+        </li>
+    <li data-nav-id="/docs/reference/deploy-chart/examples/" class="nav-item my-1 haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/deploy-chart/examples/"><h6></h6></a>
+        <ul class="list-unstyled ml-2">
+        <li data-nav-id="/docs/reference/deploy-chart/examples/deploying-mysql-helm-chart/" class="nav-item my-1">
+                
+                 <a href="/docs/reference/deploy-chart/examples/deploying-mysql-helm-chart/" class="nav-link p-0">
+                    Deploying mySQL Helm chart
+                </a>
+        </li>
+        <li data-nav-id="/docs/reference/deploy-chart/examples/deploying-mongodb-helm-chart/" class="nav-item my-1">
+                
+                 <a href="/docs/reference/deploy-chart/examples/deploying-mongodb-helm-chart/" class="nav-link p-0">
+                    Deploying MongoDB Helm chart
+                </a>
+        </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/docs/reference/debugging-deployments-and-monitoring/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/debugging-deployments-and-monitoring/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/reference/namespaces-and-environments-/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/namespaces-and-environments-/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/reference/global-configurations/" class="nav-item my-1 haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/global-configurations/"><h6></h6></a>
+        <ul class="list-unstyled ml-2">
+    <li data-nav-id="/docs/reference/global-configurations/manage-notification/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/global-configurations/manage-notification/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/reference/global-configurations/user-access/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/global-configurations/user-access/"><h6></h6></a>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/docs/reference/deleting-applications/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/deleting-applications/"><h6></h6></a>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/docs/use-cases/" class="nav-item my-1 parent haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/use-cases/"><h6></h6></a>
+        <ul class="list-unstyled ml-2">
+    <li data-nav-id="/docs/use-cases/devtron-generic-charts-to-run-cron-jobs-or-one-time-job/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/use-cases/devtron-generic-charts-to-run-cron-jobs-or-one-time-job/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/use-cases/connect-spring-boot-with-mysql-database/" class="nav-item my-1 parent active
+        ">
+        
+        <a class="nav-link p-0" href="/docs/use-cases/connect-spring-boot-with-mysql-database/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/use-cases/connect-expressjs-with-mongodb-database/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/use-cases/connect-expressjs-with-mongodb-database/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/use-cases/connect-django-with-mysql-database/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/use-cases/connect-django-with-mysql-database/"><h6></h6></a>
+    </li>
+        </ul>
+    </li>
+        <li data-nav-id="/docs/hidden/" class="nav-item my-1">
+                
+                 <a href="/docs/hidden/" class="nav-link p-0">
+                    
+                </a>
+        </li>
+        </ul>
+    </li>
+        </ul>
+    </div>
+</nav>
+
+
+</div>
+                <div class="docs-toc large order-lg-2 order-md-0 order-xs-1 col-12 col-lg-2 col-xl-2 position-sticky border-left"><div class="docs-toc">
+	<nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-deploy-a-mysql-helm-chart"><strong>1. Deploy a mysql Helm Chart</strong></a></li>
+    <li><a href="#2-fork-the-git-repository"><strong>2. Fork the Git Repository</strong></a>
+      <ul>
+        <li><a href="#-configure-applicationproperties">* <strong>Configure application.properties</strong></a></li>
+        <li><a href="#-configure-the-dockerfile">* <strong>Configure the Dockerfile</strong></a></li>
+      </ul>
+    </li>
+    <li><a href="#3-create-application-on-devtron"><strong>3. Create Application on Devtron</strong></a>
+      <ul>
+        <li><a href="#-git-material">* <strong>Git Material</strong></a></li>
+        <li><a href="#-docker-configuration">* <strong>Docker configuration</strong></a></li>
+        <li><a href="#-configure-deployment-template">* <em><strong>Configure Deployment Template</strong></em></a></li>
+        <li><a href="#-set-up-the-cicd-pipelines">* <strong>Set up the CI/CD Pipelines</strong></a></li>
+        <li><a href="#-trigger-pipelines">* <strong>Trigger Pipelines</strong></a></li>
+      </ul>
+    </li>
+    <li><a href="#4-final-step"><strong>4. Final Step</strong></a>
+      <ul>
+        <li><a href="#-test-rest-api">* <strong>Test Rest API</strong></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+</div>
+                <div class="main col-12 order-1 col-md-9 col-lg-10 col-xl-8 py-3">
+                
+
+<h1></h1>
+
+<h1 id="introduction">Introduction</h1>
+<p><!-- raw HTML omitted --></p>
+<p>This document will help you to deploy a sample Spring Boot Application, using <strong>mysql Helm Chart</strong></p>
+<h2 id="1-deploy-a-mysql-helm-chart"><strong>1. Deploy a mysql Helm Chart</strong></h2>
+<p><!-- raw HTML omitted --></p>
+<p>To deploy mysql Helm Chart, you can refer to our documentation on <a href="https://docs.devtron.ai/docs/reference/deploy-chart/examples/deploying-mysql-helm-chart/">Deploy mysql Helm Chart</a></p>
+<p><!-- raw HTML omitted --></p>
+<h2 id="2-fork-the-git-repository"><strong>2. Fork the Git Repository</strong></h2>
+<p>For this example, we are using the following <a href="https://github.com/devtron-labs/springboot">GitHub Repo</a>, you can clone this repository and make following changes in the files.</p>
+<h3 id="-configure-applicationproperties">* <strong>Configure application.properties</strong></h3>
+<p>Set the database configuration in this file.</p>
+<p><!-- raw HTML omitted --></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">spring<span style="color:#f92672">.</span><span style="color:#a6e22e">datasource</span><span style="color:#f92672">.</span><span style="color:#a6e22e">url</span><span style="color:#f92672">=</span>jdbc<span style="color:#f92672">:</span>mysql<span style="color:#f92672">:</span><span style="color:#75715e">//&lt;service-name&gt;/&lt;mysql database-name&gt;
+</span><span style="color:#75715e"></span>spring<span style="color:#f92672">.</span><span style="color:#a6e22e">jpa</span><span style="color:#f92672">.</span><span style="color:#a6e22e">hibernate</span><span style="color:#f92672">.</span><span style="color:#a6e22e">ddl</span><span style="color:#f92672">-</span>auto<span style="color:#f92672">=</span>update
+spring<span style="color:#f92672">.</span><span style="color:#a6e22e">jpa</span><span style="color:#f92672">.</span><span style="color:#a6e22e">show</span><span style="color:#f92672">-</span>sql<span style="color:#f92672">=</span><span style="color:#66d9ef">true</span>
+spring<span style="color:#f92672">.</span><span style="color:#a6e22e">datasource</span><span style="color:#f92672">.</span><span style="color:#a6e22e">username</span><span style="color:#f92672">=&lt;</span>mysql<span style="color:#f92672">-</span>user<span style="color:#f92672">&gt;</span>
+spring<span style="color:#f92672">.</span><span style="color:#a6e22e">datasource</span><span style="color:#f92672">.</span><span style="color:#a6e22e">password</span><span style="color:#f92672">=&lt;</span>mysql<span style="color:#f92672">-</span>password<span style="color:#f92672">&gt;</span>
+spring<span style="color:#f92672">.</span><span style="color:#a6e22e">datasource</span><span style="color:#f92672">.</span><span style="color:#a6e22e">driver</span><span style="color:#f92672">-</span>class<span style="color:#f92672">-</span>name<span style="color:#f92672">=</span>com<span style="color:#f92672">.</span><span style="color:#a6e22e">mysql</span><span style="color:#f92672">.</span><span style="color:#a6e22e">jdbc</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Driver</span>
+spring<span style="color:#f92672">.</span><span style="color:#a6e22e">jpa</span><span style="color:#f92672">.</span><span style="color:#a6e22e">properties</span><span style="color:#f92672">.</span><span style="color:#a6e22e">hibernate</span><span style="color:#f92672">.</span><span style="color:#a6e22e">dialect</span><span style="color:#f92672">=</span>org<span style="color:#f92672">.</span><span style="color:#a6e22e">hibernate</span><span style="color:#f92672">.</span><span style="color:#a6e22e">dialect</span><span style="color:#f92672">.</span><span style="color:#a6e22e">MySQL5Dialect</span>
+spring<span style="color:#f92672">.</span><span style="color:#a6e22e">jpa</span><span style="color:#f92672">.</span><span style="color:#a6e22e">open</span><span style="color:#f92672">-</span>in<span style="color:#f92672">-</span>view<span style="color:#f92672">=</span><span style="color:#66d9ef">true</span>
+
+</code></pre></div><p><!-- raw HTML omitted --></p>
+<h3 id="-configure-the-dockerfile">* <strong>Configure the Dockerfile</strong></h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># syntax=docker/dockerfile:experimental</span>
+FROM maven:3.5-jdk-8-alpine as build
+WORKDIR /workspace/app
+
+COPY pom.xml .
+
+RUN mvn -B -e -C -T 1C org.apache.maven.plugins:maven-dependency-plugin:3.0.2:go-offline
+
+COPY . .
+RUN mvn clean package -Dmaven.test.skip<span style="color:#f92672">=</span>true
+
+
+FROM openjdk:8-jdk-alpine
+RUN addgroup -S demo <span style="color:#f92672">&amp;&amp;</span> adduser -S demo -G demo
+VOLUME /tmp
+USER demo
+ARG DEPENDENCY<span style="color:#f92672">=</span>/workspace/app/target/dependency
+COPY --from<span style="color:#f92672">=</span>build /workspace/app/target/docker-demo-0.0.1-SNAPSHOT.jar app.jar
+ENTRYPOINT <span style="color:#f92672">[</span><span style="color:#e6db74">&#34;java&#34;</span>,<span style="color:#e6db74">&#34;-jar&#34;</span>, <span style="color:#e6db74">&#34;app.jar&#34;</span><span style="color:#f92672">]</span>
+</code></pre></div><p><!-- raw HTML omitted --></p>
+<p>  </p>
+<h2 id="3-create-application-on-devtron"><strong>3. Create Application on Devtron</strong></h2>
+<p>To learn how to create an application on Devtron, refer to our documentation on <a href="https://docs.devtron.ai/docs/reference/creating-application/">Creating Application</a></p>
+<p><!-- raw HTML omitted --></p>
+<h3 id="-git-material">* <strong>Git Material</strong></h3>
+<p>In this example, we are using the url of the forked Git Repository.</p>
+<h3 id="-docker-configuration">* <strong>Docker configuration</strong></h3>
+<p>Give, the path of the Dockerfile.</p>
+<h3 id="-configure-deployment-template">* <em><strong>Configure Deployment Template</strong></em></h3>
+<p>Enable <code>Ingress</code>, and give the path on which you want to host the application.</p>
+<p>  </p>
+<p><img src="../three.jpg" alt="ingress" title="ingress annotations"></p>
+<p>  </p>
+<h3 id="-set-up-the-cicd-pipelines">* <strong>Set up the CI/CD Pipelines</strong></h3>
+<p>Set up the CI/CD pipelines. You can set them to trigger automatically or manually.</p>
+<h3 id="-trigger-pipelines">* <strong>Trigger Pipelines</strong></h3>
+<p>Trigger the CI Pipeline, build should be <strong>Successful</strong>. Then trigger the CD Pipeline, deployment pipeline will be initiated, after some time the status should be <strong>Healthy</strong>.</p>
+<p><!-- raw HTML omitted --></p>
+<h2 id="4-final-step"><strong>4. Final Step</strong></h2>
+<h3 id="-test-rest-api">* <strong>Test Rest API</strong></h3>
+<p>It exposes 3 REST endpoints for it&rsquo;s users to create, to <em>view specific</em> student record and <em>view all</em> student records.</p>
+<p>To test Rest API, you can use <em>curl</em> command line tool</p>
+<p><em><strong>Create a new Student Record</strong></em></p>
+<p>Create a new POST request to create a new Transaction. Once the transaction is successfully created, you will get the <em>student id</em> as a response.</p>
+<p>Curl Request is as follows:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo curl -d <span style="color:#e6db74">&#39;{&#34;name&#34;: &#34;Anushka&#34;, &#34;marks&#34;: 98}&#39;</span> -H <span style="color:#e6db74">&#34;Content-Type: application/json&#34;</span> -X POST http://&lt;hostname&gt;/&lt;path-name&gt;/create
+</code></pre></div><p><!-- raw HTML omitted --></p>
+<p><em><strong>View All Student&rsquo;s Data</strong></em></p>
+<p>To view all student records, GET Request is:</p>
+<p>  </p>
+<p><em><strong>path</strong></em> will be the one that you have given in Step 3 while configuring the Deployment Template.</p>
+<p><code>http://&lt;hostname&gt;/&lt;path&gt;/viewAll</code></p>
+<p>  </p>
+<p><img src="../view5.jpg" alt="Discover chart store"></p>
+<p>  </p>
+<p><em><strong>View student&rsquo;s data By student ID</strong></em></p>
+<p><!-- raw HTML omitted --></p>
+<p>To view student data by student id, GET Request is:</p>
+<p><!-- raw HTML omitted --></p>
+<p><code>http://&lt;hostname&gt;/&lt;path&gt;/view/&lt;id&gt;</code></p>
+<p><em><strong>path</strong></em> will be the one that you have given in Step 3 while configuring the Deployment Template.</p>
+<p>  </p>
+<p><img src="../view6.jpg" alt="Discover chart store"></p>
+<p><!-- raw HTML omitted --></p>
+
+
+    
+
+
+                    
+                    <div class="row"><div class="position-relative mx-auto col-lg-9">
+                          <div class="bg-primary overflow-hidden p-3 mt-5 shadow">
+
+    <h4 class="text-white text-center">Read more</h4>
+
+    <div class="d-flex justify-content-center"><a class="p-1 mr-3 d-inline-block text-white" href="/docs/use-cases/devtron-generic-charts-to-run-cron-jobs-or-one-time-job/" title=""><i class="fas fa-chevron-left p-1"></i></a>
+        <a class="p-1 ml-3 d-inline-block text-white text-right" href="/docs/use-cases/connect-expressjs-with-mongodb-database/" title=""><i class="fas fa-chevron-right p-1"></i></a>
+    </div>
+</div>
+
+
+                        </div></div> 
+
+                </div>
+
+            </div> 
+
+        </div> 
+<script src="https://www.niveshopstree.tk/lib/jquery.min.js"></script> 
+<script src="https://www.niveshopstree.tk/lib/popper.min.js"></script> 
+
+<script src="https://www.niveshopstree.tk/js/bootstrap.min.js"></script> 
+
+
+<script type="text/javascript" src="/plugins/lunr.min.js"></script>
+<script type="text/javascript" src="/plugins/auto-complete.js"></script>
+<link href="/plugins/auto-complete.css" rel="stylesheet">
+<script type="text/javascript">
+  
+      var baseurl = "https:\/\/www.niveshopstree.tk\/";
+  
+</script>
+<script type="text/javascript" src="/plugins/search.js"></script>
+
+
+<script type="text/javascript" src="/plugins/clipboard.js"></script>
+<script>
+  new ClipboardJS('.btn');
+</script>
+</body>
+</html>

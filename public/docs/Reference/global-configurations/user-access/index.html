@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html><head>
+
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="canonical" href="https://www.niveshopstree.tk/docs/reference/global-configurations/user-access/">
+
+    <title>
+        
+         | Devtron Labs tutorial
+        
+    </title>
+
+    
+    <link href="https://www.niveshopstree.tk/css/fontawesome.min.css" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="https://www.niveshopstree.tk/css/ace.min.css">
+
+    
+    
+        
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-154884741-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    
+
+</head>
+<body><nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow sticky-top" id="navbarMain">
+    <div class="container">
+        <div>
+            <a class="navbar-brand" href="/">
+                
+                Devtron Labs tutorial
+            </a>
+        </div>
+        
+    </div>
+</nav>
+<div class="container-fluid">
+            <div class="row">
+
+                <div class="docs-sidenav order-0 col-12 col-md-3 col-lg-2 col-xl-2 position-sticky border-right"><nav class="navbar navbar-expand-md navbar-light pl-0">
+    <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#sidenav-left-collapse" aria-controls="sidenav-left-collapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+     <div class="collapse navbar-collapse align-items-start flex-column" id="sidenav-left-collapse">
+            <form class="form-inline my-2 my-lg-0 searchbox">
+                <input class="form-control mr-sm-2 w-100" data-search-input id="search-by" type="text" placeholder="Search">
+            </form>
+         <ul class="navbar-nav flex-column pt-3">
+    <li data-nav-id="/docs/" class="nav-item my-1 parent haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/"><h6>  </h6></a>
+        <ul class="list-unstyled ml-2">
+    <li data-nav-id="/docs/reference/" class="nav-item my-1 parent haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/"><h6></h6></a>
+        <ul class="list-unstyled ml-2">
+    <li data-nav-id="/docs/reference/creating-application/" class="nav-item my-1 haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/creating-application/"><h6></h6></a>
+        <ul class="list-unstyled ml-2">
+        <li data-nav-id="/docs/reference/creating-application/git-material/" class="nav-item my-1">
+                
+                 <a href="/docs/reference/creating-application/git-material/" class="nav-link p-0">
+                    Git Material
+                </a>
+        </li>
+        <li data-nav-id="/docs/reference/creating-application/docker-configuration/" class="nav-item my-1">
+                
+                 <a href="/docs/reference/creating-application/docker-configuration/" class="nav-link p-0">
+                    Docker Configuration
+                </a>
+        </li>
+        <li data-nav-id="/docs/reference/creating-application/deployment-template/" class="nav-item my-1">
+                
+                 <a href="/docs/reference/creating-application/deployment-template/" class="nav-link p-0">
+                    Deployment Template
+                </a>
+        </li>
+    <li data-nav-id="/docs/reference/creating-application/workflows/" class="nav-item my-1 haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/creating-application/workflows/"><h6></h6></a>
+        <ul class="list-unstyled ml-2">
+    <li data-nav-id="/docs/reference/creating-application/workflows/ci-pipelines/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/creating-application/workflows/ci-pipelines/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/reference/creating-application/workflows/cd-pipelines/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/creating-application/workflows/cd-pipelines/"><h6></h6></a>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/docs/reference/creating-application/config-maps/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/creating-application/config-maps/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/reference/creating-application/secrets/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/creating-application/secrets/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/reference/creating-application/environment-overrides/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/creating-application/environment-overrides/"><h6></h6></a>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/docs/reference/cloning-applications/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/cloning-applications/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/reference/deploying-applications/" class="nav-item my-1 haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/deploying-applications/"><h6></h6></a>
+        <ul class="list-unstyled ml-2">
+        <li data-nav-id="/docs/reference/deploying-applications/triggering-ci/" class="nav-item my-1">
+                
+                 <a href="/docs/reference/deploying-applications/triggering-ci/" class="nav-link p-0">
+                    Triggering CI
+                </a>
+        </li>
+        <li data-nav-id="/docs/reference/deploying-applications/triggering-cd/" class="nav-item my-1">
+                
+                 <a href="/docs/reference/deploying-applications/triggering-cd/" class="nav-link p-0">
+                    Triggering CD
+                </a>
+        </li>
+        </ul>
+    </li>
+    <li data-nav-id="/docs/reference/deploy-chart/" class="nav-item my-1 haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/deploy-chart/"><h6></h6></a>
+        <ul class="list-unstyled ml-2">
+        <li data-nav-id="/docs/reference/deploy-chart/overview/" class="nav-item my-1">
+                
+                 <a href="/docs/reference/deploy-chart/overview/" class="nav-link p-0">
+                    Overview of Charts
+                </a>
+        </li>
+    <li data-nav-id="/docs/reference/deploy-chart/examples/" class="nav-item my-1 haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/deploy-chart/examples/"><h6></h6></a>
+        <ul class="list-unstyled ml-2">
+        <li data-nav-id="/docs/reference/deploy-chart/examples/deploying-mysql-helm-chart/" class="nav-item my-1">
+                
+                 <a href="/docs/reference/deploy-chart/examples/deploying-mysql-helm-chart/" class="nav-link p-0">
+                    Deploying mySQL Helm chart
+                </a>
+        </li>
+        <li data-nav-id="/docs/reference/deploy-chart/examples/deploying-mongodb-helm-chart/" class="nav-item my-1">
+                
+                 <a href="/docs/reference/deploy-chart/examples/deploying-mongodb-helm-chart/" class="nav-link p-0">
+                    Deploying MongoDB Helm chart
+                </a>
+        </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/docs/reference/debugging-deployments-and-monitoring/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/debugging-deployments-and-monitoring/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/reference/namespaces-and-environments-/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/namespaces-and-environments-/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/reference/global-configurations/" class="nav-item my-1 parent haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/global-configurations/"><h6></h6></a>
+        <ul class="list-unstyled ml-2">
+    <li data-nav-id="/docs/reference/global-configurations/manage-notification/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/global-configurations/manage-notification/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/reference/global-configurations/user-access/" class="nav-item my-1 parent active
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/global-configurations/user-access/"><h6></h6></a>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/docs/reference/deleting-applications/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/deleting-applications/"><h6></h6></a>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/docs/use-cases/" class="nav-item my-1 haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/use-cases/"><h6></h6></a>
+        <ul class="list-unstyled ml-2">
+    <li data-nav-id="/docs/use-cases/devtron-generic-charts-to-run-cron-jobs-or-one-time-job/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/use-cases/devtron-generic-charts-to-run-cron-jobs-or-one-time-job/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/use-cases/connect-spring-boot-with-mysql-database/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/use-cases/connect-spring-boot-with-mysql-database/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/use-cases/connect-expressjs-with-mongodb-database/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/use-cases/connect-expressjs-with-mongodb-database/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/use-cases/connect-django-with-mysql-database/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/use-cases/connect-django-with-mysql-database/"><h6></h6></a>
+    </li>
+        </ul>
+    </li>
+        <li data-nav-id="/docs/hidden/" class="nav-item my-1">
+                
+                 <a href="/docs/hidden/" class="nav-link p-0">
+                    
+                </a>
+        </li>
+        </ul>
+    </li>
+        </ul>
+    </div>
+</nav>
+
+
+</div>
+                <div class="docs-toc large order-lg-2 order-md-0 order-xs-1 col-12 col-lg-2 col-xl-2 position-sticky border-left"><div class="docs-toc">
+	<nav id="TableOfContents">
+  <ul>
+    <li><a href="#users"><strong>Users</strong></a>
+      <ul>
+        <li><a href="#1-add-new-user"><strong>1. Add new user</strong></a></li>
+        <li><a href="#2-create-user-permissions"><strong>2. Create User Permissions</strong></a></li>
+        <li><a href="#3-edit-user-permissions"><strong>3. Edit User Permissions</strong></a></li>
+        <li><a href="#4-manage-chart-group-permissions"><strong>4. Manage Chart Group Permissions</strong></a></li>
+      </ul>
+    </li>
+    <li><a href="#groups"><strong>Groups</strong></a>
+      <ul>
+        <li><a href="#1-add-new-group"><strong>1. Add new Group</strong></a></li>
+        <li><a href="#2-create-group-permissions"><strong>2. Create Group Permissions</strong></a></li>
+        <li><a href="#3-edit-group-permissions"><strong>3. Edit Group Permissions</strong></a></li>
+        <li><a href="#4-manage-chart-group-permissions-1"><strong>4. Manage Chart Group Permissions</strong></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+</div>
+                <div class="main col-12 order-1 col-md-9 col-lg-10 col-xl-8 py-3">
+                
+
+<h1></h1>
+
+<h1 id="usergroup-authorization">User/Group Authorization</h1>
+<p>  </p>
+<p>  </p>
+<p>Authorization is used to determine what functions, data, or other parts of an application the user or the group has the access to.</p>
+<p>You can manage the <code>User</code> and <code>Group</code> access to Projects, Applications, Chart Groups, Environments, and Roles using the <code>User Access</code> feature.</p>
+<p><strong>View Access Levels/Role</strong></p>
+<p>There are four different view access levels/Role available for both <code>User</code> and <code>Group</code>, namely:</p>
+<ul>
+<li>
+<p><em><strong>View Only :</strong></em> User(s)/Group(s) can view only selected applications.</p>
+</li>
+<li>
+<p><em><strong>Build and Deploy :</strong></em> User(s)/Group(s) can build and deploy applications on selected environments.</p>
+</li>
+<li>
+<p><em><strong>Admin :</strong></em> User(s)/Group(s) can view trigger and edit selected applications.</p>
+</li>
+<li>
+<p><em><strong>Manager :</strong></em> User(s)/Group(s) can view, trigger and edit selected applications, can also manage user access.</p>
+</li>
+</ul>
+<p>To control the access of <code>User</code> and <code>Group</code>,<br>
+Go to the left main panel -&gt; Select <code>Global Configurations</code> -&gt; Select <code>User Access</code></p>
+<h2 id="users"><strong>Users</strong></h2>
+<h3 id="1-add-new-user"><strong>1. Add new user</strong></h3>
+<p>Click on <code>Add New User</code>, to add one or multiple users.</p>
+<p>  </p>
+<p><img src="../../user1.jpg" alt="user access" title="user access"></p>
+<p>  </p>
+<h3 id="2-create-user-permissions"><strong>2. Create User Permissions</strong></h3>
+<p>If you do not wish to give the users super admin permissions, then control their access in <code>Direct Permissions</code> section. Manage the project, Environment, Application and Role access given to the users.</p>
+<p>  </p>
+<p><img src="../../user3.jpg" alt="limit" title="limit"></p>
+<p>  </p>
+<p>You can add multiple rows, for <code>Direct Permissions</code>.</p>
+<p>Once you have finished assigning the appropriate permissions for the listed users, Click on <code>Save</code>.</p>
+<h3 id="3-edit-user-permissions"><strong>3. Edit User Permissions</strong></h3>
+<p>You can edit the user permissions, by clicking on the downward arrow.</p>
+<p>  </p>
+<p><img src="../../edit1.jpg" alt="edit" title="users"></p>
+<p> </p>
+<p>You can then edit the user permissions here.</p>
+<p>  </p>
+<p><img src="../../edit2.jpg" alt="edit"></p>
+<p>  </p>
+<p>After you have done editing the user permissions. Click on <code>Save</code>.</p>
+<p>If you want to delete the user/users with particular permissions. Click on <code>Delete</code>.</p>
+<h3 id="4-manage-chart-group-permissions"><strong>4. Manage Chart Group Permissions</strong></h3>
+<p>You can also manage the access of users to Chart Groups in your project.</p>
+<p>You can either give the users permission to <code>Create</code> or <code>Edit</code>.</p>
+<p>Click on the check box of <code>Create</code>, if you want users to create, view, edit or delete chart groups.</p>
+<p>  </p>
+<p><img src="../../user4.jpg" alt="chart group" title="chart groups"></p>
+<p>  </p>
+<p>Click on the checkbox of <code>Edit</code>, if you want to allow or deny users to edit the chart groups.</p>
+<p>Select on <code>Deny</code> option from the drop-down menu, if you want to restrict the users to edit the chart groups.</p>
+<p>  </p>
+<p><img src="../../user5.jpg" alt="edit chart" title="checkboxes"></p>
+<p>  </p>
+<p>Select <code>Specific Charts</code> option from the drop-down menu, and then select the chart groups for which you want to allow users to edit, from the other drop-down menu.</p>
+<p>  </p>
+<p><img src="../../user6.jpg" alt="chart group" title="chart groups"></p>
+<p>  </p>
+<p>Once you have configured all the required permissions for the users, Click on <code>Save</code>.</p>
+<h2 id="groups"><strong>Groups</strong></h2>
+<p>The advantage of the groups is to define a set of privileges like create, edit or delete for the given set of resources that can be shared among the users within the group.
+Users can be added to an existing group to utilize the privileges that it grants.</p>
+<h3 id="1-add-new-group"><strong>1. Add new Group</strong></h3>
+<p>Click on <code>Add Group</code>, to create a new group.</p>
+<p>  </p>
+<p><img src="../../user7.jpg" alt="new group" title="new groups"></p>
+<p>  </p>
+<p>Enter the <code>Group Name</code> and <code>Description</code>.</p>
+<p>  </p>
+<p><img src="../../user8.jpg" alt="new group" title="new groups"></p>
+<p>  </p>
+<h3 id="2-create-group-permissions"><strong>2. Create Group Permissions</strong></h3>
+<p>Once you have given the group name and group description.</p>
+<p>Then, control the access permissions of groups in <code>Direct Permissions</code>section. Manage the project, Environment, Application and Role access given to the groups.</p>
+<p>  </p>
+<p><img src="../../user9.jpg" alt="limit" title="limit"></p>
+<p>  </p>
+<p>You can add multiple rows, for <code>Direct Permissions</code> section.</p>
+<p>Once you have finished assigning the appropriate permissions for the listed users, Click on <code>Save</code>.</p>
+<h3 id="3-edit-group-permissions"><strong>3. Edit Group Permissions</strong></h3>
+<p>You can edit the group permissions, by clicking on the downward arrow.</p>
+<p>  </p>
+<p><img src="../../edit4.jpg" alt="limit" title="limit"></p>
+<p>  </p>
+<p>You can then edit the user permissions here.</p>
+<p>  </p>
+<p><img src="../../edit7.jpg" alt="edit"></p>
+<p>  </p>
+<p>After you have done editing the group permissions. Click on <code>Save</code>.</p>
+<p>If you want to delete the groups with particular permissions. Click on <code>Delete</code>.</p>
+<h3 id="4-manage-chart-group-permissions-1"><strong>4. Manage Chart Group Permissions</strong></h3>
+<p>The chart group permissions for the group will be managed in the same way as for the users. For reference, check <a href="https://docs.devtron.ai/docs/reference/global-configurations/user-access/#5-manage-chart-group-permissions">Manage chart group permissions for users</a></p>
+
+
+    
+
+
+                    
+                    <div class="row"><div class="position-relative mx-auto col-lg-9">
+                          <div class="bg-primary overflow-hidden p-3 mt-5 shadow">
+
+    <h4 class="text-white text-center">Read more</h4>
+
+    <div class="d-flex justify-content-center"><a class="p-1 mr-3 d-inline-block text-white" href="/docs/reference/global-configurations/manage-notification/" title=""><i class="fas fa-chevron-left p-1"></i></a>
+        <a class="p-1 ml-3 d-inline-block text-white text-right" href="/docs/reference/deleting-applications/" title=""><i class="fas fa-chevron-right p-1"></i></a>
+    </div>
+</div>
+
+
+                        </div></div> 
+
+                </div>
+
+            </div> 
+
+        </div> 
+<script src="https://www.niveshopstree.tk/lib/jquery.min.js"></script> 
+<script src="https://www.niveshopstree.tk/lib/popper.min.js"></script> 
+
+<script src="https://www.niveshopstree.tk/js/bootstrap.min.js"></script> 
+
+
+<script type="text/javascript" src="/plugins/lunr.min.js"></script>
+<script type="text/javascript" src="/plugins/auto-complete.js"></script>
+<link href="/plugins/auto-complete.css" rel="stylesheet">
+<script type="text/javascript">
+  
+      var baseurl = "https:\/\/www.niveshopstree.tk\/";
+  
+</script>
+<script type="text/javascript" src="/plugins/search.js"></script>
+
+
+<script type="text/javascript" src="/plugins/clipboard.js"></script>
+<script>
+  new ClipboardJS('.btn');
+</script>
+</body>
+</html>

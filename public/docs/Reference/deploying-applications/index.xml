@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Devtron Labs tutorial</title>
+    <link>https://www.niveshopstree.tk/docs/reference/deploying-applications/</link>
+    <description>Recent content on Devtron Labs tutorial</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://www.niveshopstree.tk/docs/reference/deploying-applications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Triggering CI</title>
+      <link>https://www.niveshopstree.tk/docs/reference/deploying-applications/triggering-ci/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.niveshopstree.tk/docs/reference/deploying-applications/triggering-ci/</guid>
+      <description>Triggering CI Pipelines   The CI Pipeline can be triggered by selecting Select Material
+CI Pipelines that are set as Automatic are always triggered as soon as a new commit is made to the git branch they&amp;rsquo;re sensing. However, CI Pipelines can always be manually triggered as and if required.
+  Various commits done in the repository can be seen, here along with details like Author, Date etc. Select the commit that you want to trigger and then select &amp;ldquo;Start Build&amp;rdquo; to trigger the CI Pipeline.</description>
+    </item>
+    
+    <item>
+      <title>Triggering CD</title>
+      <link>https://www.niveshopstree.tk/docs/reference/deploying-applications/triggering-cd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.niveshopstree.tk/docs/reference/deploying-applications/triggering-cd/</guid>
+      <description>Triggering CD Pipelines   After CI Pipeline is complete, CD Pipeline can be triggered by Clicking on Select Image.
+  Select an image to deploy and then Click on Deploy to trigger the CD Pipeline.
+The running images are tagged as Running
+  The status of the current deployment can be viewed by Clicking on App Details that will show the Progressing state for 1-2 minutes and then gradually shows Healthy state or Hibernating state, based on the deployment strategy.</description>
+    </item>
+    
+  </channel>
+</rss>

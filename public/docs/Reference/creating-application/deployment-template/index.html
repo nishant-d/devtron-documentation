@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html><head>
+
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="canonical" href="https://www.niveshopstree.tk/docs/reference/creating-application/deployment-template/">
+
+    <title>
+        
+        Deployment Template | Devtron Labs tutorial
+        
+    </title>
+
+    
+    <link href="https://www.niveshopstree.tk/css/fontawesome.min.css" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="https://www.niveshopstree.tk/css/ace.min.css">
+
+    
+    
+        
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-154884741-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    
+
+</head>
+<body><nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow sticky-top" id="navbarMain">
+    <div class="container">
+        <div>
+            <a class="navbar-brand" href="/">
+                
+                Devtron Labs tutorial
+            </a>
+        </div>
+        
+    </div>
+</nav>
+<div class="container-fluid">
+            <div class="row">
+
+                <div class="docs-sidenav order-0 col-12 col-md-3 col-lg-2 col-xl-2 position-sticky border-right"><nav class="navbar navbar-expand-md navbar-light pl-0">
+    <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#sidenav-left-collapse" aria-controls="sidenav-left-collapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+     <div class="collapse navbar-collapse align-items-start flex-column" id="sidenav-left-collapse">
+            <form class="form-inline my-2 my-lg-0 searchbox">
+                <input class="form-control mr-sm-2 w-100" data-search-input id="search-by" type="text" placeholder="Search">
+            </form>
+         <ul class="navbar-nav flex-column pt-3">
+    <li data-nav-id="/docs/" class="nav-item my-1 parent haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/"><h6>  </h6></a>
+        <ul class="list-unstyled ml-2">
+    <li data-nav-id="/docs/reference/" class="nav-item my-1 parent haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/"><h6></h6></a>
+        <ul class="list-unstyled ml-2">
+    <li data-nav-id="/docs/reference/creating-application/" class="nav-item my-1 parent haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/creating-application/"><h6></h6></a>
+        <ul class="list-unstyled ml-2">
+        <li data-nav-id="/docs/reference/creating-application/git-material/" class="nav-item my-1">
+                
+                 <a href="/docs/reference/creating-application/git-material/" class="nav-link p-0">
+                    Git Material
+                </a>
+        </li>
+        <li data-nav-id="/docs/reference/creating-application/docker-configuration/" class="nav-item my-1">
+                
+                 <a href="/docs/reference/creating-application/docker-configuration/" class="nav-link p-0">
+                    Docker Configuration
+                </a>
+        </li>
+        <li data-nav-id="/docs/reference/creating-application/deployment-template/" class="nav-item my-1 active">
+                
+                 <a href="/docs/reference/creating-application/deployment-template/" class="nav-link p-0">
+                    Deployment Template
+                </a>
+        </li>
+    <li data-nav-id="/docs/reference/creating-application/workflows/" class="nav-item my-1 haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/creating-application/workflows/"><h6></h6></a>
+        <ul class="list-unstyled ml-2">
+    <li data-nav-id="/docs/reference/creating-application/workflows/ci-pipelines/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/creating-application/workflows/ci-pipelines/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/reference/creating-application/workflows/cd-pipelines/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/creating-application/workflows/cd-pipelines/"><h6></h6></a>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/docs/reference/creating-application/config-maps/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/creating-application/config-maps/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/reference/creating-application/secrets/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/creating-application/secrets/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/reference/creating-application/environment-overrides/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/creating-application/environment-overrides/"><h6></h6></a>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/docs/reference/cloning-applications/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/cloning-applications/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/reference/deploying-applications/" class="nav-item my-1 haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/deploying-applications/"><h6></h6></a>
+        <ul class="list-unstyled ml-2">
+        <li data-nav-id="/docs/reference/deploying-applications/triggering-ci/" class="nav-item my-1">
+                
+                 <a href="/docs/reference/deploying-applications/triggering-ci/" class="nav-link p-0">
+                    Triggering CI
+                </a>
+        </li>
+        <li data-nav-id="/docs/reference/deploying-applications/triggering-cd/" class="nav-item my-1">
+                
+                 <a href="/docs/reference/deploying-applications/triggering-cd/" class="nav-link p-0">
+                    Triggering CD
+                </a>
+        </li>
+        </ul>
+    </li>
+    <li data-nav-id="/docs/reference/deploy-chart/" class="nav-item my-1 haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/deploy-chart/"><h6></h6></a>
+        <ul class="list-unstyled ml-2">
+        <li data-nav-id="/docs/reference/deploy-chart/overview/" class="nav-item my-1">
+                
+                 <a href="/docs/reference/deploy-chart/overview/" class="nav-link p-0">
+                    Overview of Charts
+                </a>
+        </li>
+    <li data-nav-id="/docs/reference/deploy-chart/examples/" class="nav-item my-1 haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/deploy-chart/examples/"><h6></h6></a>
+        <ul class="list-unstyled ml-2">
+        <li data-nav-id="/docs/reference/deploy-chart/examples/deploying-mysql-helm-chart/" class="nav-item my-1">
+                
+                 <a href="/docs/reference/deploy-chart/examples/deploying-mysql-helm-chart/" class="nav-link p-0">
+                    Deploying mySQL Helm chart
+                </a>
+        </li>
+        <li data-nav-id="/docs/reference/deploy-chart/examples/deploying-mongodb-helm-chart/" class="nav-item my-1">
+                
+                 <a href="/docs/reference/deploy-chart/examples/deploying-mongodb-helm-chart/" class="nav-link p-0">
+                    Deploying MongoDB Helm chart
+                </a>
+        </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/docs/reference/debugging-deployments-and-monitoring/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/debugging-deployments-and-monitoring/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/reference/namespaces-and-environments-/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/namespaces-and-environments-/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/reference/global-configurations/" class="nav-item my-1 haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/global-configurations/"><h6></h6></a>
+        <ul class="list-unstyled ml-2">
+    <li data-nav-id="/docs/reference/global-configurations/manage-notification/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/global-configurations/manage-notification/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/reference/global-configurations/user-access/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/global-configurations/user-access/"><h6></h6></a>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/docs/reference/deleting-applications/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/reference/deleting-applications/"><h6></h6></a>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/docs/use-cases/" class="nav-item my-1 haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/docs/use-cases/"><h6></h6></a>
+        <ul class="list-unstyled ml-2">
+    <li data-nav-id="/docs/use-cases/devtron-generic-charts-to-run-cron-jobs-or-one-time-job/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/use-cases/devtron-generic-charts-to-run-cron-jobs-or-one-time-job/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/use-cases/connect-spring-boot-with-mysql-database/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/use-cases/connect-spring-boot-with-mysql-database/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/use-cases/connect-expressjs-with-mongodb-database/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/use-cases/connect-expressjs-with-mongodb-database/"><h6></h6></a>
+    </li>
+    <li data-nav-id="/docs/use-cases/connect-django-with-mysql-database/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/docs/use-cases/connect-django-with-mysql-database/"><h6></h6></a>
+    </li>
+        </ul>
+    </li>
+        <li data-nav-id="/docs/hidden/" class="nav-item my-1">
+                
+                 <a href="/docs/hidden/" class="nav-link p-0">
+                    
+                </a>
+        </li>
+        </ul>
+    </li>
+        </ul>
+    </div>
+</nav>
+
+
+</div>
+                <div class="docs-toc large order-lg-2 order-md-0 order-xs-1 col-12 col-lg-2 col-xl-2 position-sticky border-left"><div class="docs-toc">
+	<nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-chart-version">1. Chart version</a></li>
+    <li><a href="#2-yaml-file">2. Yaml file</a></li>
+    <li><a href="#container">Container</a></li>
+    <li><a href="#liveness-probe">Liveness Probe</a></li>
+    <li><a href="#readiness-probe">Readiness Probe</a></li>
+    <li><a href="#autoscaling">Autoscaling</a></li>
+    <li><a href="#image">Image</a></li>
+    <li><a href="#ingress">Ingress</a></li>
+    <li><a href="#ingress-internal">Ingress Internal</a></li>
+    <li><a href="#resources">Resources</a>
+      <ul>
+        <li><a href="#limits">Limits</a></li>
+        <li><a href="#requests">Requests</a></li>
+      </ul>
+    </li>
+    <li><a href="#service">Service</a></li>
+    <li><a href="#volumes">Volumes</a></li>
+    <li><a href="#volume-mounts">Volume Mounts</a></li>
+    <li><a href="#affinity-and-anti-affinity">Affinity and anti-affinity</a>
+      <ul>
+        <li><a href="#key">Key</a></li>
+        <li><a href="#values">Values</a></li>
+      </ul>
+    </li>
+    <li><a href="#tolerations">Tolerations</a></li>
+    <li><a href="#arguments">Arguments</a></li>
+    <li><a href="#command">Command</a></li>
+    <li><a href="#prometheus">Prometheus</a></li>
+    <li><a href="#grace-period">Grace Period</a></li>
+    <li><a href="#min-ready-seconds">Min Ready Seconds</a></li>
+    <li><a href="#server">Server</a>
+      <ul>
+        <li><a href="#deployment">Deployment</a></li>
+      </ul>
+    </li>
+    <li><a href="#service-monitor">Service Monitor</a></li>
+    <li><a href="#db-migration-config">Db Migration Config</a></li>
+    <li><a href="#application-metrics">Application Metrics</a></li>
+    <li><a href="#deployment-metrics">Deployment Metrics</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#service-account">Service Account</a></li>
+    <li><a href="#pod-disruption-budget">Pod Disruption Budget</a></li>
+    <li><a href="#application-metrics-envoy-configurations">Application metrics Envoy Configurations</a></li>
+    <li><a href="#prometheus-rule">Prometheus Rule</a></li>
+    <li><a href="#custom-metrics-in-hpa">Custom Metrics in HPA</a></li>
+    <li><a href="#3-show-application-metrics">3. Show application metrics</a></li>
+  </ul>
+</nav>
+</div>
+</div>
+                <div class="main col-12 order-1 col-md-9 col-lg-10 col-xl-8 py-3">
+                
+
+<h1>Deployment Template</h1>
+
+<h1 id="deployment-configurations">Deployment Configurations</h1>
+<p>Deployment configuration is the Manifest for the application, it defines the runtime behavior of the application. You can define application behavior by providing information in three sections:</p>
+<ol>
+<li>
+<p>Chart Version</p>
+</li>
+<li>
+<p>Yaml file</p>
+</li>
+<li>
+<p>Show application metrics</p>
+</li>
+</ol>
+<p>  </p>
+<p><img src="../../move3.gif" alt="Deployment Template" title="Deployment Template"></p>
+<p> </p>
+<h2 id="1-chart-version">1. Chart version</h2>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Descriptions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Chart Version</code></td>
+<td>Select the Chart Version using which you want to deploy the application.</td>
+</tr>
+</tbody>
+</table>
+<p>Devtron uses helm charts for the deployments. And we are having multiple chart versions based on features it is supporting with every chart version.</p>
+<p>One can see multiple chart version options available in the drop-down. you can select any chart version as per your requirements. By default, the latest version of the helm chart is selected in the chart version option.</p>
+<p>Every chart version has its own YAML file. Helm charts are used to provide specifications for your application. To make it easy to use, we have created templates for the YAML file and have added some variables inside the YAML. You can provide or change the values of these variables as per your requirement.</p>
+<p>If you want to see <a href="https://www.niveshopstree.tk/docs/reference/creating-application/deployment-template/#3-show-application-metrics">Application Metrics</a> (For example Status codes 2xx, 3xx, 5xx; throughput, and latency) for your application, then you need to select the latest chart version.</p>
+<p>Application Metrics is not supported for Chart version older than 3.7 version.</p>
+<h2 id="2-yaml-file">2. Yaml file</h2>
+<h2 id="container">Container</h2>
+<p>This defines ports on which application services will be exposed to other services</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">ContainerPort</span>:
+    <span style="color:#f92672">name</span>: <span style="color:#ae81ff">app</span>
+    <span style="color:#f92672">port</span>: <span style="color:#ae81ff">8080</span>
+    <span style="color:#f92672">servicePort</span>: <span style="color:#ae81ff">80</span>
+</code></pre></div><table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>name</code></td>
+<td>name of the container</td>
+</tr>
+<tr>
+<td><code>port</code></td>
+<td>port for the container</td>
+</tr>
+<tr>
+<td><code>servicePort</code></td>
+<td>service port for the container</td>
+</tr>
+</tbody>
+</table>
+<h2 id="liveness-probe">Liveness Probe</h2>
+<p>If this check fails, kubernetes restarts the pod. This should return error code in case of non-recoverable error</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">LivenessProbe</span>:
+  <span style="color:#f92672">Path</span>: <span style="color:#e6db74">&#34;&#34;</span>
+  <span style="color:#f92672">port</span>: <span style="color:#ae81ff">8080</span>
+  <span style="color:#f92672">initialDelaySeconds</span>: <span style="color:#ae81ff">20</span>
+  <span style="color:#f92672">periodSeconds</span>: <span style="color:#ae81ff">10</span>
+  <span style="color:#f92672">successThreshold</span>: <span style="color:#ae81ff">1</span>
+  <span style="color:#f92672">timeoutSeconds</span>: <span style="color:#ae81ff">5</span>
+  <span style="color:#f92672">failureThreshold</span>: <span style="color:#ae81ff">3</span>
+</code></pre></div><p>  </p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Path</code></td>
+<td>It define the path where the liveness needs to be checked.</td>
+</tr>
+<tr>
+<td><code>failureThreshold</code></td>
+<td>It defines the maximum number of failures that are acceptable before a given container is not considered as live.</td>
+</tr>
+<tr>
+<td><code>initialDelaySeconds</code></td>
+<td>It defines the time to wait before a given container is checked for liveliness.</td>
+</tr>
+<tr>
+<td><code>periodSeconds</code></td>
+<td>It defines the time to check a given container for liveness.</td>
+</tr>
+<tr>
+<td><code>successThreshold</code></td>
+<td>It defines the number of successes required before a given container is said to fulfil the liveness probe.</td>
+</tr>
+<tr>
+<td><code>timeoutSeconds</code></td>
+<td>It defines the time for checking timeout.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="readiness-probe">Readiness Probe</h2>
+<p>If this check fails, kubernetes stops sending traffic to the application. This should return error code in case of errors which can be recovered from if traffic is stopped</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">ReadinessProbe</span>:
+  <span style="color:#f92672">Path</span>: <span style="color:#e6db74">&#34;&#34;</span>
+  <span style="color:#f92672">port</span>: <span style="color:#ae81ff">8080</span>
+  <span style="color:#f92672">initialDelaySeconds</span>: <span style="color:#ae81ff">20</span>
+  <span style="color:#f92672">periodSeconds</span>: <span style="color:#ae81ff">10</span>
+  <span style="color:#f92672">successThreshold</span>: <span style="color:#ae81ff">1</span>
+  <span style="color:#f92672">timeoutSeconds</span>: <span style="color:#ae81ff">5</span>
+  <span style="color:#f92672">failureThreshold</span>: <span style="color:#ae81ff">3</span>
+</code></pre></div><table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Path</code></td>
+<td>It define the path where the rediness needs to be checked.</td>
+</tr>
+<tr>
+<td><code>failureThreshold</code></td>
+<td>It defines the maximum number of failures that are acceptable before a given container is not considered as ready.</td>
+</tr>
+<tr>
+<td><code>initialDelaySeconds</code></td>
+<td>It defines the time to wait before a given container is checked for readiness.</td>
+</tr>
+<tr>
+<td><code>periodSeconds</code></td>
+<td>It defines the time to check a given container for readiness.</td>
+</tr>
+<tr>
+<td><code>successThreshold</code></td>
+<td>It defines the number of successes required before a given container is said to fulfil the rediness probe.</td>
+</tr>
+<tr>
+<td><code>timeoutSeconds</code></td>
+<td>It defines the time for checking timeout.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="autoscaling">Autoscaling</h2>
+<p>This is connected to HPA and controls scaling up and down in response to request load</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">autoscaling</span>:
+  <span style="color:#f92672">enabled</span>: <span style="color:#66d9ef">false</span>
+  <span style="color:#f92672">MinReplicas</span>: <span style="color:#ae81ff">1</span>
+  <span style="color:#f92672">MaxReplicas</span>: <span style="color:#ae81ff">2</span>
+  <span style="color:#f92672">TargetCPUUtilizationPercentage</span>: <span style="color:#ae81ff">90</span>
+  <span style="color:#f92672">TargetMemoryUtilizationPercentage</span>: <span style="color:#ae81ff">80</span>
+</code></pre></div><table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>MaxReplicas</code></td>
+<td>Maximum number of replicas allowed for scaling.</td>
+</tr>
+<tr>
+<td><code>MinReplicas</code></td>
+<td>Minimum number of replicas allowed for scaling.</td>
+</tr>
+<tr>
+<td><code>TargetCPUUtilizationPercentage</code></td>
+<td>The target CPU utilization that is expected for a container.</td>
+</tr>
+<tr>
+<td><code>TargetMemoryUtilizationPercentage</code></td>
+<td>The target memory utilization that is expected for a container.</td>
+</tr>
+<tr>
+<td><code>enabled</code></td>
+<td>to enable autoscaling or don&rsquo;t enable it.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="image">Image</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">image</span>:
+  <span style="color:#f92672">pullPolicy</span>: <span style="color:#ae81ff">IfNotPresent</span>
+ 
+</code></pre></div><p>Image is used to access images in kubernetes, pullpolicy is used to define the instances calling the image, here the image is pulled when the image is not present,it can also be set as &ldquo;Always&rdquo;.</p>
+<h2 id="ingress">Ingress</h2>
+<p>This allows public access to the url, please ensure you are using right nginx annotation for nginx class, its default value is nginx</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">ingress</span>:
+  <span style="color:#f92672">enabled</span>: <span style="color:#66d9ef">false</span>
+  <span style="color:#f92672">annotations</span>: {}
+  <span style="color:#f92672">path</span>: <span style="color:#e6db74">&#34;&#34;</span>
+  <span style="color:#f92672">host</span>: <span style="color:#e6db74">&#34;&#34;</span>
+  <span style="color:#f92672">tls</span>: []
+</code></pre></div><table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>enabled</code></td>
+<td>Enable or disable ingress</td>
+</tr>
+<tr>
+<td><code>annotations</code></td>
+<td>To configure some options depending on the Ingress controller</td>
+</tr>
+<tr>
+<td><code>path</code></td>
+<td>Path name</td>
+</tr>
+<tr>
+<td><code>host</code></td>
+<td>Host name</td>
+</tr>
+<tr>
+<td><code>tls</code></td>
+<td>It contains security details</td>
+</tr>
+</tbody>
+</table>
+<h2 id="ingress-internal">Ingress Internal</h2>
+<p>This allows private access to the url, please ensure you are using right nginx annotation for nginx class, its default value is nginx</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">ingressInternal</span>:
+  <span style="color:#f92672">enabled</span>: <span style="color:#66d9ef">false</span>
+  <span style="color:#f92672">annotations</span>: {}
+  <span style="color:#f92672">path</span>: <span style="color:#e6db74">&#34;&#34;</span>
+  <span style="color:#f92672">host</span>: <span style="color:#e6db74">&#34;&#34;</span>
+  <span style="color:#f92672">tls</span>: []
+</code></pre></div><table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>enabled</code></td>
+<td>Enable or disable ingress</td>
+</tr>
+<tr>
+<td><code>annotations</code></td>
+<td>To configure some options depending on the Ingress controller</td>
+</tr>
+<tr>
+<td><code>path</code></td>
+<td>Path name</td>
+</tr>
+<tr>
+<td><code>host</code></td>
+<td>Host name</td>
+</tr>
+<tr>
+<td><code>tls</code></td>
+<td>It contains security details</td>
+</tr>
+</tbody>
+</table>
+<h2 id="resources">Resources</h2>
+<p>These define minimum and maximum RAM and CPU available to the application</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">resources</span>:
+  <span style="color:#f92672">limits</span>:
+    <span style="color:#f92672">cpu</span>: <span style="color:#e6db74">&#39;1&#39;</span>
+    <span style="color:#f92672">memory</span>: <span style="color:#ae81ff">200Mi</span>
+  <span style="color:#f92672">requests</span>:
+    <span style="color:#f92672">cpu</span>: <span style="color:#e6db74">&#39;0.10&#39;</span>
+    <span style="color:#f92672">memory</span>: <span style="color:#ae81ff">100Mi</span>
+</code></pre></div><p>Resources are required to set CPU and memory usage.</p>
+<h3 id="limits">Limits</h3>
+<p>Limits make sure a container never goes above a certain value. The container is only allowed to go up to the limit, and then it is restricted.<!-- raw HTML omitted --></p>
+<h3 id="requests">Requests</h3>
+<p>Requests are what the container is guaranteed to get.</p>
+<h2 id="service">Service</h2>
+<p>This defines annotations and the type of service, optionally can define name also</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">  <span style="color:#f92672">service</span>:
+    <span style="color:#f92672">type</span>: <span style="color:#ae81ff">ClusterIP</span>
+    <span style="color:#f92672">annotations</span>: {}
+</code></pre></div><h2 id="volumes">Volumes</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"> <span style="color:#f92672">volumes</span>: []
+</code></pre></div><p>It is required when some values need to be read from or written to an external disk.</p>
+<h2 id="volume-mounts">Volume Mounts</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">volumeMounts</span>: []
+</code></pre></div><p>It is used to provide mounts to the volume</p>
+<h2 id="affinity-and-anti-affinity">Affinity and anti-affinity</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">Spec</span>:
+  <span style="color:#f92672">Affinity</span>:
+    <span style="color:#f92672">Key</span>:
+    <span style="color:#f92672">Values</span>:
+</code></pre></div><p>Spec is used to define the desire state of the given container.</p>
+<p>Node Affimity allows you to constrain which nodes your pod is eligible to schedule on, based on labels of the node.</p>
+<p>Inter-pod affinity allow you to constrain which nodes your pod is eligible to be scheduled based on labels on pods.</p>
+<h3 id="key">Key</h3>
+<p>Key part of the label for node selection, this should be same as that on node. Please confirm with devops team</p>
+<h3 id="values">Values</h3>
+<p>Value part of the label for node selection, this should be same as that on node. Please confirm with devops team</p>
+<h2 id="tolerations">Tolerations</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">tolerations</span>:
+  <span style="color:#f92672">key</span>: <span style="color:#e6db74">&#34;key&#34;</span>
+  <span style="color:#f92672">operator</span>: <span style="color:#e6db74">&#34;Equal&#34;</span>
+  <span style="color:#f92672">value</span>: <span style="color:#e6db74">&#34;value&#34;</span>
+  <span style="color:#f92672">effect</span>: <span style="color:#e6db74">&#34;NoSchedule|PreferNoSchedule|NoExecute(1.6 only)&#34;</span>
+</code></pre></div><p>Taints are the opposite, they allow a node to repel a set of pods.</p>
+<p>A given pod can access the given node and avoid the given taint only if the given pod satisfies a given taint.</p>
+<p>Taints and tolerations work together to ensure that pods are not scheduled onto the inappropriate nodes. One or more taints can be applied to a node, this marks that the node should not accept any pods that don&rsquo;t tolerate the taints.</p>
+<h2 id="arguments">Arguments</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">args</span>:
+  <span style="color:#f92672">enabled</span>: <span style="color:#66d9ef">false</span>
+  <span style="color:#f92672">value</span>: []
+</code></pre></div><p>This is used to give arguments to command</p>
+<h2 id="command">Command</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">command</span>:
+  <span style="color:#f92672">enabled</span>: <span style="color:#66d9ef">false</span>
+  <span style="color:#f92672">value</span>: []
+</code></pre></div><p>It contains the commands for the server.</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>enabled</code></td>
+<td>To enable or disable the command.</td>
+</tr>
+<tr>
+<td><code>value</code></td>
+<td>It contains the commands.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="prometheus">Prometheus</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">  <span style="color:#f92672">prometheus</span>:
+    <span style="color:#f92672">release</span>: <span style="color:#ae81ff">monitoring</span>
+</code></pre></div><p>It is a kubernetes monitoring tool and the name of the file to be monitored as monitoring in the given case.It describes the state of the prometheus.</p>
+<h2 id="grace-period">Grace Period</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">GracePeriod</span>: <span style="color:#ae81ff">30</span>
+</code></pre></div><p>If it has expired then the task is requeued to be executed again.</p>
+<h2 id="min-ready-seconds">Min Ready Seconds</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">MinReadySeconds</span>: <span style="color:#ae81ff">60</span>
+</code></pre></div><p>Minimum number of seconds for which a newly created pod should be ready without any of its container crashing, for it to be considered available</p>
+<h2 id="server">Server</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">server</span>:
+  <span style="color:#f92672">deployment</span>:
+    <span style="color:#f92672">image_tag</span>: <span style="color:#ae81ff">1</span>-<span style="color:#ae81ff">95a53</span>
+    <span style="color:#f92672">image</span>: <span style="color:#e6db74">&#34;&#34;</span>
+</code></pre></div><p>It is used for providing server configurations.</p>
+<h3 id="deployment">Deployment</h3>
+<p>It gives the details for deployment</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>image_tag</code></td>
+<td>It is the image tag</td>
+</tr>
+<tr>
+<td><code>image</code></td>
+<td>It is the URL of the image</td>
+</tr>
+</tbody>
+</table>
+<h2 id="service-monitor">Service Monitor</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">servicemonitor</span>:
+      <span style="color:#f92672">enabled</span>: <span style="color:#66d9ef">true</span>
+      <span style="color:#f92672">path</span>: <span style="color:#ae81ff">/abc</span>
+      <span style="color:#f92672">scheme</span>: <span style="color:#e6db74">&#39;http&#39;</span>
+      <span style="color:#f92672">interval</span>: <span style="color:#ae81ff">30s</span>
+      <span style="color:#f92672">scrapeTimeout</span>: <span style="color:#ae81ff">20s</span>
+      <span style="color:#f92672">metricRelabelings</span>:
+        - <span style="color:#f92672">sourceLabels</span>: [<span style="color:#ae81ff">namespace]</span>
+          <span style="color:#f92672">regex</span>: <span style="color:#e6db74">&#39;(.*)&#39;</span>
+          <span style="color:#f92672">replacement</span>: <span style="color:#ae81ff">myapp</span>
+          <span style="color:#f92672">targetLabel</span>: <span style="color:#ae81ff">target_namespace</span>
+</code></pre></div><p>It gives the set of targets to be monitored.</p>
+<h2 id="db-migration-config">Db Migration Config</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">dbMigrationConfig</span>:
+  <span style="color:#f92672">enabled</span>: <span style="color:#66d9ef">false</span>
+</code></pre></div><p>It is used to configure database migration</p>
+<h2 id="application-metrics">Application Metrics</h2>
+<p>Application metrics can be enabled to see your application&rsquo;s metrics-CPUService Monito usage,Memory Usage,Status,Throughput and Latency.</p>
+<h2 id="deployment-metrics">Deployment Metrics</h2>
+<p>A deployment strategy is a way to make changes to your application, without downtime in a way that your application user barely notices the changes. There are different types of deployment strategies. To know about Deployment Strategies, Click on: <a href="https://docs.devtron.ai/docs/reference/creating-application/workflows/cd-pipelines/#deployment-strategies">Types of Deployment Strategies</a></p>
+<h1 id="add-on-features-in-deployment-chart-version-390">Add on features in Deployment Chart version 3.9.0</h1>
+<h2 id="service-account">Service Account</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">serviceAccountName</span>: <span style="color:#ae81ff">orchestrator</span>
+</code></pre></div><p>A service account provides an identity for the processes that run in a Pod.</p>
+<p>When you access the cluster, you are authenticated by the apiserver as a particular User Account. Processes in containers inside pod can also contact the apiserver. When you are authenticated as a particular Service Account.</p>
+<p>When you create a pod, if you do not create a service account, it is automatically assigned the default service account in the namespace.</p>
+<h2 id="pod-disruption-budget">Pod Disruption Budget</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">podDisruptionBudget</span>: {}
+     <span style="color:#f92672">minAvailable</span>: <span style="color:#ae81ff">1</span>
+     <span style="color:#f92672">maxUnavailable</span>: <span style="color:#ae81ff">1</span>
+</code></pre></div><p>You can create <code>PodDisruptionBudget</code> for each application. A PDB limits the number of pods of
+a replicated application that are down simultaneously from voluntary disruptions.
+For example, an application would like to ensure the number of replicas running is never brought below the certain number.</p>
+<p>You can specify <code>maxUnavailable</code> and <code>minAvailable</code> in a <code>PodDisruptionBudget</code>.</p>
+<p>With <code>minAvailable</code> of 1, evictions are allowed as long as they leave behind 1 or more healthy pods of the total number of desired replicas.</p>
+<p>With <code>maxAvailable</code> of 1, evictions are allowed as long as atmost 1 unhealthy replica among the total number of desired replicas.</p>
+<h2 id="application-metrics-envoy-configurations">Application metrics Envoy Configurations</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">envoyproxy</span>:
+  <span style="color:#f92672">image</span>: <span style="color:#ae81ff">envoyproxy/envoy:v1.14.1</span>
+  <span style="color:#f92672">configMapName</span>: <span style="color:#e6db74">&#34;&#34;</span>
+  <span style="color:#f92672">resources</span>:
+    <span style="color:#f92672">limits</span>:
+      <span style="color:#f92672">cpu</span>: <span style="color:#ae81ff">50m</span>
+      <span style="color:#f92672">memory</span>: <span style="color:#ae81ff">50Mi</span>
+    <span style="color:#f92672">requests</span>:
+      <span style="color:#f92672">cpu</span>: <span style="color:#ae81ff">50m</span>
+      <span style="color:#f92672">memory</span>: <span style="color:#ae81ff">50Mi</span>
+</code></pre></div><p>Envoy is attached as a sidecar to the application container to collect metrics like 4XX, 5XX, Throughput and latency. You can now configure the envoy settings such as idleTimeout, resources etc.</p>
+<h2 id="prometheus-rule">Prometheus Rule</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">prometheusRule</span>:
+  <span style="color:#f92672">enabled</span>: <span style="color:#66d9ef">true</span>
+  <span style="color:#f92672">additionalLabels</span>: {}
+  <span style="color:#f92672">namespace</span>: <span style="color:#e6db74">&#34;&#34;</span>
+  <span style="color:#f92672">rules</span>:
+    - <span style="color:#f92672">alert</span>: <span style="color:#ae81ff">TooMany500s</span>
+      <span style="color:#f92672">expr</span>: <span style="color:#ae81ff">100</span> * <span style="color:#ae81ff">( sum( nginx_ingress_controller_requests{status=~&#34;5.+&#34;} ) / sum(nginx_ingress_controller_requests) ) &gt; 5</span>
+      <span style="color:#f92672">for</span>: <span style="color:#ae81ff">1m</span>
+      <span style="color:#f92672">labels</span>:
+        <span style="color:#f92672">severity</span>: <span style="color:#ae81ff">critical</span>
+      <span style="color:#f92672">annotations</span>:
+        <span style="color:#f92672">description</span>: <span style="color:#ae81ff">Too many 5XXs</span>
+        <span style="color:#f92672">summary</span>: <span style="color:#ae81ff">More than 5% of the all requests did return 5XX, this require your attention</span>
+</code></pre></div><p>Alerting rules allow you to define alert conditions based on Prometheus expressions and to send notifications about firing alerts to an external service.</p>
+<p>In this case, Prometheus will check that the alert continues to be active during each evaluation for 1 minute before firing the alert. Elements that are active, but not firing yet, are in the pending state.</p>
+<h2 id="custom-metrics-in-hpa">Custom Metrics in HPA</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">autoscaling</span>:
+  <span style="color:#f92672">enabled</span>: <span style="color:#66d9ef">true</span>
+  <span style="color:#f92672">MinReplicas</span>: <span style="color:#ae81ff">1</span>
+  <span style="color:#f92672">MaxReplicas</span>: <span style="color:#ae81ff">2</span>
+  <span style="color:#f92672">TargetCPUUtilizationPercentage</span>: <span style="color:#ae81ff">90</span>
+  <span style="color:#f92672">TargetMemoryUtilizationPercentage</span>: <span style="color:#ae81ff">80</span>
+</code></pre></div><p>HPA will be able to give metrics such as CPU and memory usage for cluster nodes or any of the pods. These metrics are useful for internal cluster sizing, but you probably want to configure wider set of metrics like service latency, I/O load etc.<br>
+The custom metrics in HPA can help you to achieve this.</p>
+<p> </p>
+<h2 id="3-show-application-metrics">3. Show application metrics</h2>
+<p> </p>
+<p>If you want to see application matrics like different status codes, application throughput, latency, response time. Enable the Show Application matrix from here. And you will get all metrics on App detail page. This is optional. You can leave it disabled. By default it remains disabled.</p>
+<p><img src="../../deployment_application_metrics.png" alt="Deployment application metrics" title="Application metrics without enabling"></p>
+<p>Once all the Deployment template configurations are done, click on <strong>Save</strong> to save your deployment configuration. Now you are ready to create <a href="https://www.niveshopstree.tk/docs/reference/creating-application/workflows/">Workflow</a> to do CI/CD.</p>
+
+
+    
+
+
+                    
+                    <div class="row"><div class="position-relative mx-auto col-lg-9">
+                          <div class="bg-primary overflow-hidden p-3 mt-5 shadow">
+
+    <h4 class="text-white text-center">Read more</h4>
+
+    <div class="d-flex justify-content-center"><a class="p-1 mr-3 d-inline-block text-white" href="/docs/reference/creating-application/docker-configuration/" title="Docker Configuration"><i class="fas fa-chevron-left p-1"></i>Docker Configuration</a>
+        <a class="p-1 ml-3 d-inline-block text-white text-right" href="/docs/reference/creating-application/workflows/" title=""><i class="fas fa-chevron-right p-1"></i></a>
+    </div>
+</div>
+
+
+                        </div></div> 
+
+                </div>
+
+            </div> 
+
+        </div> 
+<script src="https://www.niveshopstree.tk/lib/jquery.min.js"></script> 
+<script src="https://www.niveshopstree.tk/lib/popper.min.js"></script> 
+
+<script src="https://www.niveshopstree.tk/js/bootstrap.min.js"></script> 
+
+
+<script type="text/javascript" src="/plugins/lunr.min.js"></script>
+<script type="text/javascript" src="/plugins/auto-complete.js"></script>
+<link href="/plugins/auto-complete.css" rel="stylesheet">
+<script type="text/javascript">
+  
+      var baseurl = "https:\/\/www.niveshopstree.tk\/";
+  
+</script>
+<script type="text/javascript" src="/plugins/search.js"></script>
+
+
+<script type="text/javascript" src="/plugins/clipboard.js"></script>
+<script>
+  new ClipboardJS('.btn');
+</script>
+</body>
+</html>
