@@ -1,5 +1,4 @@
 +++
-bookCollapseSection = true
 title = "Creating Application"
 description = ""
 weight = 1
@@ -40,5 +39,4 @@ weight = 1
 
 
 
-[Environment Overrides](https://www.niveshopstree.tk/docs/reference/creating-application/environment-overrides/) 
-
+[Environment Overrides](https://www.niveshopstree.tk/docs/reference/creating-application/environment-overrides/)

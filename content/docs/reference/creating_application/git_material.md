@@ -36,7 +36,7 @@ Inside the git repo URL, you have to provide your code repository’s https URL.
 
 &nbsp;
 
-{{< figure src="../../github_url.png" height="450px">}}
+{{< figure src="../../github_url.png" height="470px">}}
 
 &nbsp;
 
@@ -50,7 +50,7 @@ But if you want to go with a multi git approach then you can leave the path as d
 
 &nbsp;&nbsp;
 
-{{< figure src="../../git_material2.jpg" height="445px">}}
+{{< figure src="../../git_material2.jpg" height="435px">}}
 
 &nbsp;&nbsp;
 
