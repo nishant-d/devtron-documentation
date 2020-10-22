@@ -16,7 +16,7 @@ Git material is used to pull the application source code during the CI step. Ins
     
 &nbsp;
   
-Devtron also supports multiple git repositories in a single deployment. We will discuss this in detail in the multi git option [below](https://www.niveshopstree.tk/docs/reference/creating-application/git-material/#4-multi-git).
+Devtron also supports multiple git repositories in a single deployment. We will discuss this in detail in the multi git option [below](/docs/reference/creating_application/git_material/#4-multi-git).
 
 &nbsp;
 
@@ -26,7 +26,7 @@ Devtron also supports multiple git repositories in a single deployment. We will 
 
 ## 1. Select Provider
 
-In the provider section, you have to select the git provider of your code repository like- Github, Gitlab, and Bitbucket, etc.You can configure your git provider via [global configuration](https://www.niveshopstree.tk/docs/reference/global-configurations/).
+In the provider section, you have to select the git provider of your code repository like- Github, Gitlab, and Bitbucket, etc.You can configure your git provider via [global configuration](/docs/reference/global_configurations/).
 
 &nbsp;
   
@@ -36,7 +36,7 @@ Inside the git repo URL, you have to provide your code repository’s https URL.
 
 &nbsp;
 
-{{< figure src="../../github_url.png" height="470px">}}
+{{< figure src="../../github_url.png" height="420px">}}
 
 &nbsp;
 
@@ -50,7 +50,7 @@ But if you want to go with a multi git approach then you can leave the path as d
 
 &nbsp;&nbsp;
 
-{{< figure src="../../git_material2.jpg" height="435px">}}
+{{< figure src="../../git_material2.jpg" height="390px">}}
 
 &nbsp;&nbsp;
 
@@ -58,7 +58,7 @@ But if you want to go with a multi git approach then you can leave the path as d
 
 As we discussed, Devtron also supports multiple git repositories in a single application. To add multiple repositories, click on add material again and follow the steps from 1 to 3 again.
 
-Please note even though you can add multiple repositories only one image will be created based on the docker file as shown in the [docker build config](https://www.niveshopstree.tk/docs/reference/creating-application/docker-configuration/).
+Please note even though you can add multiple repositories only one image will be created based on the docker file as shown in the [docker build config](/docs/reference/creating_application/docker_configuration/).
 
 &nbsp;
 

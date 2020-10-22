@@ -9,10 +9,10 @@ Welcome! This is the documentation for Deploying Charts.
 
 **Parts of Documentation** 
 
-[Overview of Charts](https://www.niveshopstree.tk/docs/reference/deploy-chart/overview/)
+[Overview of Charts](/docs/reference/deploy_chart/overview/)
 <br />
 
-[Examples](https://www.niveshopstree.tk/docs/reference/deploy-chart/examples/) 
+[Examples](/docs/reference/deploy_chart/examples/) 
 
 <br />
 

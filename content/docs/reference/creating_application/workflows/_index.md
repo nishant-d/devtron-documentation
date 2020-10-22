@@ -11,13 +11,13 @@ Workflow is a logical sequenece of different stages used for continous integrati
 
 <br />
 
-{{< figure src="../../wf1.jpg" height="440px">}}
+{{< figure src="../../wf1.jpg" height="390px">}}
 
 Click on Create Workflow to create a new workflow
 
 <br />
 
-{{< figure src="../../wf2.jpg" height="440px">}}
+{{< figure src="../../wf2.jpg" height="390px">}}
 
 Enter the  name of your workflow and then Click on Add Workflow to add a new workflow.
 
@@ -27,18 +27,13 @@ Then, Create CI/CD Pipelines for your application.
 
 <br />
 
-To know how to Create the CI Pipeline for your application Click On: [Create CI Pipelines](https://www.niveshopstree.tk/docs/reference/creating-application/workflows/ci-pipelines/)
+To know how to Create the CI Pipeline for your application Click On: [Create CI Pipelines](/docs/reference/creating_application/workflows/ci_pipelines/)
 
 <br />
 
-To know how to Create the CD Pipeline for your application Click On: [Create CD Pipelines](https://www.niveshopstree.tk/docs/reference/creating-application/workflows/cd-pipelines/)
+To know how to Create the CD Pipeline for your application Click On: [Create CD Pipelines](/docs/reference/creating_application/workflows/cd_pipelines/)
 
 &nbsp;&nbsp;
 
 ![Create new workflow](../../arora1.gif "Create new workflow")
-
-
-
-
-
 

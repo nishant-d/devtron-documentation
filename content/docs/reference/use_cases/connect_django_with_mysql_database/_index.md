@@ -19,7 +19,7 @@ Django is a free, open-source web framework written in Python programming langua
 
 <br />
 
-To deploy mysql Helm Chart, you can refer to our documentation on [Deploy mysql Helm Chart](https://docs.devtron.ai/docs/reference/deploy-chart/examples/deploying-mysql-helm-chart/)
+To deploy mysql Helm Chart, you can refer to our documentation on [Deploy mysql Helm Chart](/docs/reference/deploy_chart/examples/deploying_mysql_helm_chart/)
 
 <br />
 
@@ -56,7 +56,7 @@ The `settings.py` contains the configuration for your SQL database. Make sure th
 
 ## **3. Create Application on Devtron**
 
-To learn how to create an application on Devtron, refer to our documentation on [Creating Application](https://docs.devtron.ai/docs/reference/creating-application/)
+To learn how to create an application on Devtron, refer to our documentation on [Creating Application](/docs/reference/creating_application/)
 
 <br />
 
@@ -98,6 +98,6 @@ The syntax is: `http://<hostname>/<path>/`
 
 &nbsp;&nbsp;
 
-{{< figure src="../demo.jpg" height="250px">}}
+{{< figure src="../demo.jpg" height="230px">}}
 
 

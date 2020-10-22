@@ -2,7 +2,7 @@
 bookCollapseSection = true
 title = "Global Configurations"
 description = ""
-weight = 7
+weight = 8
 +++
 
 
@@ -11,7 +11,7 @@ This documentation consists of the Global Configurations available in Devtron.
 **Parts of the Documentation**
 
 
-[Manage Notification](https://www.niveshopstree.tk/docs/reference/global-configurations/manage-notification/)
+[Manage Notification](/docs/reference/global_configurations/manage_notification/)
 
 
-[User Access](https://www.niveshopstree.tk/docs/reference/global-configurations/user-access/)
+[User Access](/docs/reference/global_configurations/user_access/)

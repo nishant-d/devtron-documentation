@@ -9,10 +9,10 @@ This Documentation guides you to Deploy different Helm Charts available on Devtr
 
 **Parts of Documentation** 
 
-[Deploying mySQL Helm Chart](https://docs.devtron.ai/docs/reference/deploy-chart/examples/deploying-mysql-helm-chart/)
+[Deploying mySQL Helm Chart](/docs/reference/deploy_chart/examples/deploying_mysql_helm_chart/)
 <br />
 
-[Deploying mongoDB Helm Chart](https://docs.devtron.ai/docs/reference/deploy-chart/examples/deploying-mongodb-helm-chart/) 
+[Deploying mongoDB Helm Chart](/docs/reference/deploy_chart/examples/deploying_mongodb_helm_chart/) 
 
 
 <br />

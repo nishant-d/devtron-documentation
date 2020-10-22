@@ -14,7 +14,7 @@ If your Application contains workflows in the Workflow Editor. So,when you Click
 
 &nbsp;&nbsp;
 
-{{< figure src="../delete_app1.jpg" height="420px">}}
+{{< figure src="../delete_app1.jpg" height="400px">}}
 
 &nbsp;&nbsp;
 
@@ -24,7 +24,7 @@ To delete the workflows in your application, you must first delete all the pipel
 
 &nbsp;&nbsp;
 
-{{< figure src="../delete_app2.jpg" height="330px">}}
+{{< figure src="../delete_app2.jpg" height="310px">}}
 
 &nbsp;&nbsp;
 
@@ -34,7 +34,7 @@ Similarly, delete all the workflows in the application.
 
 &nbsp;&nbsp;
 
-{{< figure src="../delete_app3.jpg" height="450px">}}
+{{< figure src="../delete_app3.jpg" height="430px">}}
 
 &nbsp;&nbsp;
 

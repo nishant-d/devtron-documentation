@@ -15,28 +15,28 @@ weight = 1
 
 **Parts of Documentation** 
 
-[Git Material](https://www.niveshopstree.tk/docs/reference/creating-application/git-material/)
+[Git Material](/docs/reference/creating_application/git_material/)
 
 
 
-[Docker Configuration](https://www.niveshopstree.tk/docs/reference/creating-application/docker-configuration/) 
+[Docker Configuration](/docs/reference/creating_application/docker_configuration/) 
 
 
 
-[Deployment Template](https://www.niveshopstree.tk/docs/reference/creating-application/deployment-template/) 
+[Deployment Template](/docs/reference/creating_application/deployment_template/) 
 
 
 
-[Workflows](https://www.niveshopstree.tk/docs/reference/creating-application/workflows/) 
+[Workflows](/docs/reference/creating_application/workflows/) 
 
 
 
-[Config Maps](https://www.niveshopstree.tk/docs/reference/creating-application/config-maps/) 
+[Config Maps](/docs/reference/creating_application/config_maps/) 
 
 
 
-[Secrets](https://www.niveshopstree.tk/docs/reference/creating-application/secrets/) 
+[Secrets](/docs/reference/creating_application/secrets/) 
 
 
 
-[Environment Overrides](https://www.niveshopstree.tk/docs/reference/creating-application/environment-overrides/)
+[Environment Overrides](/docs/reference/creating_application/environment_overrides/)

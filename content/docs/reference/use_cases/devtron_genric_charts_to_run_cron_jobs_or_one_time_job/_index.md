@@ -1,6 +1,6 @@
 +++
 bookCollapseSection = false
-title = "Devtron-generic-Helm Chart to Run Cron Job or One Time job"
+title = "Devtron Generic Helm Chart To Run Cron Job Or One Time Job"
 description = ""
 weight = 1
 +++
@@ -19,7 +19,7 @@ Select the **Devtron-generic Helm Chart** from the Devtron Chart Store.
 
 &nbsp;&nbsp;
 
-{{< figure src="../gc-1.jpg" height="280px">}}
+{{< figure src="../gc-1.jpg" height="260px">}}
 
 &nbsp;&nbsp;
 
@@ -30,7 +30,7 @@ And, then Click on **Deploy**
 
 &nbsp;&nbsp;
 
-{{< figure src="../gc-2.jpg" height="310px">}}
+{{< figure src="../gc-2.jpg" height="290px">}}
 
 &nbsp;&nbsp;
 

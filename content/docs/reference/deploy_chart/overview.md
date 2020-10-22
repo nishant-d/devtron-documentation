@@ -1,5 +1,5 @@
 ---
-title: Overview of Charts
+title: Overview Of Charts
 weight: 1
 ---
 
@@ -15,7 +15,7 @@ Both methods are mentioned in the given document.
 
 &nbsp;&nbsp;
 
-{{< figure src="../../depchart1.JPG" height="380px">}}
+{{< figure src="../../depchart1.JPG" height="330px">}}
 
 &nbsp;&nbsp;
 
@@ -27,12 +27,12 @@ Click on README.MD to get more idea about the configurations of the chart
 
 <br />
 
-{{< figure src="../../custom.jpg" height="430px">}}
+{{< figure src="../../custom.jpg" height="380px">}}
 
 <br />
 
 Select the Chart Version that you want to use and Chart Value, you can either use the default Values or custom values.
-To know about Custom Values, Click On: [Custom Values](https://docs.devtron.ai/docs/reference/deploy-chart/overview/#custom-values)
+To know about Custom Values, Click On: [Custom Values](/docs/reference/deploy_chart/overview/#custom-values)
 
 <br />
 
@@ -48,7 +48,7 @@ Key | Description
 
 &nbsp;&nbsp;
 
-{{< figure src="../../depchart4config.JPG" height="390px">}}
+{{< figure src="../../depchart4config.JPG" height="340px">}}
 
 &nbsp;&nbsp;
 
@@ -56,7 +56,7 @@ ReadMe.md present on the left can be used by the user to set configuration value
 
 &nbsp;&nbsp;
 
-{{< figure src="../../depchart4readme.JPG" height="390px">}}
+{{< figure src="../../depchart4readme.JPG" height="340px">}}
 
 <br />
 
@@ -64,7 +64,7 @@ Click on `Deploy Chart` to deploy the chart
 
 &nbsp;&nbsp;
 
-{{< figure src="../../depchartdeployedredo.JPG" height="390px">}}
+{{< figure src="../../depchartdeployedredo.JPG" height="340px">}}
 
 &nbsp;&nbsp;
 
@@ -72,7 +72,7 @@ You can see the status of the chart deployed. Click on `Values.Yaml` to reconfig
 
 &nbsp;&nbsp;
 
-{{< figure src="../../depchartreconfig.JPG" height="390px">}}
+{{< figure src="../../depchartreconfig.JPG" height="340px">}}
 
 &nbsp;&nbsp;
 
@@ -86,7 +86,7 @@ You can use the default values or create Custom value by clicking on ` Create Cu
 
 &nbsp;&nbsp;
 
-{{< figure src="../../custom.jpg" height="430px">}}
+{{< figure src="../../custom.jpg" height="380px">}}
 
 &nbsp;&nbsp;
 
@@ -94,7 +94,7 @@ You can name your Custom Value, select the Chart Version and change the configur
 
 &nbsp;&nbsp;
 
-{{< figure src="../../custom_val.jpg" height="510px">}}
+{{< figure src="../../custom_val.jpg" height="490px">}}
 
 &nbsp;&nbsp;
 
@@ -111,7 +111,7 @@ Click on  `Discover` and Click on `Create Group`
 
 &nbsp;&nbsp;
 
-{{< figure src="../../screen2.jpg" height="420px">}}
+{{< figure src="../../screen2.jpg" height="370px">}}
 
 &nbsp;&nbsp;
 
@@ -119,7 +119,7 @@ Add the Group Name and Description and Click on `Create Group`
 
 &nbsp;&nbsp;
 
-{{< figure src="../../create_group.jpg" height="440px">}}
+{{< figure src="../../create_group.jpg" height="380px">}}
 
 &nbsp;&nbsp;
 
@@ -128,7 +128,7 @@ You can select a particular chart multiple number of times according to your req
 
 &nbsp;&nbsp;
 
-{{< figure src="../../select_charts.jpg" height="430px">}}
+{{< figure src="../../select_charts.jpg" height="370px">}}
 
 <br />
 
@@ -138,7 +138,7 @@ You can use Default Values or the Custom Values, just make sure the Value that y
 
 &nbsp;&nbsp;
 
-{{< figure src="../../select_charts2.jpg" height="430px">}}
+{{< figure src="../../select_charts2.jpg" height="370px">}}
 
 &nbsp;&nbsp;
 
@@ -146,7 +146,7 @@ To edit the Chart Configuration, Click on 'Edit'
 
 &nbsp;&nbsp;
 
-{{< figure src="../../edit_group.jpg" height="430px">}}
+{{< figure src="../../edit_group.jpg" height="370px">}}
 
 &nbsp;&nbsp;
 
@@ -156,7 +156,7 @@ After making changes, Click on `Save` to save changes to your Chart Group.
 
 &nbsp;&nbsp;
 
-{{< figure src="../../edit_group2.jpg" height="430px">}}
+{{< figure src="../../edit_group2.jpg" height="370px">}}
 
 &nbsp;&nbsp;
 
@@ -164,7 +164,7 @@ If you wish to edit the Chart Configuration, Double Click on that Chart and edit
 
 &nbsp;&nbsp;
 
-{{< figure src="../../edit_chart1.jpg" height="430px">}}
+{{< figure src="../../edit_chart1.jpg" height="370px">}}
 
 &nbsp;&nbsp;
 

@@ -10,7 +10,7 @@ Secret objects lets you store and manage sensitive information, such as password
 
 &nbsp;&nbsp;
 
-{{< figure src="../../secret1.png" height="300px">}}
+{{< figure src="../../secret1.png" height="270px">}}
 
 <img src="../../secret1.png " style="width:10%;">
 
@@ -23,7 +23,7 @@ Click on `Add Secret` to add a new secret.
 
 <br />
 
-{{< figure src="../../secret8.jpg" height="650px">}}
+{{< figure src="../../secret8.jpg" height="700px">}}
 
 &nbsp;&nbsp;
 
@@ -31,7 +31,7 @@ Click on `Add Secret` to add a new secret.
 Key | Description
 ----|----
 `Name` | Name of the Secret
-`Data Type` | Data Type of the Secret, To know about different Data Types available Click on: [Data Types](https://docs.devtron.ai/docs/reference/creating-application/secrets/#data-types)
+`Data Type` | Data Type of the Secret, To know about different Data Types available Click on: [Data Types](/docs/reference/creating_application/secrets/#data-types)
 `Data Volume` | Specify, if there is a volume that is accessible to Containers running in a pod needs to be added
 `Environment Variable` | Select if there are Environment Variables to be injected in pods
 `Key` | Key
@@ -63,7 +63,7 @@ Specify Volume Mount folder path in `Volume Mount Path`, path where the data vol
 
 &nbsp;&nbsp;
 
-{{< figure src="../../secret3.jpg" height="650px">}}
+{{< figure src="../../secret3.jpg" height="750px">}}
 
 &nbsp;&nbsp;
 
@@ -71,7 +71,7 @@ Click on `Save Secret` to save the secret.
 
 &nbsp;&nbsp;
 
-{{< figure src="../../secret4.png" height="470px">}}
+{{< figure src="../../secret4.png" height="425px">}}
 
 <br />
 
