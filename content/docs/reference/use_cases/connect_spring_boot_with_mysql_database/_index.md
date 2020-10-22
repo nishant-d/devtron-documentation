@@ -17,7 +17,7 @@ This document will help you to deploy a sample Spring Boot Application, using **
 
 <br />
 
-To deploy mysql Helm Chart, you can refer to our documentation on [Deploy mysql Helm Chart](https://docs.devtron.ai/docs/reference/deploy-chart/examples/deploying-mysql-helm-chart/)
+To deploy mysql Helm Chart, you can refer to our documentation on [Deploy mysql Helm Chart](/docs/reference/deploy_chart/examples/deploying_mysql_helm_chart/)
 
 <br />
 
@@ -74,7 +74,7 @@ ENTRYPOINT ["java","-jar", "app.jar"]
 
 ## **3. Create Application on Devtron**
 
-To learn how to create an application on Devtron, refer to our documentation on [Creating Application](https://docs.devtron.ai/docs/reference/creating-application/)
+To learn how to create an application on Devtron, refer to our documentation on [Creating Application](/docs/reference/creating_application/)
 
 <br />
 
@@ -138,7 +138,7 @@ To view all student records, GET Request is:
 
 &nbsp;&nbsp;
 
-{{< figure src="../view5.jpg" height="84px">}}
+{{< figure src="../view5.jpg" height="78px">}}
 
 &nbsp;&nbsp;
 
@@ -156,7 +156,7 @@ To view student data by student id, GET Request is:
 
 &nbsp;&nbsp;
 
-{{< figure src="../view6.jpg" height="84px">}}
+{{< figure src="../view6.jpg" height="78px">}}
 
 <br />
 

@@ -9,7 +9,7 @@ weight = 2
 
 <br />
 
-{{< figure src="./workflow-editor5.PNG" height="360px">}}
+{{< figure src="./workflow-editor5.PNG" height="320px">}}
 
 &nbsp;&nbsp;
 
@@ -17,13 +17,13 @@ Click on "+" on CI Pipeline to attach a CD Pipeline
 
 &nbsp;&nbsp;
 
-{{< figure src="./workflow-editor6.PNG" height="360px">}}
+{{< figure src="./workflow-editor6.PNG" height="320px">}}
 
 Select Deploy to Environment to create CD Pipeline
 
 &nbsp;&nbsp;
 
-![Workflow](./workflow-editor8-resize.PNG)
+{{< figure src="./workflow-editor8-resize.PNG" height="700px">}}
 
 &nbsp;&nbsp;
 
@@ -41,7 +41,7 @@ Click on `Create Pipeline` to create the CD Pipeline
 
 &nbsp;&nbsp;
 
-{{< figure src="./workflow-editor9.PNG" height="360px">}}
+{{< figure src="./workflow-editor9.PNG" height="320px">}}
 
 <br />
 
@@ -61,7 +61,7 @@ You can update the CD Pipeline, updatations such as adding Deployment Stage, Dep
 
  &nbsp;&nbsp;
 
-{{< figure src="./update_pipeline_cd.jpg" height="400px">}} 
+{{< figure src="./update_pipeline_cd.jpg" height="380px">}} 
 
 &nbsp;&nbsp;
 
@@ -69,7 +69,7 @@ Click on your CD Pipeline to Update/Delete the  CD Pipeline
 
 &nbsp;&nbsp;
 
-![Update CD Pipeline](./edit_cd_pipeline.jpg "Update CD Pipeline")
+{{< figure src="./edit_cd_pipeline.jpg" height="750px">}}
 
 <br />
 
@@ -88,7 +88,7 @@ To Delete a CD Pipeline, go to the App Configurations and then click on Workflow
 
 &nbsp;&nbsp;
 
-![Delete CD Pipeline](./edit_cd_pipeline.jpg "Delete CD Pipeline")
+{{< figure src="./edit_cd_pipeline.jpg" height="750px">}}
 
 <br />
 
@@ -103,7 +103,7 @@ Configure actions like db migration, that you want to run before the deployment.
 
 &nbsp;&nbsp;
 
-{{< figure src="./cd_pre_build.jpg" height="500px">}}
+{{< figure src="./cd_pre_build.jpg" height="820px">}}
 
 &nbsp;&nbsp;
 
@@ -115,7 +115,7 @@ Configure actions like jira ticket close,that you want to run after the deployme
 
 &nbsp;&nbsp;
 
-{{< figure src="./cd_post_build.jpg" height="500px">}}
+{{< figure src="./cd_post_build.jpg" height="820px">}}
 
 &nbsp;&nbsp;
 
@@ -215,5 +215,5 @@ recreate:
 ```
 It terminate the old version and release the new one.
 
-[Does your app has different requirements in different Environments? Also read Environment Overrides](https://www.niveshopstree.tk/docs/reference/creating-application/environment-overrides/)
+[Does your app has different requirements in different Environments? Also read Environment Overrides](/docs/reference/creating_application/environment_overrides/)
 

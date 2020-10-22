@@ -1,6 +1,6 @@
 +++
 bookCollapeSection = false
-title = "Debugging Deployements And Monitoring"
+title = " Debugging Deployment And Monitoring"
 description = ""
 weight = 5
 +++
@@ -21,7 +21,7 @@ Over here, you can see the status of the app as Healthy. If there are some error
 
 &nbsp;&nbsp;
 
-{{< figure src="../events1.jpg" height="450px">}}
+{{< figure src="../events1.jpg" height="400px">}}
 
 &nbsp;&nbsp;
 
@@ -37,7 +37,7 @@ Events section displays you the events that took place during the deployment of 
 
 &nbsp;&nbsp;
 
-{{< figure src="../events2.jpg" height="440px">}}
+{{< figure src="../events2.jpg" height="390px">}}
 
 &nbsp;&nbsp;
 
@@ -47,7 +47,7 @@ Logs contain the logs of the Pods and Containers deployed which you can use for 
 
 &nbsp;&nbsp;
 
-{{< figure src="../events3.jpg" height="450px">}}
+{{< figure src="../events3.jpg" height="400px">}}
 
 &nbsp;&nbsp;
 
@@ -59,7 +59,7 @@ The Manifest shows the critical information such as Container-image, restartCoun
 
 &nbsp;&nbsp;
 
-{{< figure src="../events5.png" height="310px">}}
+{{< figure src="../events5.png" height="270px">}}
 
 &nbsp;&nbsp;
 
@@ -84,7 +84,7 @@ Key | Description
 
 &nbsp;&nbsp;
 
-{{< figure src="../events6.png" height="420px">}}
+{{< figure src="../events6.png" height="370px">}}
 
 &nbsp;&nbsp;
 
@@ -94,7 +94,7 @@ Key | Description
 
 &nbsp;&nbsp;
 
-{{< figure src="../events4.jpg" height="360px">}}
+{{< figure src="../events4.jpg" height="310px">}}
 
 &nbsp;&nbsp;
 

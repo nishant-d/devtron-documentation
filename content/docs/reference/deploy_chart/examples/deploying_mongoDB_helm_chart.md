@@ -1,5 +1,5 @@
 ---
-title: Deploying MongoDB Helm chart
+title: Deploying MongoDB Helm Chart
 weight: 4
 ---
 
@@ -8,7 +8,7 @@ weight: 4
 
 Let's assume that you are building an application which needs mongoDB. 
 
-{{< figure src="../../../mongo.jpg" height="530px">}}
+{{< figure src="../../../mongo.jpg" height="500px">}}
 
 &nbsp;&nbsp; 
 
@@ -23,7 +23,7 @@ Select the `Charts` section from the left pane, you will be landed to the `Chart
 
 &nbsp;&nbsp;
 
-{{< figure src="../../../first.jpg" height="290px">}}
+{{< figure src="../../../first.jpg" height="260px">}}
 
 &nbsp;&nbsp;
 
@@ -33,7 +33,7 @@ After selecting the stable/mongodb helm chart, click on `Deploy`
 
 &nbsp;&nbsp;
 
-{{< figure src="../../../second.jpg" height="320px">}}
+{{< figure src="../../../second.jpg" height="280px">}}
 
 &nbsp;&nbsp;
 
@@ -78,7 +78,7 @@ The Status of the chart should be `Healthy`. It might take few seconds after  in
 
 &nbsp;&nbsp;
 
-{{< figure src="../../../mongo4.png" height="160px">}}	
+{{< figure src="../../../mongo4.png" height="140px">}}	
 
 &nbsp;&nbsp;
 
@@ -93,30 +93,7 @@ Copy the service name, it will be used to connect your application to mongoDB .
 
 &nbsp;&nbsp;
 
-{{< figure src="../../../mongo6.png" height="360px">}}
+{{< figure src="../../../mongo6.png" height="320px">}}
 
 &nbsp;&nbsp;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

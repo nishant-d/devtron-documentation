@@ -1,5 +1,5 @@
 ---
-title: Deploying mySQL Helm chart
+title: Deploying Mysql Helm Chart
 weight: 3
 ---
 
@@ -11,7 +11,7 @@ stable/mysql Helm chart bootstraps a single node MySQL deployment on a Kubernete
 
 &nbsp;&nbsp;
 
-{{< figure src="../../../mysql.jpg" height="530px">}}
+{{< figure src="../../../mysql.jpg" height="490px">}}
 
 &nbsp;&nbsp;
 
@@ -21,7 +21,7 @@ Select the `Charts` section from the left pane, you will be landed to the `Chart
 
 &nbsp;&nbsp;
 
-{{< figure src="../../../chart21.jpg" height="310px">}}
+{{< figure src="../../../chart21.jpg" height="280px">}}
 
 &nbsp;&nbsp;
 
@@ -51,7 +51,7 @@ Set the following parameters in the chart, to be later used to connect mysql wit
 
 &nbsp;&nbsp;
 
-{{< figure src="../../../chart3.jpg" height="340px">}}
+{{< figure src="../../../chart3.jpg" height="300px">}}
 
 &nbsp;&nbsp;
 
@@ -64,7 +64,7 @@ Parameters     | Description
 
 &nbsp;&nbsp;
 
-{{< figure src="../../../chart4o.jpg" height="950px">}}
+{{< figure src="../../../chart4o.jpg" height="890px">}}
 
 &nbsp;&nbsp;
 Click on `Deploy` to deploy the Chart 
@@ -79,7 +79,7 @@ The Status of the chart should be `Healthy`. It might take few seconds after  in
 
 &nbsp;&nbsp;
 
-{{< figure src="../../../sql1.png" height="160px">}}
+{{< figure src="../../../sql1.png" height="140px">}}
 
 &nbsp;&nbsp;
 
@@ -95,6 +95,6 @@ Copy the service name, it will be used to connect your application to mySQL.
 
 &nbsp;&nbsp;
 
-{{< figure src="../../../sql2.png" height="340px">}}
+{{< figure src="../../../sql2.png" height="310px">}}
 
 &nbsp;&nbsp;

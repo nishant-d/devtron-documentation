@@ -6,7 +6,7 @@ weight = 2
 +++
 
 
-# User/Group Authorization
+## User/Group Authorization
 
 &nbsp;&nbsp;
 
@@ -42,7 +42,7 @@ Click on `Add New User`, to add one or multiple users.
 
 &nbsp;&nbsp;
 
-{{< figure src="../../user1.jpg" height="280px">}}
+{{< figure src="../../user1.jpg" height="260px">}}
 
 &nbsp;&nbsp;
 
@@ -53,7 +53,7 @@ If you do not wish to give the users super admin permissions, then control their
 
 &nbsp;&nbsp;
 
-{{< figure src="../../user3.jpg" height="480px">}}
+{{< figure src="../../user3.jpg" height="450px">}}
 
 &nbsp;&nbsp;
 
@@ -68,7 +68,7 @@ You can edit the user permissions, by clicking on the downward arrow.
 
 &nbsp;&nbsp;
 
-{{< figure src="../../edit1.jpg" height="440px">}}
+{{< figure src="../../edit1.jpg" height="400px">}}
 
 &nbsp;
 
@@ -77,7 +77,7 @@ You can then edit the user permissions here.
 
 &nbsp;&nbsp;
 
-{{< figure src="../../edit2.jpg" height="800px">}}
+{{< figure src="../../edit2.jpg" height="750px">}}
 
 &nbsp;&nbsp;
 
@@ -95,7 +95,7 @@ Click on the check box of `Create`, if you want users to create, view, edit or d
 
 &nbsp;&nbsp;
 
-{{< figure src="../../user4.jpg" height="420px">}}
+{{< figure src="../../user4.jpg" height="380px">}}
 
 &nbsp;&nbsp;
 
@@ -104,7 +104,7 @@ Click on the checkbox of `Edit`, if you want to allow or deny users to edit the 
 Select on `Deny` option from the drop-down menu, if you want to restrict the users to edit the chart groups.
 
 &nbsp;&nbsp;
-{{< figure src="../../user5.jpg" height="420px">}}
+{{< figure src="../../user5.jpg" height="380px">}}
 
 &nbsp;&nbsp;
 
@@ -112,7 +112,7 @@ Select `Specific Charts` option from the drop-down menu, and then select the cha
 
 &nbsp;&nbsp;
 
-{{< figure src="../../user6.jpg" height="440px">}}
+{{< figure src="../../user6.jpg" height="430px">}}
 
 &nbsp;&nbsp;
 
@@ -132,7 +132,7 @@ Click on `Add Group`, to create a new group.
 
 &nbsp;&nbsp;
 
-{{< figure src="../../user7.jpg" height="420px">}}
+{{< figure src="../../user7.jpg" height="380px">}}
 
 &nbsp;&nbsp;
 
@@ -140,7 +140,7 @@ Enter the `Group Name` and `Description`.
 
 &nbsp;&nbsp;
 
-{{< figure src="../../user8.jpg" height="370px">}}
+{{< figure src="../../user8.jpg" height="330px">}}
 
 &nbsp;&nbsp;
 
@@ -152,7 +152,7 @@ Then, control the access permissions of groups in `Direct Permissions`section. M
 
 &nbsp;&nbsp;
 
-{{< figure src="../../user9.jpg" height="450px">}}
+{{< figure src="../../user9.jpg" height="430px">}}
 
 &nbsp;&nbsp;
 
@@ -167,7 +167,7 @@ You can edit the group permissions, by clicking on the downward arrow.
 
 &nbsp;&nbsp;
 
-{{< figure src="../../edit4.jpg" height="480px">}}
+{{< figure src="../../edit4.jpg" height="440px">}}
 
 &nbsp;&nbsp;
 
@@ -175,7 +175,7 @@ You can then edit the user permissions here.
 
 &nbsp;&nbsp;
 
-{{< figure src="../../edit7.jpg" height="620px">}}
+{{< figure src="../../edit7.jpg" height="580px">}}
 
 &nbsp;&nbsp;
 
@@ -187,4 +187,4 @@ If you want to delete the groups with particular permissions. Click on `Delete`.
 
 ### **4. Manage Chart Group Permissions**
 
-The chart group permissions for the group will be managed in the same way as for the users. For reference, check [Manage chart group permissions for users](https://docs.devtron.ai/docs/reference/global-configurations/user-access/#5-manage-chart-group-permissions)
+The chart group permissions for the group will be managed in the same way as for the users. For reference, check [Manage chart group permissions for users](/docs/reference/global_configurations/user_access/#5-manage-chart-group-permissions)

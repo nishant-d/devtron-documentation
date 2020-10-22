@@ -20,7 +20,7 @@ Click on **Configurations** to manage `SES Configurations` or `Slack Configurati
 
 &nbsp;&nbsp;
 
-{{< figure src="../../not2.jpg" height="450px">}}
+{{< figure src="../../not2.jpg" height="410px">}}
 
 &nbsp;&nbsp;
 
@@ -30,7 +30,7 @@ You can manage the SES configuration to recieve e-mails by entering the valid cr
 
 &nbsp;&nbsp;
 
-{{< figure src="../../not1.jpg" height="380px">}}
+{{< figure src="../../not1.jpg" height="350px">}}
 
 <br />
 
@@ -38,7 +38,7 @@ Click on `Add` and configure SES.
 
 &nbsp;&nbsp;
 
-{{< figure src="../../not3.jpg" height="550px">}}
+{{< figure src="../../not3.jpg" height="520px">}}
 
 &nbsp;&nbsp;
 
@@ -58,7 +58,7 @@ You can manage the Slack configurations to recieve notifications on your preferr
 
 &nbsp;&nbsp;
 
-{{< figure src="../../not4.jpg" height="190px">}}
+{{< figure src="../../not4.jpg" height="170px">}}
 
 
 <br />
@@ -67,7 +67,7 @@ Click on `Add` to add new Slack Channel.
 
 &nbsp;&nbsp;
 
-{{< figure src="../../not5.jpg" height="490px">}}
+{{< figure src="../../not5.jpg" height="450px">}}
 
 &nbsp;&nbsp;
 
@@ -85,7 +85,7 @@ Click on `Add New` to recieve new notification.
 
 &nbsp;&nbsp;
 
-{{< figure src="../../notifi7.jpg" height="440px">}}
+{{< figure src="../../notifi7.jpg" height="420px">}}
 
 &nbsp;&nbsp;
 
@@ -93,14 +93,14 @@ Click on `Add New` to recieve new notification.
 
 &nbsp;&nbsp;
 
-{{< figure src="../../notifi6.jpg" height="440px">}}
+{{< figure src="../../notifi6.jpg" height="410px">}}
 
 &nbsp;&nbsp;
 
 ***Send To***
 
 First, enter the name of your Slack Channel if you have already configured Slack Channel. 
-If you have not yet configured the Slack Channel, Click on [Configure Slack Channel](https://docs.devtron.ai/docs/reference/global-configurations/manage-notification/#manage-slack-configurations)
+If you have not yet configured the Slack Channel, Click on [Configure Slack Channel](/docs/reference/global_configurations/manage_notification/#manage-slack-configurations)
 
 <br />
 
@@ -126,7 +126,7 @@ Click on `Save` after you have configured Slack notifications.
 
 &nbsp;&nbsp;
 
-{{< figure src="../../notifi6.jpg" height="450px">}}
+{{< figure src="../../notifi6.jpg" height="410px">}}
 
 &nbsp;&nbsp;
 
@@ -134,7 +134,7 @@ Click on `Save` after you have configured Slack notifications.
 
 * First, enter the e-mail address/addresses on which you want to send e-mail notifications. Make sure e-mail id's are SES Verified.
 
-If you have not yet configured SES, Click on [Configure SES](https://docs.devtron.ai/docs/reference/global-configurations/manage-notification/#manage-ses-notifications)
+If you have not yet configured SES, Click on [Configure SES](/docs/reference/global_configurations/manage_notification/#manage-ses-notifications)
 
 <br />
 
@@ -148,7 +148,7 @@ If you have not yet configured SES, Click on [Configure SES](https://docs.devtro
 
 &nbsp;&nbsp;
 
-{{< figure src="../../not9.jpg" height="600px">}}
+{{< figure src="../../not9.jpg" height="610px">}}
 
 <br />
 

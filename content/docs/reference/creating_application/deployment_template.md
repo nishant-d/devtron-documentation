@@ -32,7 +32,7 @@ One can see multiple chart version options available in the drop-down. you can s
 
 Every chart version has its own YAML file. Helm charts are used to provide specifications for your application. To make it easy to use, we have created templates for the YAML file and have added some variables inside the YAML. You can provide or change the values of these variables as per your requirement.
 
-If you want to see [Application Metrics](https://www.niveshopstree.tk/docs/reference/creating-application/deployment-template/#3-show-application-metrics) (For example Status codes 2xx, 3xx, 5xx; throughput, and latency) for your application, then you need to select the latest chart version.
+If you want to see [Application Metrics](/docs/reference/creating_application/deployment_template/#3-show-application-metrics) (For example Status codes 2xx, 3xx, 5xx; throughput, and latency) for your application, then you need to select the latest chart version.
 
 Application Metrics is not supported for Chart version older than 3.7 version.
 
@@ -393,7 +393,7 @@ Application metrics can be enabled to see your application's metrics-CPUService 
 
 ## Deployment Metrics 
 
-A deployment strategy is a way to make changes to your application, without downtime in a way that your application user barely notices the changes. There are different types of deployment strategies. To know about Deployment Strategies, Click on: [Types of Deployment Strategies](https://docs.devtron.ai/docs/reference/creating-application/workflows/cd-pipelines/#deployment-strategies)
+A deployment strategy is a way to make changes to your application, without downtime in a way that your application user barely notices the changes. There are different types of deployment strategies. To know about Deployment Strategies, Click on: [Types of Deployment Strategies](/docs/reference/creating_application/workflows/cd_pipelines/#deployment-strategies)
 
 
 
@@ -497,8 +497,8 @@ If you want to see application matrics like different status codes, application 
 
 &nbsp;
 
-{{< figure src="../../deployment_application_metrics.png" height="300px">}}
+{{< figure src="../../deployment_application_metrics.png" height="275px">}}
 
 &nbsp;
 
-Once all the Deployment template configurations are done, click on **Save** to save your deployment configuration. Now you are ready to create [Workflow](https://www.niveshopstree.tk/docs/reference/creating-application/workflows/) to do CI/CD.
+Once all the Deployment template configurations are done, click on **Save** to save your deployment configuration. Now you are ready to create [Workflow](/docs/reference/creating_application/workflows/) to do CI/CD.

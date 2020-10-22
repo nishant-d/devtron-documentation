@@ -9,7 +9,7 @@ weight = 1
 
 <br />
 
-{{< figure src="./workflow-editor2.PNG" height="360px">}}
+{{< figure src="./workflow-editor2.PNG" height="320px">}}
 
 &nbsp;&nbsp;
 
@@ -17,7 +17,7 @@ After creating the workflow,click on Add CI Pipeline to add a new CI Pipeline
 
 &nbsp;&nbsp;
 
-{{< figure src="./add_pipeline.jpg" height="440px">}}
+{{< figure src="./add_pipeline.jpg" height="385px">}}
 
 <br />
 
@@ -25,7 +25,7 @@ Click on Continous Integration to create a new CI Pipeline
 
 &nbsp;&nbsp;
 
-{{< figure src="./create_pipeline.jpg" height="440px">}}
+{{< figure src="./create_pipeline.jpg" height="745px">}}
 
 &nbsp;&nbsp;
 
@@ -51,7 +51,7 @@ You can update all the CI pipeline configurations after the CI pipeline is creat
 
 &nbsp;&nbsp;
 
-{{< figure src="./update_pipeline_ci.jpg" height="440px">}}
+{{< figure src="./update_pipeline_ci.jpg" height="385px">}}
 
 <br />
 
@@ -59,7 +59,7 @@ Click on your CI Pipeline, to update the changes to your CI Pipeline.
 
 &nbsp;&nbsp;
 
-![Update CI Pipeline](./edit_pipeline.jpg "update CI Pipeline")
+{{< figure src="./edit_pipeline.jpg" height="840px">}}
 
 <br />
 
@@ -77,7 +77,7 @@ To Delete a CI Pipeline, go to the App Configurations and then click on Workflow
 
 &nbsp;&nbsp;
 
-![Delete CI Pipeline](./edit_pipeline.jpg "update CI Pipeline")
+{{< figure src="./edit_pipeline.jpg" height="840px">}}
 
 <br />
 
@@ -93,7 +93,7 @@ These stages are run in sequence before the docker image is built
 
 &nbsp;&nbsp;
 
-{{< figure src="./pre_build.jpg" height="440px">}}
+{{< figure src="./pre_build.jpg" height="480px">}}
 
 &nbsp;&nbsp;
 
@@ -102,7 +102,7 @@ These stages are run in sequence after the docker image is built
 
 &nbsp;&nbsp;
 
-{{< figure src="./post_build.jpg" height="440px">}}
+{{< figure src="./post_build.jpg" height="480px">}}
 
 &nbsp;&nbsp;
 
@@ -140,7 +140,7 @@ the CI tool is hosted outside Devtron architecture.
 
 &nbsp;&nbsp;
 
-![Create CI Pipeline](./external_pipeline.jpg "External CI Pipeline")
+{{< figure src="./external_pipeline.jpg" height="700px">}}
 
 &nbsp;&nbsp;
 
@@ -167,6 +167,6 @@ if there is only one build, it is not advisable to create multiple CI Pipelines.
 
 &nbsp;&nbsp;
 
-![Create CI Pipeline](../../linked.jpg "Linked CI Pipeline")
+{{< figure src="../../linked.jpg" height="615px">}}
 
 <br />

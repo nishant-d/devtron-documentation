@@ -7,7 +7,7 @@ weight = 7
 
 
 
-{{< figure src="./env_ride.jpg" height="440px">}}
+{{< figure src="./env_ride.jpg" height="410px">}}
 
 &nbsp;&nbsp;
 

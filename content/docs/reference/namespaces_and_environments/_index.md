@@ -22,7 +22,7 @@ Global Configuration->Clusters & Environments
 
 &nbsp;&nbsp;
 
-{{< figure src="../environments1.JPG" height="370px">}}
+{{< figure src="../environments1.JPG" height="330px">}}
 
 &nbsp;&nbsp;
 
