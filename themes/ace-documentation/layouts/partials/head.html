@@ -14,6 +14,10 @@
     <!-- Load stylesheet -->
     <link href="{{ .Site.BaseURL }}css/fontawesome.min.css" rel="stylesheet">
 
+    
+    {{ $style := resources.Get "css/main.css"  }}
+    <link rel="stylesheet" href="{{ $style.Permalink}}">
+
     {{ $style := resources.Get "css/ace.scss" | toCSS | minify }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
 

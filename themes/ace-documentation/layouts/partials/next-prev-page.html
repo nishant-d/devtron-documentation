@@ -1,47 +1,79 @@
-<div class="bg-primary overflow-hidden p-3 mt-5 shadow">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class ="d-inline-flex w-100 view overlay mt-5 " >
+    
+        <div class=" overflow-hidden pr-3 w-50 bg-white footer__border footer__border--m-24" >
+              <!-- Next prev page -->
+              {{- $currentNode := . -}}
 
-    <h4 class="text-white text-center">Read more</h4>
+              {{- template "menu-nextprev" dict "menu" .Site.Home "currentnode" $currentNode -}}
+  
+              {{- define "menu-nextprev" -}}
+                  {{- $currentNode := .currentnode -}}
+                  {{- if ne .menu.Params.hidden true -}}
+                      {{- if hasPrefix $currentNode.RelPermalink .menu.RelPermalink -}}
+                          {{- $currentNode.Scratch.Set "NextPageOK" "OK" -}}
+                          {{- $currentNode.Scratch.Set "prevPage" ($currentNode.Scratch.Get "prevPageTmp") -}}
+                      {{- else -}}
+                          {{- if eq ($currentNode.Scratch.Get "NextPageOK") "OK" -}}
+                              {{- $currentNode.Scratch.Set "NextPageOK" nil -}}
+                              {{- $currentNode.Scratch.Set "nextPage" .menu -}}
+                          {{- end -}}
+                      {{- end -}}
+                      {{- $currentNode.Scratch.Set "prevPageTmp" .menu -}}
+  
+                          {{- $currentNode.Scratch.Set "pages" .menu.Pages -}}
+                          {{- if .menu.IsHome -}}
+                              {{- $currentNode.Scratch.Set "pages" .menu.Sections -}}
+                          {{- else if .menu.Sections -}}
+                              {{- $currentNode.Scratch.Set "pages" (.menu.Pages | union .menu.Sections) -}}
+                          {{- end -}}
+                          {{- $pages := ($currentNode.Scratch.Get "pages") -}}
+                          {{- range $pages.ByWeight -}}
+                              {{- template "menu-nextprev" dict "menu" . "currentnode" $currentNode -}}
+                          {{- end -}}
+                  {{- end -}}
+              {{- end -}}
 
-    <!-- Next prev page -->
-    {{- $currentNode := . -}}
+        <div class ="d-inline-flex w-100">
+                {{- with ($.Scratch.Get "prevPage") -}}
+                <a class="footer__left-arrow-icon " href="{{.RelPermalink}}" ><i class="fas fa-arrow-left "></i></a>
+                {{ end -}}
+            
+                <div class="footer__align-left">
+                    <div class="footer__previous-page text-black-50  text-right " >Previous</div>
 
-    {{- template "menu-nextprev" dict "menu" .Site.Home "currentnode" $currentNode -}}
+                    <div class="text-right ">
+                            {{- with ($.Scratch.Get "prevPage") -}}
+                                <a class=" d-inline-block footer__text-hover "  href="{{.RelPermalink}}" title="{{.Title}}">{{.Title}}</a>
+                            {{ end -}}
+                  </div>
+             </div>
+        </div>
+   </div>
 
-    {{- define "menu-nextprev" -}}
-        {{- $currentNode := .currentnode -}}
-        {{- if ne .menu.Params.hidden true -}}
-            {{- if hasPrefix $currentNode.RelPermalink .menu.RelPermalink -}}
-                {{- $currentNode.Scratch.Set "NextPageOK" "OK" -}}
-                {{- $currentNode.Scratch.Set "prevPage" ($currentNode.Scratch.Get "prevPageTmp") -}}
-            {{- else -}}
-                {{- if eq ($currentNode.Scratch.Get "NextPageOK") "OK" -}}
-                    {{- $currentNode.Scratch.Set "NextPageOK" nil -}}
-                    {{- $currentNode.Scratch.Set "nextPage" .menu -}}
-                {{- end -}}
-            {{- end -}}
-            {{- $currentNode.Scratch.Set "prevPageTmp" .menu -}}
 
-                {{- $currentNode.Scratch.Set "pages" .menu.Pages -}}
-                {{- if .menu.IsHome -}}
-                    {{- $currentNode.Scratch.Set "pages" .menu.Sections -}}
-                {{- else if .menu.Sections -}}
-                    {{- $currentNode.Scratch.Set "pages" (.menu.Pages | union .menu.Sections) -}}
-                {{- end -}}
-                {{- $pages := ($currentNode.Scratch.Get "pages") -}}
-
-                {{- range $pages.ByWeight -}}
-                    {{- template "menu-nextprev" dict "menu" . "currentnode" $currentNode -}}
-                {{- end -}}
-        {{- end -}}
-    {{- end -}}
-
-    <div class="d-flex justify-content-center">
-        {{- with ($.Scratch.Get "prevPage") -}}
-            <a class="p-1 mr-3 d-inline-block text-white" href="{{.RelPermalink}}" title="{{.Title}}"><i class="fas fa-chevron-left p-1"></i>{{.Title}}</a>
-        {{ end -}}
-        {{- with ($.Scratch.Get "nextPage") -}}
-            <a class="p-1 ml-3 d-inline-block text-white text-right" href="{{.RelPermalink}}" title="{{.Title}}">{{.Title}}<i class="fas fa-chevron-right p-1"></i></a>
-        {{- end }}
-    </div>
+   <div class=" overflow-hidden pl-3 w-50  bg-white footer__border" >
+             <div class ="d-inline-flex w-100" >
+                      <div class="text-left">
+                            <div class="text-black-50 footer__previous-page" >Next</div>
+                            <div>
+                                {{- with ($.Scratch.Get "nextPage") -}}
+                                    <a class="d-inline-block footer__text-hover "  href="{{.RelPermalink}}" title="{{.Title}}">{{.Title}}</a>
+                                {{ end -}}
+                            </div>
+                        </div>
+                        {{- with ($.Scratch.Get "nextPage") -}}
+                          <a href="{{.RelPermalink}}"  class="text-right footer__right-arrow-icon" ><i  class="fas fa-arrow-right "></i></a>
+                          {{ end -}}
+            </div>
 </div>
+ </div> 
 
+</body>
+</html>
