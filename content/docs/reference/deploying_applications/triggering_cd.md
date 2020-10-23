@@ -36,4 +36,3 @@ Here, triggering CD Pipeline is successful and the deployment is in "Healthy" st
 
 
 [To further diagnose deployments, Click here](/docs/reference/debugging_deployments_and_monitoring/)
-
