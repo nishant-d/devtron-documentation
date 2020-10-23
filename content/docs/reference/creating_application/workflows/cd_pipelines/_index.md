@@ -216,4 +216,3 @@ recreate:
 It terminate the old version and release the new one.
 
 [Does your app has different requirements in different Environments? Also read Environment Overrides](/docs/reference/creating_application/environment_overrides/)
-

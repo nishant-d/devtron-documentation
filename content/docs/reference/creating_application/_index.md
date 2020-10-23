@@ -1,4 +1,5 @@
 +++
+bookCollapseSection = true
 title = "Creating Application"
 description = ""
 weight = 1
