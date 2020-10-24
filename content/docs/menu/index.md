@@ -1,5 +1,6 @@
 +++
 headless = true
+
 +++
 
 - [Book Example]({{< relref "/docs/" >}})
