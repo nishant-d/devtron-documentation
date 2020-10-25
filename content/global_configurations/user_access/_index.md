@@ -2,7 +2,9 @@
 bookCollapseSection = false
 title = "User Access"
 description = ""
-weight = 2
+
+weight = 5
+
 +++
 
 
@@ -187,4 +189,6 @@ If you want to delete the groups with particular permissions. Click on `Delete`.
 
 ### **4. Manage Chart Group Permissions**
 
-The chart group permissions for the group will be managed in the same way as for the users. For reference, check [Manage chart group permissions for users](/docs/reference/global_configurations/user_access/#5-manage-chart-group-permissions)
+
+The chart group permissions for the group will be managed in the same way as for the users. For reference, check [Manage chart group permissions for users](/global_configurations/user_access/#5-manage-chart-group-permissions)
+

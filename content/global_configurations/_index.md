@@ -11,7 +11,20 @@ This documentation consists of the Global Configurations available in Devtron.
 **Parts of the Documentation**
 
 
-[Manage Notification](/docs/reference/global_configurations/manage_notification/)
+[Git Accounts](/global_configurations/git_accounts/)
 
 
-[User Access](/docs/reference/global_configurations/user_access/)
+[Docker Registries](/global_configurations/docker_registries/)
+
+
+[Cluster And Environments](/global_configurations/cluster_and_environment)
+
+
+[Projects](/global_configurations/projects)
+
+
+[User Access](/global_configurations/user_access/)
+
+
+[Manage Notification](/global_configurations/manage_notification/)
+

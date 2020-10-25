@@ -17,7 +17,9 @@ Follow the below mentioned steps, to deploy the application on Devtron using mon
 
 ## **1. Deploy mongoDb Helm Chart**
 
-To deploy mongoDb Helm Chart, you can refer to our documentation on [Deploy mongoDb Helm Chart](/docs/reference/deploy_chart/examples/deploying_mongodb_helm_chart)
+
+To deploy mongoDb Helm Chart, you can refer to our documentation on [Deploy mongoDb Helm Chart](/deploy_chart/examples/deploying_mongodb_helm_chart)
+
 
 <br />
 
@@ -64,7 +66,9 @@ module.exports = {
 
 ## **3. Create Application on Devtron**
 
-To learn how to create an application on Devtron, refer to our documentation on [Creating Application](/docs/reference/creating_application/)
+
+To learn how to create an application on Devtron, refer to our documentation on [Creating Application](/creating_application/)
+
 
 <br />
 

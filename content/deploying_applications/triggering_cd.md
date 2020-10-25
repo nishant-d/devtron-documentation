@@ -35,4 +35,6 @@ The  status of the current deployment can be viewed by Clicking on **App Details
 Here, triggering CD Pipeline is successful and the deployment is in "Healthy" state.
 
 
-[To further diagnose deployments, Click here](/docs/reference/debugging_deployments_and_monitoring/)
+
+[To further diagnose deployments, Click here](/debugging_deployments_and_monitoring/)
+

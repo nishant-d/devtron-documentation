@@ -7,4 +7,4 @@ type: docs
 
 Continuous Deployment for Kubernetes that increases your productivity and reduces cost.
 
-[Browse Devtron Documentation](/docs/reference/creating_application/)
+[Browse Devtron Documentation](/creating_application/)

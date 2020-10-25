@@ -17,7 +17,9 @@ This document will help you to deploy a sample Spring Boot Application, using **
 
 <br />
 
-To deploy mysql Helm Chart, you can refer to our documentation on [Deploy mysql Helm Chart](/docs/reference/deploy_chart/examples/deploying_mysql_helm_chart/)
+
+To deploy mysql Helm Chart, you can refer to our documentation on [Deploy mysql Helm Chart](/deploy_chart/examples/deploying_mysql_helm_chart/)
+
 
 <br />
 
@@ -74,7 +76,9 @@ ENTRYPOINT ["java","-jar", "app.jar"]
 
 ## **3. Create Application on Devtron**
 
-To learn how to create an application on Devtron, refer to our documentation on [Creating Application](/docs/reference/creating_application/)
+
+To learn how to create an application on Devtron, refer to our documentation on [Creating Application](/creating_application/)
+
 
 <br />
 
