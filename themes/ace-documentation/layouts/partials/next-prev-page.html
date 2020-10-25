@@ -39,11 +39,13 @@
                           {{- end -}}
                   {{- end -}}
               {{- end -}}
+              
 
         <div class ="d-inline-flex w-100">
                 {{- with ($.Scratch.Get "prevPage") -}}
                 <a class="footer__left-arrow-icon " href="{{.RelPermalink}}" ><i class="fas fa-arrow-left "></i></a>
                 {{ end -}}
+                
             
                 <div class="footer__align-left">
                     <div class="footer__previous-page text-black-50  text-right " >Previous</div>
