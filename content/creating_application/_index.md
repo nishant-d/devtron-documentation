@@ -16,28 +16,28 @@ weight = 1
 
 **Parts of Documentation** 
 
-[Git Material](/docs/reference/creating_application/git_material/)
+[Git Material](/creating_application/git_material/)
 
 
 
-[Docker Configuration](/docs/reference/creating_application/docker_configuration/) 
+[Docker Configuration](/creating_application/docker_configuration/) 
 
 
 
-[Deployment Template](/docs/reference/creating_application/deployment_template/) 
+[Deployment Template](/creating_application/deployment_template/) 
 
 
 
-[Workflows](/docs/reference/creating_application/workflows/) 
+[Workflows](/creating_application/workflows/) 
 
 
 
-[Config Maps](/docs/reference/creating_application/config_maps/) 
+[Config Maps](/creating_application/config_maps/) 
 
 
 
-[Secrets](/docs/reference/creating_application/secrets/) 
+[Secrets](/creating_application/secrets/) 
 
 
 
-[Environment Overrides](/docs/reference/creating_application/environment_overrides/)
+[Environment Overrides](/creating_application/environment_overrides/)

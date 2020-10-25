@@ -10,10 +10,10 @@ Welcome! This is the documentation for Deploying Applications
 
 **Parts of Documentation** 
 
-[Triggering CI](/docs/reference/deploying_applications/triggering_ci/)
+[Triggering CI](/deploying_applications/triggering_ci/)
 <br>
 
-[Triggering CD](/docs/reference/deploying_applications/triggering_cd/) 
+[Triggering CD](/deploying_applications/triggering_cd/) 
 
 
 

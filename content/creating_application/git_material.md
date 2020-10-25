@@ -16,7 +16,7 @@ Git material is used to pull the application source code during the CI step. Ins
     
 &nbsp;
   
-Devtron also supports multiple git repositories in a single deployment. We will discuss this in detail in the multi git option [below](/docs/reference/creating_application/git_material/#4-multi-git).
+Devtron also supports multiple git repositories in a single deployment. We will discuss this in detail in the multi git option [below](/creating_application/git_material/#4-multi-git).
 
 &nbsp;
 
@@ -26,7 +26,7 @@ Devtron also supports multiple git repositories in a single deployment. We will 
 
 ## 1. Select Provider
 
-In the provider section, you have to select the git provider of your code repository like- Github, Gitlab, and Bitbucket, etc.You can configure your git provider via [global configuration](/docs/reference/global_configurations/).
+In the provider section, you have to select the git provider of your code repository like- Github, Gitlab, and Bitbucket, etc.You can configure your git provider via [global configuration](/global_configurations/).
 
 &nbsp;
   
@@ -58,7 +58,7 @@ But if you want to go with a multi git approach then you can leave the path as d
 
 As we discussed, Devtron also supports multiple git repositories in a single application. To add multiple repositories, click on add material again and follow the steps from 1 to 3 again.
 
-Please note even though you can add multiple repositories only one image will be created based on the docker file as shown in the [docker build config](/docs/reference/creating_application/docker_configuration/).
+Please note even though you can add multiple repositories only one image will be created based on the docker file as shown in the [docker build config](/creating_application/docker_configuration/).
 
 &nbsp;
 

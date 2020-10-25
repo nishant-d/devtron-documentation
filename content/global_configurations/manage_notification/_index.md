@@ -2,7 +2,7 @@
 bookCollapseSection = false
 title = "Manage Notification"
 description = ""
-weight = 1
+weight = 6
 +++
 
 
@@ -100,7 +100,7 @@ Click on `Add New` to recieve new notification.
 ***Send To***
 
 First, enter the name of your Slack Channel if you have already configured Slack Channel. 
-If you have not yet configured the Slack Channel, Click on [Configure Slack Channel](/docs/reference/global_configurations/manage_notification/#manage-slack-configurations)
+If you have not yet configured the Slack Channel, Click on [Configure Slack Channel](/global_configurations/manage_notification/#manage-slack-configurations)
 
 <br />
 
@@ -134,7 +134,7 @@ Click on `Save` after you have configured Slack notifications.
 
 * First, enter the e-mail address/addresses on which you want to send e-mail notifications. Make sure e-mail id's are SES Verified.
 
-If you have not yet configured SES, Click on [Configure SES](/docs/reference/global_configurations/manage_notification/#manage-ses-notifications)
+If you have not yet configured SES, Click on [Configure SES](/global_configurations/manage_notification/#manage-ses-notifications)
 
 <br />
 
