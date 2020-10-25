@@ -5,14 +5,17 @@ description = ""
 weight = 6
 +++
 
+
 Secrets and configmaps both are used to store environment variables but there is only one major difference between them, Configmap stores key-values in normal text format, and secrets store them in base64 encrypted form. Devtron platform hides the data of secrets for the normal users and it is only visible to the users having edit permission.
 
 Secret objects let you store and manage sensitive information, such as- passwords, auth tokens, and ssh keys. Embedding this information in a secret is safer and more flexible than putting it verbatim in a Pod definition or in a container image.
 
 
+
 &nbsp;&nbsp;
 
 {{< figure src="../../secret1.png" height="270px">}}
+
 
 &nbsp;&nbsp;
 
@@ -22,9 +25,11 @@ Click on `Add Secret` to add a new secret.
 
 &nbsp;&nbsp;
 
+
 {{< figure src="../../secret8.jpg" height="700px">}}
 
 &nbsp;&nbsp;
+
 
 Key | Description
 ----|----

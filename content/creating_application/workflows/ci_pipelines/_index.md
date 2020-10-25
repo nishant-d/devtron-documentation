@@ -13,6 +13,7 @@ weight = 1
 
 &nbsp;&nbsp;
 
+
 After providing the name to the [workflow](/creating_application/workflows), click on Add CI Pipeline to add a new CI Pipeline. When you click on Add CI pipeline, you can see three options
 
 1. Continuous Integration
@@ -21,11 +22,13 @@ After providing the name to the [workflow](/creating_application/workflows), cli
 
 3. Incoming Webhook
 
+
 &nbsp;&nbsp;
 
 {{< figure src="./add_pipeline.jpg" height="385px">}}
 
 <br />
+
 
 ## 1. Continuous Integration
 
@@ -41,11 +44,13 @@ Click on `Continuous Integration` to configure CI Pipeline, a new window will ap
 |`Stages`|1. **Pre-build Stages**- Scripts to be executed before building an image. 2. **Docker build Stages**- Provide a new argument and override an old argument in key-value pair. 3. **Docker build Stages**- Scripts to be executed after building image|
 |`Scan for vulnerabilities`| It will scan your image and find if any vulnerabilities present |
 
+
 &nbsp;&nbsp;
 
 {{< figure src="./create_pipeline.jpg" height="745px">}}
 
 &nbsp;&nbsp;
+
 
 ### 1. Pipeline Name
 
@@ -149,11 +154,13 @@ Users can run the Test case using the Devtron Dashboard or by including the Test
 
 The test cases given in the script will run before the Test Cases given in the devtron.ci.yaml
 
+
 &nbsp;&nbsp;
 
 {{< figure src="./yaml.jpg" height="440px">}}
 
 &nbsp;&nbsp;
+
 
 
 |Field|Description  |
@@ -168,15 +175,19 @@ The test cases given in the script will run before the Test Cases given in the d
 |`outputLocation`|The location where you want to see the output of the report of Test cases|
 
 
+
 ## External CI Pipeline
 
+
 You can use Devtron for Deployments on Kubernetes while still using your own CI tool such as Jenkins. External CI features can be used for such cases where the CI tool is hosted outside the Devtron platform.
+
 
 &nbsp;&nbsp;
 
 {{< figure src="./external_pipeline.jpg" height="700px">}}
 
 &nbsp;&nbsp;
+
 
 You can send the ‘Payload script’ to your CI tools such as Jenkins and Devtron will receive the build image every time the CI Service is triggered or you can use the Webhook URL which will build an image every time CI Service is triggered using Devtron Dashboard.
 
@@ -187,9 +198,12 @@ You can send the ‘Payload script’ to your CI tools such as Jenkins and Devtr
 |`Branch Name`|Name of the branch|
 
 
+
 ## Linked CI Pipeline
 
+
 If one code is shared across multiple applications, Linked CI Pipeline can be used, and only one image will be built for multiple applications because if there is only one build, it is not advisable to create multiple CI Pipelines.
+
 
 &nbsp;&nbsp;
 

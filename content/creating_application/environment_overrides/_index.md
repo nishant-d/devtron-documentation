@@ -5,13 +5,16 @@ description = ""
 weight = 7
 +++
 
+
 You will see all your environments associated with an application under the Environment Overrides section.
 
 &nbsp;&nbsp;
 
+
 {{< figure src="./env_ride.jpg" height="410px">}}
 
 &nbsp;&nbsp;
+
 
 You can customize the Deployment template, ConfigMap, Secrets in Environment Overrides section to customize things according to multiple environments such as dev, test, integration, prod, etc.
 
@@ -38,6 +41,7 @@ If you want to configure your ConfigMap and secrets at the application level the
 Click on `Update ConfigMap` to update Configmaps.
 
 Click on `Update Secrets` to update Secrets.
+
 
 &nbsp;&nbsp;
 

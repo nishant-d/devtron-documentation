@@ -10,6 +10,7 @@ This documentation consists of the Global Configurations available in Devtron.
 
 **Parts of the Documentation**
 
+
 [Git Accounts](/global_configurations/git_accounts/)
 
 
@@ -26,3 +27,4 @@ This documentation consists of the Global Configurations available in Devtron.
 
 
 [Manage Notification](/global_configurations/manage_notification/)
+

@@ -13,11 +13,14 @@ weight = 2
 
 &nbsp;&nbsp;
 
+
 Click on **“+”** sign on CI Pipeline to attach a CD Pipeline to it.
+
 
 &nbsp;&nbsp;
 
 {{< figure src="./workflow-editor6.PNG" height="320px">}}
+
 
 One can have a single CD pipeline or multiple CD pipelines connected to the same CI Pipeline. A CD pipeline corresponds to one environment or in other words, an environment of an application can have only one CD pipeline. So images created by the CI pipeline can be deployed into multiple environments.
 
@@ -35,11 +38,13 @@ CD pipeline configuration has below options to be configured:
 |Post-deployment stage|Run any configuration and provide secrets after the deployment|
 
 
+
 &nbsp;&nbsp;
 
 {{< figure src="./workflow-editor8-resize.PNG" height="700px">}}
 
 &nbsp;&nbsp;
+
 
 ### 1. Pipeline Name
 Inside the Pipeline name column, give a name to your Continuous deployment as per your understanding.
@@ -167,6 +172,7 @@ A deployment strategy is a way to make changes to an application, without downti
 
 #### Blue Green Stategy
 
+
 Blue-green deployments involve running two versions of an application at the same time and moving traffic from the in-production version (the green version)
 to the newer version (the blue version).
 
@@ -187,7 +193,9 @@ Key   | Description
 
 <br />
 
+
 #### Rolling Strategy
+
 
 A rolling deployment slowly replaces instances of the previous version of an application with instances of the new version of the application.
 Rolling deployment typically waits for new pods to become ready via a readiness check before scaling down the old components.
@@ -206,7 +214,9 @@ Key   | Description
 
 <br />
 
+
 #### Canary Strategy
+
 
 Canary deployments are a pattern for rolling out releases to a subset of users or servers. The idea is to first deploy the change to a small subset of servers, 
 test it, and then roll the change out to the rest of the servers.
@@ -248,4 +258,6 @@ recreate:
 ```
 It terminate the old version and release the new one.
 
+
 [Does your app has different requirements in different Environments? Also read Environment Overrides](/creating_application/environment_overrides/)
+

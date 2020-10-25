@@ -6,9 +6,10 @@ weight = 5
 +++
 
 
-The ConfigMap API resource holds key-value pairs of configuration data that can be consumed in pods. ConfigMap can also be used to store configuration data for system components such as controllers.
 
-ConfigMap is similar to Secrets but mainly designed to work with strings that do not contain sensitive information.
+
+The ConfigMap API resource holds key-value pairs of configuration data that can be consumed in pods or used to store configuration data for system components such as controllers. ConfigMap is similar to Secrets, but designed to more conveniently support working with strings that do not contain sensitive information.
+
 
 Click on `Add ConfigMap` to add a config map to your application.
 
@@ -17,6 +18,7 @@ Click on `Add ConfigMap` to add a config map to your application.
 {{< figure src="../../cf1.jpg" height="380px" alt="Create config map">}}
 
 &nbsp;&nbsp;
+
 
 ## Configure the ConfigMap
 
@@ -38,11 +40,13 @@ Key  | Description
 `Use configmap as Data Volume` | Select this option, if you want to configure any Data Volume that is accessible to Containers running in a pod and provide a Volume mount path.
 `Key-Value` | Provide the actual key-value configuration data here. Key and corresponding value to the provided key.
 
+
 &nbsp;&nbsp;
 
 {{< figure src="../../config1.jpg" height="750px">}}
 
 &nbsp;&nbsp;
+
 
 #### 1. Data Type
 
@@ -107,6 +111,7 @@ Kubernetes ConfigMap using `Data Volume`:
 
 {{< figure src="../../config2.jpg" height="830px">}}
 
+
 &nbsp;&nbsp;
 
 ## Volume Mount Path
@@ -127,17 +132,22 @@ If you are using Kubernetes External ConfigMap, make sure you give the name of C
 
 You have to ensure that the External ConfigMap exists and is available to the pod.
 
+
+
 &nbsp;&nbsp;
 
 {{< figure src="../../config4.jpg" height="350px">}}
 
 <br />
 
+
+
 The config map is created.
 
 &nbsp;&nbsp;
 
 ![Config Map Added](../../arora2.gif "Config Map is added")
+
 
 &nbsp;&nbsp;
 
@@ -161,4 +171,7 @@ You can delete your configmap. Click on your configmap and click on the delete s
 {{< figure src="../../delete_configmap.png" height="330px">}}
 
 &nbsp;&nbsp;
+=======
+
+
 
