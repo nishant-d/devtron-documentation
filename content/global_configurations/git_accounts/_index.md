@@ -11,7 +11,7 @@ Glocal configurations are used to configure your Git Providers, Docker Registry,
 
 ## Git Account Configuration
 
-**Global Configuration** helps you add a Git provider. Click on **Add git account** to add a new git provider and provide three inputs as below.
+`Global Configuration` helps you add a Git provider. Click on `Add git account` to add a new git provider and provide three inputs as below.
 
 1.  Name
     
@@ -40,7 +40,7 @@ Provide a name to your Git provider. This will be added as one option in the Git
 
 ### 2. URL
 
-Provide the **URL** of your Version Controller. **For example**- github.com for Github, https://gitlab.com for GitLab, etc.
+Provide the `URL` of your Version Controller. **For example**- github.com for Github, https://gitlab.com for GitLab, etc.
 
   
 
@@ -53,8 +53,8 @@ Here you have to provide the type of Authentication required by your version con
 -   **Anonymous**
     
 
-If you select **Anonymous** then you do not have to provide any username, password, and authentication token. Just click on **Save** to save your git account provider details.
-
+If you select `Anonymous` then you do not have to provide any username, password, and authentication token. Just click on `Save` to save your git account provider details.
+`
 &nbsp;&nbsp;
 
 {{< figure src="../../git_account_gc2.png" height="280px">}}
@@ -64,7 +64,7 @@ If you select **Anonymous** then you do not have to provide any username, passwo
 -   **Password/Auth token**
     
 
-If you select Password/Auth token then you have to provide the **Access token** for the authentication of your version controller account inside the Access token box. Click on **Save** to save your git account provider details.
+If you select Password/Auth token then you have to provide the `Access token` for the authentication of your version controller account inside the Access token box. Click on `Save` to save your git account provider details.
 
 &nbsp;&nbsp;
 
@@ -75,7 +75,7 @@ If you select Password/Auth token then you have to provide the **Access token** 
 -   **User auth**
     
 
-If you choose **User auth** then you have to provide the **Username** and **Password** of your version controller account. Click on **Save** to save your git account provider details.
+If you choose `User auth` then you have to provide the `Username` and `Password` of your version controller account. Click on `Save` to save your git account provider details.
 
 &nbsp;&nbsp;
 
@@ -87,7 +87,7 @@ If you choose **User auth** then you have to provide the **Username** and **Pass
 
   
 
-You can update your saved git account settings at any point in time. Click on the git account which you want to update. Make changes and click on **Update** to save you changes.
+You can update your saved git account settings at any point in time. Click on the git account which you want to update. Make changes and click on `Update to save you changes.
 
 &nbsp;&nbsp;
 

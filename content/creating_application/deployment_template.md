@@ -504,5 +504,5 @@ If you want to see application matrics like different status codes, application 
 &nbsp;
 
 
-Once all the Deployment template configurations are done, click on **Save** to save your deployment configuration. Now you are ready to create [Workflow](/creating_application/workflows/) to do CI/CD.
+Once all the Deployment template configurations are done, click on `Save` to save your deployment configuration. Now you are ready to create [Workflow](/creating_application/workflows/) to do CI/CD.
 

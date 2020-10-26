@@ -39,7 +39,7 @@ We will discuss later how you will see the list of your found vulnerabilities.
 
 ## Policy
 
-Vulnerabilities have different levels like Critical, Moderate, and Low. Users can define Policy according to the level of vulnerability. Users can also block the vulnerability or allow(whitelist) the vulnerability for their code.
+Vulnerabilities have different levels like Critical, Moderate, and Low. Users can define policy according to the level of vulnerability. Users can also block the vulnerability or allow(whitelist) the vulnerability for their code.
 
 If any vulnerability is found which is blocked by the user, then it will not deploy the application. And if it finds any vulnerability which is whitelisted by the user, then the build image can be deployed.
 
@@ -51,14 +51,14 @@ The user gets informed in both cases if it finds any vulnerability or doesn't fi
 
 You can find the Vulnerabilities `Build History` Page if you have enabled the `Scan for vulnerabilities` option.
 
+Your Application-> Build History-> Select pipeline-> Go to Security  Tab.
+
 &nbsp;
 
 {{< figure src="./security-feature1.png" height="380px">}}
   
 &nbsp;
 
-Your Application-> Build History-> Select pipeline-> Go to Security  Tab.
-  
 
 Here you can see all the vulnerabilities found in the build image.
 
@@ -66,15 +66,15 @@ Every vulnerability has `CVE ID`, `Severity Level`, Package, Current Version, an
 
   
 
-**CVE ID**- Common vulnerability ID
+**CVE ID**- Common Vulnerability ID
 
-**Severity Level** informs you about the severity of the vulnerability, it is defined as Critical, Medium, and Low.
+**Severity Level**- informs you about the severity of the vulnerability, it is defined as Critical, Medium, and Low.
 
-The **Package** column contains some meta-data of vulnerability.
+**Package**- column contains some meta-data of vulnerability.
 
-The **Current Version** is the version of that vulnerability
+**Current Version**- is the version of that vulnerability
 
-**Fixed In Version** column contains version name if it has been fixed in any version, else it remains blank
+**Fixed In Version**- column contains version name if it has been fixed in any version, else it remains blank
 
 &nbsp;  
 
@@ -113,7 +113,7 @@ You can find Vulnerabilities on the `App Details` page too. Here we are displayi
 
 ## Security
 
-You can check Vulnerabilities for all your applications in one place. On the Home page, there is an option named as `Security`. Here, you can see a list of applications under  the `Security Scan` tab. Here all the applications are listed which have the `Scan for Vulnerabilities` feature enabled. You can see the vulnerability count along with the Severity Level for all your applications.
+You can check Vulnerabilities for all your applications in one place. On the Home page, there is an option named  `Security`. Here, you can see a list of applications under  the `Security Scan` tab. Here all the applications are listed which have the `Scan for Vulnerabilities` feature enabled. You can see the vulnerability count along with the Severity Level for all your applications.
 
   
 

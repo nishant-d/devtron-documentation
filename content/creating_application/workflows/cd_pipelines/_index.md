@@ -24,7 +24,7 @@ Click on **“+”** sign on CI Pipeline to attach a CD Pipeline to it.
 
 One can have a single CD pipeline or multiple CD pipelines connected to the same CI Pipeline. A CD pipeline corresponds to one environment or in other words, an environment of an application can have only one CD pipeline. So images created by the CI pipeline can be deployed into multiple environments.
 
-If you already have one CD pipeline and want to add more, you can add them by clicking on the “+” sign and selecting the environment, where you want to deploy this application to. A new CD Pipeline will be created for the environment you selected.
+If you already have one CD pipeline and want to add more, you can add them by clicking on the `+` sign and selecting the environment, where you want to deploy this application to. A new CD Pipeline will be created for the environment you selected.
 
 CD pipeline configuration has below options to be configured:
 
@@ -34,7 +34,7 @@ CD pipeline configuration has below options to be configured:
 |Environment|Select the environment in which you want to deploy|
 |Pre-deployment stage|Run any configuration and provide secrets before the deployment|
 |Deployment stage|Select the deployment type through which the CD Pipeline will be triggered by Automatic or Manual.|
-|Deployment Strategy|Select the type of deployment strategy that you want to enable by clicking “Add Deployment Strategy”|
+|Deployment Strategy|Select the type of deployment strategy that you want to enable by clicking `Add Deployment Strategy`|
 |Post-deployment stage|Run any configuration and provide secrets after the deployment|
 
 
@@ -50,34 +50,34 @@ CD pipeline configuration has below options to be configured:
 Inside the Pipeline name column, give a name to your Continuous deployment as per your understanding.
 
 ### 2. Deploy to Environment
-Select the environment where you want to deploy your application. Once you select the environment, it will display the Namespace corresponding to your selected environment automatically.
+Select the environment where you want to deploy your application. Once you select the environment, it will display the `Namespace` corresponding to your selected environment automatically.
 
 ### 3. Pre-deployment Stage 
-Sometimes you encounter a requirement where you have to Configure actions like DB migration, which you want to run before the deployment. The Pre-deployment Stage comes into the picture in such scenarios.
+Sometimes you encounter a requirement where you have to Configure actions like DB migration, which you want to run before the deployment. The `Pre-deployment Stage` comes into the picture in such scenarios.
 
   
 
 Pre-deployment stages can be configured to be executed automatically or manually.
 
-If you select automatic, Pre-deployment Stage will be triggered automatically after the CI pipeline gets executed and before the CD pipeline starts executing itself. But, if you select a manual, then you have to trigger your stage via console.
+If you select automatic, `Pre-deployment Stage` will be triggered automatically after the CI pipeline gets executed and before the CD pipeline starts executing itself. But, if you select a manual, then you have to trigger your stage via console.
 
   
 
-And if you want to use some configuration files and secrets in pre-deployment stages or post-deployment stages, then you can make use of Config Maps & Secrets options.
+And if you want to use some configuration files and secrets in pre-deployment stages or post-deployment stages, then you can make use of `Config Maps` & `Secrets` options.
 
-Config Maps can be used to define configuration files. And Secrets can be defined to keep the secret data of your application.
+`Config Maps` can be used to define configuration files. And `Secrets` can be defined to keep the secret data of your application.
 
 Once you are done defining Config Maps & Secrets, you will get them as a drop-down in the pre-deployment stage and you can select them as part of your pre-deployment stage.
 
   
 
-These Pre-deployment CD / Post-deployment CD pods can be created in the deployment cluster or in the devtron build cluster. Running these pods in a Deployment cluster is recommended so that your scripts(if there are any) can interact with the cluster services which may not be publicly exposed.
+These `Pre-deployment CD / Post-deployment CD` pods can be created in the deployment cluster or in the devtron build cluster. Running these pods in a Deployment cluster is recommended so that your scripts(if there are any) can interact with the cluster services which may not be publicly exposed.
 
-If you want to run it inside your application then you have to check the Execute in application Environment option else leave it unchecked.
+If you want to run it inside your application then you have to check the `Execute in application Environment` option else leave it unchecked.
 
   
 
-(** Make sure your cluster has devtron-agent installed if you Check the Execute in the application Environment option.)
+(** Make sure your cluster has `devtron-agent` installed if you Check the `Execute in the application Environment` option.)
 
 &nbsp;&nbsp;
 
@@ -93,7 +93,7 @@ If you have defined pre-deployment stages, then CD Pipeline will be triggered au
   
 
 ### 5. Deployment Strategy
-Devtron's tool has 4 types of deployment strategies. Click on Add Deployment strategy and select from the available options. Options are:
+Devtron's tool has 4 types of deployment strategies. Click on `Add Deployment strategy` and select from the available options. Options are:
 
 (a) Recreate
 
@@ -123,7 +123,7 @@ You can use Config Map and Secrets in post deployments as well, as defined in Pr
 
 &nbsp;&nbsp;
 
-You have configured the CD pipeline, now click on Create Pipeline to save it. You can see your newly created CD Pipeline on the Workflow tab attached to the corresponding CI Pipeline.
+You have configured the CD pipeline, now click on `Create Pipeline` to save it. You can see your newly created CD Pipeline on the Workflow tab attached to the corresponding CI Pipeline.
 
 &nbsp;&nbsp;
 
@@ -149,7 +149,7 @@ To Update a CD Pipeline, go to the App Configurations and then click on Workflow
 
 &nbsp;&nbsp;
 
-Make changes as per your requirement and click on Update Pipeline to update this CD Pipeline.
+Make changes as per your requirement and click on `Update Pipeline` to update this CD Pipeline.
 
   
 
