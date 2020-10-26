@@ -5,9 +5,12 @@ description = ""
 weight = 2
 +++
 
+The global configuration helps you add your `Docker Registry`. In the Docker registry, you provide credentials of your registry, where your images will be stored. And this will be shown to you as a drop-down on `Docker Build Config` Page.
+
+
 ## Add Docker Registry configuration:
 
-Go to the **Docker Registry** section of **Global Configuration**. Click on **Add docker registry**.
+Go to the `Docker Registry` section of `Global Configuration`. Click on `Add docker registry`.
 
 You will see below the input fields to configure the docker registry.
 
@@ -52,7 +55,7 @@ Provide a name to your registry, this name will be shown to you in Docker Build 
 
 ### Registry type
 
-Here you can select the type of the Registry. We are supporting two types- ecr and others. You can select any one of them from the drop-down. By default, this value is ecr. If you select ecr then you have to provide some information like- AWS region, Access Key, and Secret Key. And if you select others then you have to provide the Username and Password.
+Here you can select the type of the Registry. We are supporting two types- `ecr` and `others`. You can select any one of them from the drop-down. By default, this value is `ecr`. If you select ecr then you have to provide some information like- `AWS region, Access Key, and Secret Key`. And if you select others then you have to provide the `Username` and `Password`.
 
   
 
@@ -115,9 +118,9 @@ Give the password corresponding to the username of your registry.
 
 ### Set as default:
 
-If you enable the **Set as default** option, then this registry name will be set as default in the **Docker Registry** section inside the **Docker build config** page. This is optional. You can keep it disabled.
+If you enable the `Set as default` option, then this registry name will be set as default in the `Docker Registry` section inside the `Docker build config` page. This is optional. You can keep it disabled.
 
   
 
-Now click on **Save** to save the configuration of the **Docker registry**.
+Now click on `Save` to save the configuration of the `Docker registry`.
 

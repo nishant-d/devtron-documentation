@@ -63,7 +63,7 @@ There are five Data types that you can use to save your secret.
 
 ## Volume Mount Path
 
-Specify the Volume Mount folder path in Volume Mount Path, a path where the data volume needs to be mounted. This volume will be accessible to the Containers running in a pod.
+Specify the Volume Mount folder path in `Volume Mount Path`, a path where the data volume needs to be mounted. This volume will be accessible to the Containers running in a pod.
 
 &nbsp;&nbsp;
 

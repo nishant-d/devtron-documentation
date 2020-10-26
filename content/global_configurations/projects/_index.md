@@ -5,13 +5,13 @@ description = ""
 weight = 4
 +++
 
-Projects are nothing but a logical grouping of your applications so that you can manage and control the access level of users. We will discuss User Access in the next step.
+Projects are nothing but a logical grouping of your applications so that you can manage and control the access level of users. We will discuss `User Access` in the next step.
 
   
 
 ## Add Project:
 
-Click on the Projects inside the Global configuration tab. Click on Add projects and give a name to your project and press the Save button to save your project
+Click on the Projects inside the Global configuration tab. Click on `Add projects` and give a name to your project and press the `Save` button to save your project
 
 &nbsp;&nbsp;
 

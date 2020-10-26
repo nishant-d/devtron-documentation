@@ -164,10 +164,13 @@ Once you have added your cluster in Cluster & Environment, you can add the envir
 
 You can update an already created environment, Select and click on the environment which you want to update. You can only change Production and Non-production options here.
 
-Note- you can not change the Environment name and Namespace name.
+#### Note 
+You can not change the Environment name and Namespace name.
 
 &nbsp;&nbsp;
 
 {{< figure src="../../cluster_gc7.png" height="510px">}}
 
 &nbsp;&nbsp;
+
+Click on `Update` to update your environment.

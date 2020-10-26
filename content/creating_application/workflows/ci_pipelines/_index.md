@@ -41,7 +41,7 @@ Click on `Continuous Integration` to configure CI Pipeline, a new window will ap
 |`Pipeline Name`  | Name of the pipeline |
 |`Source Type`|Select the source through which the CI Pipeline will be triggered by Automatic or Manual.|
 |`Branch Name/Tag Regex`|Enter branch name/tag regex.|
-|`Stages`|1. **Pre-build Stages**- Scripts to be executed before building an image. 2. **Docker build Stages**- Provide a new argument and override an old argument in key-value pair. 3. **Docker build Stages**- Scripts to be executed after building image|
+|`Stages`|1.**Pre-build Stages**- Scripts to be executed before building an image. <br /> 2.**Docker build Stages**- Provide a new argument and override an old argument in key-value pair. <br /> 3. **Docker build Stages**- Scripts to be executed after building image|		
 |`Scan for vulnerabilities`| It will scan your image and find if any vulnerabilities present |
 
 
@@ -82,13 +82,13 @@ You can add one stage or more than one stage in a CI Pipeline.
 
 #### (b) Docker build
 
-Though we have the option available in Docker build configuration section to add arguments in key-value pairs for docker build image. But one can also provide docker build arguments here as well. This is useful, in case you want to override them or want to add new arguments to build your docker image.
+Though we have the option available in `Docker build configuration` section to add arguments in key-value pairs for docker build image. But one can also provide docker build arguments here as well. This is useful, in case you want to override them or want to add new arguments to build your docker image.
 
 #### (c) Post-build
 
 The post-build stage is similar to the pre-build stage. The difference between the post-build stage and the pre-build stage is that the post-build will run when your CI pipeline will be executed successfully.
 
-Adding a post-build stage is similar to adding a pre-build stage. Click on Add Stage and provide a name to your post-stage. Here you can write your script as per your requirement, which will run in sequence after the docker image is built. You can also provide the path of the directory in which the output of the script will be stored in the Remote Directory column. And this is optional to fill because many times you run scripts which do not provide any output.
+Adding a post-build stage is similar to adding a pre-build stage. Click on `Add Stage` and provide a name to your post-stage. Here you can write your script as per your requirement, which will run in sequence after the docker image is built. You can also provide the path of the directory in which the output of the script will be stored in the `Remote Directory` column. And this is optional to fill because many times you run scripts which do not provide any output.
 
 &nbsp;&nbsp;
 
@@ -98,9 +98,9 @@ Adding a post-build stage is similar to adding a pre-build stage. Click on Add S
 
 #### NOTE:
 
-You can provide pre-build and post-build stages via the Devtron tool’s console or can also provide these details by creating a file “devtron.ci.yaml” inside your repository. There is a pre-defined format to write this file. And we will run these stages using this YAML file.
+You can provide pre-build and post-build stages via the Devtron tool’s console or can also provide these details by creating a file `devtron.ci.yaml` inside your repository. There is a pre-defined format to write this file. And we will run these stages using this YAML file.
 
-You can provide some stages on the Devtron tool’s console and some stages in the devtron.ci.yaml file. But stages defined through the Devtron dashboard are first executed then the stages defined in the devtron.ci.yaml file.
+You can provide some stages on the Devtron tool’s console and some stages in the devtron.ci.yaml file. But stages defined through the `Devtron` dashboard are first executed then the stages defined in the `devtron.ci.yaml` file.
 
   
 
@@ -108,9 +108,9 @@ You can provide some stages on the Devtron tool’s console and some stages in t
 
   
 
-Scan for vulnerabilities adds a security feature in your application. If you enable this option, your code will be scanned for any vulnerabilities present in your code. And you will be informed about these vulnerabilities. For more details please check <Security Features> doc
+`Scan for vulnerabilities` adds a security feature in your application. If you enable this option, your code will be scanned for any vulnerabilities present in your code. And you will be informed about these vulnerabilities. For more details please check <Security Features> doc
 
-You have provided all the details required to create a CI pipeline, now click on Create Pipeline.
+You have provided all the details required to create a CI pipeline, now click on `Create Pipeline`.
 
   
 
