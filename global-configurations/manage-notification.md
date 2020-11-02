@@ -8,17 +8,17 @@ Click on `Global Configurations` -&gt; `Notifications`
 
 Click on `Configurations` and you will see Devtron support two types of configurations `SES Configurations` or `Slack Configurations`.
 
-![](../images/global-configurations/manage-notification/not2.jpg)
+![](../images/global-configurations/manage-notification/gc-noitfication-condfiguration-tab.jpg)
 
 #### **Manage SES Configurations**
 
 You can manage the `SES configuration` to recieve e-mails by entering the valid credentials. Make sure your e-mail is verified by SES.
 
-![](../images/global-configurations/manage-notification/not1.jpg)
+![](../images/global-configurations/manage-notification/gc-noitfication-condfiguration-add.jpg)
 
 Click on `Add` and configure SES.
 
-![](../images/global-configurations/manage-notification/not3.jpg)
+![](../images/global-configurations/manage-notification/gc-noitfication-condfiguration-ses-confige.jpg)
 
 
 
@@ -36,11 +36,11 @@ Click on `Save` to save your SES configuration or e-mail ID
 
 You can manage the `Slack configurations` to recieve notifications on your preferred Slack channel.
 
-![](../images/global-configurations/manage-notification/not4.jpg)
+![](../images/global-configurations/manage-notification/gc-noitfication-condfiguration-add-slack.jpg)
 
 Click on `Add` to add new Slack Channel.
 
-![](../images/global-configurations/manage-notification/not5.jpg)
+![](../images/global-configurations/manage-notification/gc-noitfication-condfiguration-configure-slack.jpg)
 
 
 
@@ -56,11 +56,11 @@ Click on `Save` and your slack channel will be added.
 
 Click on `Add New` to recieve new notification.
 
-![](../images/global-configurations/manage-notification/notifi7.jpg)
+![](../images/global-configurations/manage-notification/gc-noitfication-add-notification.jpg)
 
 #### **Manage Slack Notifications**
 
-![](../images/global-configurations/manage-notification/notifi6.jpg)
+![](../images/global-configurations/manage-notification/gc-noitfication-add-notification-configuration.jpg)
 
 
 
@@ -74,13 +74,13 @@ _**Select Pipelines**_
   * Choose a filter type\(`environment`, `project` or `application`\)
   * You will see a list of pipelines corresponding to your selected filter type, you can select any number of pipelines. For each pipeline, there are 3 types of events `Trigger`, `Success`, and `Failure`. Click on the checkboxes for the events, on which you want to receive notifications.
 
-![](../images/global-configurations/manage-notification/not10.jpg)
+![](../images/global-configurations/manage-notification/gc-noitfication-add-notification-configuration-select-event.jpg)
 
 Click on `Save` when you are done with your Slack notification configuration.
 
 #### **Manage SES Notifications**
 
-![](../images/global-configurations/manage-notification/notifi6.jpg)
+![](../images/global-configurations/manage-notification/gc-noitfication-add-notification-configuration.jpg)
 
 
 
@@ -96,7 +96,6 @@ _**Select Pipelines**_
   * Choose a filter type\(environment, project or application\)
   * You will see a list of pipelines corresponding to your selected filter type, you can select any number of pipelines. For each pipeline, there are 3 types of events `Trigger`, `Success`, and `Failure`. Click on the checkboxes for the events, on which you want to receive notifications.
 
-![](../images/global-configurations/manage-notification/not9.jpg)
+![](../images/global-configurations/manage-notification/gc-noitfication-add-notification-configuration-select-event2.jpg)
 
 Click on `Save` once you have configured the e-mail notification.
-

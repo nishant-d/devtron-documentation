@@ -6,5 +6,5 @@ Projects are nothing but a logical grouping of your applications so that you can
 
 Click on the Projects inside the Global configuration tab. Click on `Add projects` and give a name to your project and press the `Save` button to save your project
 
-![](../images/global-configurations/projects/project_gc1.png)
+![](../images/global-configurations/projects/gc-project.png)
 

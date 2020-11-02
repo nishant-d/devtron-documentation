@@ -2,17 +2,17 @@
 
 ### Triggering CD Pipelines
 
-![](../images/deploying-application/triggering-cd/tri_cd.jpg)
+![](../images/deploying-application/triggering-cd/trigger-select-image.jpg)
 
 After CI Pipeline is complete, CD Pipeline can be triggered by Clicking on _Select Image_.
 
-![](../images/deploying-application/triggering-cd/cd1.jpg)
+![](../images/deploying-application/triggering-cd/cd-deploy-console.jpg)
 
 Select an image to deploy and then Click on **Deploy** to trigger the CD Pipeline.
 
 The running images are tagged as _Running_
 
-![](../images/deploying-application/triggering-cd/tri_cd5.jpg)
+![](../images/deploying-application/triggering-cd/deployed-app-details.jpg)
 
 The status of the current deployment can be viewed by Clicking on **App Details** that will show the _Progressing_ state for 1-2 minutes and then gradually shows _Healthy_ state or _Hibernating_ state, based on the deployment strategy.
 

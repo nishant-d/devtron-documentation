@@ -4,13 +4,13 @@ Secrets and configmaps both are used to store environment variables but there is
 
 Secret objects let you store and manage sensitive information, such as- passwords, auth tokens, and ssh keys. Embedding this information in a secret is safer and more flexible than putting it verbatim in a Pod definition or in a container image.
 
-![](../images/creating-application/secrets/secret1.png)
+![](../images/creating-application/secrets/add-secret.png)
 
 Click on `Add Secret` to add a new secret.
 
 ### Configure Secret
 
-![](../images/creating-application/secrets/secret8.jpg)
+![](../images/creating-application/secrets/configure-secrets.jpg)
 
 
 
@@ -37,15 +37,15 @@ There are five Data types that you can use to save your secret.
 
 Specify the Volume Mount folder path in `Volume Mount Path`, a path where the data volume needs to be mounted. This volume will be accessible to the Containers running in a pod.
 
-![](../images/creating-application/secrets/secret3.jpg)
+![](../images/creating-application/secrets/secret-volume-path.jpg)
 
 Click on `Save Secret` to save the secret.
 
-![](../images/creating-application/secrets/secret4.png)
+![](../images/creating-application/secrets/secret-created.png)
 
 You can see the Secret is added.
 
-![](../images/creating-application/secrets/arora3.gif)
+![](../images/creating-application/secrets/created-secret.gif)
 
 ### Update Secrets
 

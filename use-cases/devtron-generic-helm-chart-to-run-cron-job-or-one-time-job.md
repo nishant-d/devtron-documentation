@@ -8,17 +8,17 @@ You can use `Devtron-generic-Helm Chart` to run the cron jobs or one time job.
 
 Select the `Devtron-generic Helm Chart` from the Devtron Chart Store.
 
-![](../images/use-cases/devtron-generic-helm-chart-to-run-cron-job-or-one-time-job/gc-1.jpg)
+![](../images/use-cases/devtron-generic-helm-chart-to-run-cron-job-or-one-time-job/use-case-chart-store.jpg)
 
 Select the Chart Version and the Chart Value of the Chart.
 
 And, then Click on `Deploy`
 
-![](../images/use-cases/devtron-generic-helm-chart-to-run-cron-job-or-one-time-job/gc-2.jpg)
+![](../images/use-cases/devtron-generic-helm-chart-to-run-cron-job-or-one-time-job/use-case-deploy-chart.jpg)
 
 **Configure Devtron-generic-helm chart**
 
-![](../images/use-cases/devtron-generic-helm-chart-to-run-cron-job-or-one-time-job/gc-4.jpg)
+![](../images/use-cases/devtron-generic-helm-chart-to-run-cron-job-or-one-time-job/use-case-devtron-genric-configuration)
 
 Click on **Deploy Chart**
 

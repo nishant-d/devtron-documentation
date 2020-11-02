@@ -6,7 +6,7 @@ Deployment configuration is the Manifest for the application, it defines the run
 2. Yaml file
 3. Show application metrics
 
-![](../images/creating-application/deployment-template/move3.gif)
+![](../images/creating-application/deployment-template/deployment-template.gif)
 
 ### 1. Chart version
 

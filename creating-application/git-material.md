@@ -8,7 +8,7 @@ Git material is used to pull the application source code during the CI step. Ins
 
 Devtron also supports multiple git repositories in a single deployment. We will discuss this in detail in the multi git option [below](git-material.md#4-multi-git).
 
-![](../images/creating-application/git-material/move1.gif)
+![](../images/creating-application/git-material/adding-git-material.gif)
 
 ## 1. Select Provider
 
@@ -26,7 +26,7 @@ The git checkout path is the directory where your code is pulled or cloned for t
 
 This field is optional in case of a single git repository application and you can leave the path as default. The default value of this field is `./`
 
-![](../images/creating-application/git-material/git_material2.jpg)
+![](../images/creating-application/git-material/git-checkout-path.jpg)
 
 But if you want to go with a multi git approach then you can leave the path as default for one of the repository but for other repositories you have to provide this path. In multi git checkout, this checkout path becomes mandatory for other repositories
 

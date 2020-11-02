@@ -90,7 +90,7 @@ Users can run the Test case using the Devtron Dashboard or by including the Test
 
 The test cases given in the script will run before the Test Cases given in the devtron.ci.yaml
 
-![](../../images/creating-application/workflow-ci-pipeline/yaml.jpg)
+![](../../images/creating-application/workflow-ci-pipeline/ci-yaml.jpg)
 
 
 

@@ -2,11 +2,11 @@
 
 ### Create CD Pipeline
 
-![](../../images/creating-application/workflow-cd-pipeline/workflow-editor5.png)
+![](../../images/creating-application/workflow-cd-pipeline/cd-pipeline-console.png)
 
 Click on **“+”** sign on CI Pipeline to attach a CD Pipeline to it.
 
-![](../../images/creating-application/workflow-cd-pipeline/workflow-editor6.png)
+![](../../images/creating-application/workflow-cd-pipeline/create-cd-pipeline.png)
 
 One can have a single CD pipeline or multiple CD pipelines connected to the same CI Pipeline. A CD pipeline corresponds to one environment or in other words, an environment of an application can have only one CD pipeline. So images created by the CI pipeline can be deployed into multiple environments.
 
@@ -23,7 +23,7 @@ CD pipeline configuration has below options to be configured:
 | Deployment Strategy | Select the type of deployment strategy that you want to enable by clicking `Add Deployment Strategy` |
 | Post-deployment stage | Run any configuration and provide secrets after the deployment |
 
-![](../../images/creating-application/workflow-cd-pipeline/workflow-editor8-resize.png)
+![](../../images/creating-application/workflow-cd-pipeline/configuring-cd-pipeline.png)
 
 #### 1. Pipeline Name
 
@@ -85,7 +85,7 @@ You can use Config Map and Secrets in post deployments as well, as defined in Pr
 
 You have configured the CD pipeline, now click on `Create Pipeline` to save it. You can see your newly created CD Pipeline on the Workflow tab attached to the corresponding CI Pipeline.
 
-![](../../images/creating-application/workflow-cd-pipeline/workflow-editor9.png)
+![](../../images/creating-application/workflow-cd-pipeline/create-cd-pipeline.png)
 
 The CD Pipeline is created
 

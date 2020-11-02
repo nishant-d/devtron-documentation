@@ -49,7 +49,7 @@ Give, the path of the Dockerfile.
 
 Enable `Ingress`, and give the path on which you want to host the application.
 
-![](../images/use-cases/connect-django-with-mysql-database/deploy_t.jpg)
+![](../images/use-cases/connect-django-with-mysql-database/use-case-django-ingress-template.jpg)
 
 #### _\*Set up the CI/CD Pipelines_
 
@@ -67,5 +67,5 @@ The syntax is: `http://<hostname>/<path>/`
 
 _**path**_ will be the one that you have given in Step 3 while configuring the Deployment Template.
 
-![](../images/use-cases/connect-django-with-mysql-database/demo.jpg)
+![](../images/use-cases/connect-django-with-mysql-database/use-case-django-view-edemo-data.jpg)
 

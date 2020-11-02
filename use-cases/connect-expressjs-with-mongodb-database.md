@@ -61,9 +61,9 @@ Give, the path of the Dockerfile.
 
 Enable `Ingress`, and give the path on which you want to host the application.
 
-![](../images/use-cases/connect-expressjs-with-mongodb-database/view5.jpg)
+![](../images/use-cases/connect-expressjs-with-mongodb-database/use-case-expressjs-view-student-data-with-id.jpg)
 
-![](../images/use-cases/connect-expressjs-with-mongodb-database/one.jpg)
+![](../images/use-cases/connect-expressjs-with-mongodb-database/use-case-expressjs-ingress-template.jpg)
 
 #### _\*Set up the CI/CD Pipelines_
 
@@ -83,7 +83,7 @@ _**path**_ will be the one that you have given in Step 3 while configuring the D
 
 The output of our application would be as follows:
 
-![](../images/use-cases/connect-expressjs-with-mongodb-database/two.jpg)
+![](../images/use-cases/connect-expressjs-with-mongodb-database/use-case-expressjs-view-demo-data.jpg)
 
 You can see that we are getting the JSON response. We have successfully connected our expressjs application to the mongoDb database.
 

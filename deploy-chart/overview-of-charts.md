@@ -8,7 +8,7 @@ Both methods are mentioned in the given document.
 
 ### Deploying Chart
 
-![](../images/deploy-chart/overview-of-charts/depchart1.jpg)
+![](../images/deploy-chart/overview-of-charts/deploy-chart-store.jpg)
 
 Select Discover and then select the chart that you want to use
 

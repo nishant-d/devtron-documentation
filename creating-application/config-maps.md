@@ -4,7 +4,7 @@ The ConfigMap API resource holds key-value pairs of configuration data that can 
 
 Click on `Add ConfigMap` to add a config map to your application.
 
-![](../images/creating-application/config-maps/cf1.jpg)
+![](../images/creating-application/config-maps/ad-confgimap.jpg)
 
 
 
@@ -26,7 +26,7 @@ You can configure the configmap in two way-
 | `Use configmap as Data Volume` | Select this option, if you want to configure any Data Volume that is accessible to Containers running in a pod and provide a Volume mount path. |
 | `Key-Value` | Provide the actual key-value configuration data here. Key and corresponding value to the provided key. |
 
-![](../images/creating-application/config-maps/config1.jpg)
+![](../images/creating-application/config-maps/configure-configmap.jpg)
 
 **1. Data Type**
 
@@ -71,13 +71,13 @@ If you select `Environment Variable` in 3rd option, then you can provide your en
 
 `Data in YAML` \(please Check below screenshot\)
 
-![](../images/creating-application/config-maps/config2.jpg)
+![](../images/creating-application/config-maps/configmap-yaml.jpg)
 
 Now, Click on `Save ConfigMap` to save your configmap configuration.
 
 **Kubernetes ConfigMap using Data Volume**
 
-![](../images/creating-application/config-maps/config2.jpg)
+![](../images/creating-application/config-maps/configmap-yaml.jpg)
 
 ### Volume Mount Path
 
@@ -97,11 +97,11 @@ If you are using `Kubernetes External ConfigMap`, make sure you give the name of
 
 You have to ensure that the External ConfigMap exists and is available to the pod.
 
-![](../images/creating-application/config-maps/config4.jpg)
+![](../images/creating-application/config-maps/created-configmap.jpg)
 
 The config map is created.
 
-![](../images/creating-application/config-maps/arora2.gif)
+![](../images/creating-application/config-maps/created-configmap.gif)
 
 ### Update ConfigMap
 

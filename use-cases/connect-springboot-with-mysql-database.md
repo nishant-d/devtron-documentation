@@ -69,7 +69,7 @@ Give, the path of the Dockerfile.
 
 Enable `Ingress`, and give the path on which you want to host the application.
 
-![](../images/use-cases/connect-springboot-with-mysql-database/three.jpg)
+![](../images/use-cases/connect-springboot-with-mysql-database/use-cases-springboot-ingress-template.jpg)
 
 #### _\*Set up the CI/CD Pipelines_
 
@@ -105,7 +105,7 @@ _**path**_ will be the one that you have given in Step 3 while configuring the D
 
 `http://<hostname>/<path>/viewAll`
 
-![](../images/use-cases/connect-springboot-with-mysql-database/view5.jpg)
+![](../images/use-cases/connect-springboot-with-mysql-database/use-cases-springboot-view-student-data.jpg)
 
 _**View student's data By student ID**_
 
@@ -115,5 +115,5 @@ To view student data by student id, GET Request is:
 
 _**path**_ will be the one that you have given in Step 3 while configuring the Deployment Template.
 
-![](../images/use-cases/connect-springboot-with-mysql-database/view6.jpg)
+![](../images/use-cases/connect-springboot-with-mysql-database/use-cases-springboot-view-student-data-with-id.jpg)
 
