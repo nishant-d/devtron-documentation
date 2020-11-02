@@ -2,7 +2,7 @@
 
 ### Create CD Pipeline
 
-![](../../mages/creating-application/workflow-cd-pipeline/workflow-editor5.png)
+![](../../images/creating-application/workflow-cd-pipeline/workflow-editor5.png)
 
 Click on **“+”** sign on CI Pipeline to attach a CD Pipeline to it.
 
