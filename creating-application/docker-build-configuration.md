@@ -8,7 +8,7 @@ Docker build configuration is used to create and push docker images in the docke
 
 Only one docker image can be created even for multi-git repository application as explained in the [previous step](git-material.md).
 
-![](../mages/creating-application/docker-build-configuration/move2.gif)
+![](../images/creating-application/docker-build-configuration/move2.gif)
 
 Here you can see, 5 options are present to configure your **docker build**.
 
