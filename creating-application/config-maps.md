@@ -4,7 +4,7 @@ The ConfigMap API resource holds key-value pairs of configuration data that can 
 
 Click on `Add ConfigMap` to add a config map to your application.
 
-![](../.gitbook/assets/cf1.jpg)
+![](../images/creating-application/config-maps/cf1.jpg)
 
 
 
@@ -26,7 +26,7 @@ You can configure the configmap in two way-
 | `Use configmap as Data Volume` | Select this option, if you want to configure any Data Volume that is accessible to Containers running in a pod and provide a Volume mount path. |
 | `Key-Value` | Provide the actual key-value configuration data here. Key and corresponding value to the provided key. |
 
-![](../.gitbook/assets/config1.jpg)
+![](../images/creating-application/config-maps/config1.jpg)
 
 **1. Data Type**
 
@@ -71,13 +71,13 @@ If you select `Environment Variable` in 3rd option, then you can provide your en
 
 `Data in YAML` \(please Check below screenshot\)
 
-![](../.gitbook/assets/config2.jpg)
+![](../images/creating-application/config-maps/config2.jpg)
 
 Now, Click on `Save ConfigMap` to save your configmap configuration.
 
 **Kubernetes ConfigMap using Data Volume**
 
-![](../.gitbook/assets/config2.jpg)
+![](../images/creating-application/config-maps/config2.jpg)
 
 ### Volume Mount Path
 
@@ -97,17 +97,17 @@ If you are using `Kubernetes External ConfigMap`, make sure you give the name of
 
 You have to ensure that the External ConfigMap exists and is available to the pod.
 
-![](../.gitbook/assets/config4.jpg)
+![](../images/creating-application/config-maps/config4.jpg)
 
 The config map is created.
 
-![](../.gitbook/assets/arora2.gif)
+![](../images/creating-application/config-maps/arora2.gif)
 
 ### Update ConfigMap
 
 You can update your configmap anytime later but you cannot change the name of your configmap. If you want to change the name of the configmap then you have to create a new configmap. To update configmap, click on the configmap you have created make changes as required.
 
-![](../.gitbook/assets/update_configmap.png)
+![](../images/creating-application/config-maps/update_configmap.png)
 
 Click on `Update Configmap` to update your configmap.
 
@@ -115,5 +115,5 @@ Click on `Update Configmap` to update your configmap.
 
 You can delete your configmap. Click on your configmap and click on the `delete sign` to delete your configmap.
 
-![](../.gitbook/assets/delete_configmap.png)
+![](../images/creating-application/config-maps/delete_configmap.png)
 

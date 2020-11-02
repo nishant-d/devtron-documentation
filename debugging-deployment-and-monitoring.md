@@ -10,7 +10,7 @@ Over here, you can see the status of the app as Healthy. If there are some error
 
 #### Events
 
-![](.gitbook/assets/events1.jpg)
+![](images/debugging-deployment-and-monitoring/events1.jpg)
 
 Events of the application are accessible from the bottom left corner.
 
@@ -18,19 +18,19 @@ Events section displays you the events that took place during the deployment of 
 
 #### Logs
 
-![](.gitbook/assets/events2.jpg)
+![](images/debugging-deployment-and-monitoring/events2.jpg)
 
 Logs contain the logs of the Pods and Containers deployed which you can use for the process of debugging.
 
 #### Manifest
 
-![](.gitbook/assets/events3.jpg)
+![](images/debugging-deployment-and-monitoring/events3.jpg)
 
 The Manifest shows the critical information such as Container-image, restartCount, state, phase, podIP, startTime etc. and status of the pods deployed.
 
 #### Deleting Pods
 
-![](.gitbook/assets/events5.png)
+![](images/debugging-deployment-and-monitoring/events5.png)
 
 
 
@@ -51,13 +51,13 @@ You can view `Application Objects` in this section of `App Details`, such as:
 | `Config & Storage` | _ConfigMap_\( API object used to store non-confidential data in key-value pairs\) |
 | `Custom Resource` | _Rollout_\(new Pods will be scheduled on Nodes with available resources\), _ServiceMonitor_\(specifies how groups of services should be monitored\) |
 
-![](.gitbook/assets/events6.png)
+![](images/debugging-deployment-and-monitoring/events6.png)
 
 
 
 ### Monitoring
 
-![](.gitbook/assets/events4.jpg)
+![](images/debugging-deployment-and-monitoring/events4.jpg)
 
 You can monitor the application in the `App Details`section.
 

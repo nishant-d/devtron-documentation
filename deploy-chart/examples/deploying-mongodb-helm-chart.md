@@ -4,7 +4,7 @@
 
 Let's assume that you are building an application which needs mongoDB.
 
-![](../../.gitbook/assets/mongo.jpg)
+![](../../images/deploy-chart/deploying-mongodb-helm-chart/mongo.jpg)
 
 Deploying applications as Helm Charts is the easiest way to create applications on Devtron.
 
@@ -14,13 +14,13 @@ This guide will introduce you to how to deploy the mongoDB's Helm chart.
 
 Select the `Charts` section from the left pane, you will be landed to the `Chart Store` page. Click on `Discover` and find `stable/mongodb-replicaset` Helm Chart.
 
-![](../../.gitbook/assets/first.jpg)
+![](../../images/deploy-chart/deploying-mongodb-helm-chart/first.jpg)
 
 ### 2. Configure the Chart
 
 After selecting the stable/mongodb helm chart, click on `Deploy`
 
-![](../../.gitbook/assets/second.jpg)
+![](../../images/deploy-chart/deploying-mongodb-helm-chart/second.jpg)
 
 Enter the following details, to deploy mongoDB chart:
 
@@ -38,7 +38,7 @@ In this example `replicas` is set to **1** and `persistenceVolume` is set to **f
 
 To learn about different parameters used in the chart, you can check [Documentation of mongodb Helm chart](https://hub.helm.sh/charts/bitnami/mongodb)
 
-![](../../.gitbook/assets/mongo1.jpg)
+![](../../images/deploy-chart/deploying-mongodb-helm-chart/mongo1.jpg)
 
 Click on `Deploy` after you have finished configuring the chart.
 
@@ -48,7 +48,7 @@ After clicking on `Deploy` you will land on a page, that shows the Status of the
 
 The Status of the chart should be `Healthy`. It might take few seconds after initiating the deployment of the chart.
 
-![](../../.gitbook/assets/mongo4.png)
+![](../../images/deploy-chart/deploying-mongodb-helm-chart/mongo4.png)
 
 In case the Status of the deployment is `Degraded` or takes a long time to get deployed.
 
@@ -58,7 +58,5 @@ Click on the `Status` or check the logs of the pods to debug the issue.
 
 Copy the service name, it will be used to connect your application to mongoDB.
 
-![](../../.gitbook/assets/mongo6.png)
-
-
+![](../../images/deploy-chart/deploying-mongodb-helm-chart/mongo6.png)
 

@@ -18,7 +18,7 @@ Go to the left main panel -&gt; `Select Global Configurations` -&gt; Select `Use
 
 Click on `Add User`, to add one or multiple users.
 
-![](../.gitbook/assets/user1.jpg)
+![](../images/global-configurations/user-access/user1.jpg)
 
 
 
@@ -44,9 +44,9 @@ In the `Email address` box, you have to provide the mail ID of the user to whom 
 
 If you check the option `Assign super admin permissions`, the user will get full access to your system and the rest of the options will disappear. The user with super admin permission can do anything whatever the user wants to do.
 
-![](../.gitbook/assets/user_gc1.png)
+![](../images/global-configurations/user-access/user_gc1.png)
 
-
+	
 
 Click on `Save` and your user will be saved with super admin permissions.
 
@@ -85,7 +85,7 @@ Similarly, you can select `Applications` from the drop-down corresponding to you
   * **Admin**: User\(s\)/Group\(s\) who have `Admin` permission can view, trigger, and edit selected applications.
   * **Manager**: User\(s\)/Group\(s\) under manager also have the `Admin` permissions but apart from that they can create, edit, and delete the selected applications, can also manage `User access` but the user can only give permissions on those applications which the user has access to.
 
-![](../.gitbook/assets/user3.jpg)
+![](../images/global-configurations/user-access/user3.jpg)
 
 You can add multiple rows, for Direct Permissions.
 
@@ -99,17 +99,17 @@ You can either give the users permission to `Create` or `Edit`.
 
 Click on the checkbox of `Create`, if you want the users to create, view, edit, or delete all the chart groups.
 
-![](../.gitbook/assets/user4.jpg)
+![](../images/global-configurations/user-access/user4.jpg)
 
 Click on the checkbox of `Edit`, if you want to `allow` or `deny` users to edit the chart groups.
 
 Select on `Deny` option from the drop-down menu, if you want to restrict the users to edit the chart groups.
 
-![](../.gitbook/assets/user5.jpg)
+![](../images/global-configurations/user-access/user5.jpg)
 
 Select the `Specific Charts` option from the drop-down menu, and then select the chart groups for which you want to allow users to edit, from the other drop-down menu.
 
-![](../.gitbook/assets/user6.jpg)
+![](../images/global-configurations/user-access/user6.jpg)
 
 Click on `Save`, once you have configured all the required permissions for the users.
 
@@ -117,11 +117,11 @@ Click on `Save`, once you have configured all the required permissions for the u
 
 You can edit the user permissions, by clicking on the `downward arrow`.
 
-![](../.gitbook/assets/edit1.jpg)
+![](../images/global-configurations/user-access/edit1.jpg)
 
 Then you can edit the user permissions here.
 
-![](../.gitbook/assets/edit2.jpg)
+![](../images/global-configurations/user-access/edit2.jpg)
 
 After you have done editing the user permissions. Click on `Save`.
 
@@ -135,11 +135,11 @@ The advantage of the groups is to define a set of privileges like create, edit, 
 
 Click on `Add Group`, to create a new group.
 
-![](../.gitbook/assets/user7.jpg)
+![](../images/global-configurations/user-access/user7.jpg)
 
 Enter the `Group Name` and `Description`.
 
-![](../.gitbook/assets/user8.jpg)
+![](../images/global-configurations/user-access/user8.jpg)
 
 #### 2. Create Group Permissions
 
@@ -147,7 +147,7 @@ Once you have given the group name and group description.
 
 Then, control the access permissions of groups in the Direct Permissions section. Manage the Project, Environment, Application, and Role access the same as we discuss in the above users section.
 
-![](../.gitbook/assets/user9.jpg)
+![](../images/global-configurations/user-access/user9.jpg)
 
 You can add multiple rows, for the Direct Permissions section.
 
@@ -157,11 +157,11 @@ Once you have finished assigning the appropriate permissions for the listed user
 
 You can edit the group permissions, by clicking on the `downward arrow.`
 
-![](../.gitbook/assets/edit4.jpg)
+![](../images/global-configurations/user-access/edit4.jpg)
 
 Then you can edit the user permissions here.
 
-![](../.gitbook/assets/edit7.jpg)
+![](../images/global-configurations/user-access/edit7.jpg)
 
 Once you are done editing the group permissions. Click on `Save`.
 

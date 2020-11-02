@@ -4,13 +4,13 @@ Secrets and configmaps both are used to store environment variables but there is
 
 Secret objects let you store and manage sensitive information, such as- passwords, auth tokens, and ssh keys. Embedding this information in a secret is safer and more flexible than putting it verbatim in a Pod definition or in a container image.
 
-![](../.gitbook/assets/secret1.png)
+![](../images/creating-application/secrets/secret1.png)
 
 Click on `Add Secret` to add a new secret.
 
 ### Configure Secret
 
-![](../.gitbook/assets/secret8.jpg)
+![](../images/creating-application/secrets/secret8.jpg)
 
 
 
@@ -37,15 +37,15 @@ There are five Data types that you can use to save your secret.
 
 Specify the Volume Mount folder path in `Volume Mount Path`, a path where the data volume needs to be mounted. This volume will be accessible to the Containers running in a pod.
 
-![](../.gitbook/assets/secret3.jpg)
+![](../images/creating-application/secrets/secret3.jpg)
 
 Click on `Save Secret` to save the secret.
 
-![](../.gitbook/assets/secret4.png)
+![](../images/creating-application/secrets/secret4.png)
 
 You can see the Secret is added.
 
-![](../.gitbook/assets/arora3.gif)
+![](../images/creating-application/secrets/arora3.gif)
 
 ### Update Secrets
 
@@ -53,7 +53,7 @@ You can update your secrets anytime later, but you cannot change the name of you
 
 To update secrets, click on the secret you wish to update.
 
-![](../.gitbook/assets/updating_secrets.png)
+![](../images/creating-application/secrets/updating_secrets.png)
 
 Click on `Update Secret` to update your secret.
 
@@ -61,5 +61,5 @@ Click on `Update Secret` to update your secret.
 
 You can delete your secret. Click on your secret and click on the `delete sign` to delete your secret.
 
-![](../.gitbook/assets/delete_secret.png)
+![](../images/creating-application/secrets/delete_secret.png)
 
