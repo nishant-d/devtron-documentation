@@ -25,7 +25,7 @@ Provide the below information to add your kubernetes cluster:
    * TLS Key
    * TLS Certificate
 
-![](../.gitbook/assets/cluster_gc1.png)
+![](../images/global-configurations/cluster-and-environments/gc-cluster-add.png)
 
 #### 1. Name
 
@@ -67,11 +67,11 @@ TLS key and TLS certificate both options are optional, these options are used wh
 
 Check the below screenshots to know how it looks like If you select the `Basic` authentication type
 
-![](../.gitbook/assets/cluster_gc2.png)
+![](../images/global-configurations/cluster-and-environments/gc-cluster-configure.png)
 
 If you select the `Anonymous` authentication type
 
-![](../.gitbook/assets/cluster_gc3.png)
+![](../images/global-configurations/cluster-and-environments/gc-cluster-configure-anonymous.png)
 
 Now click on `Save Cluster` to save your cluster information.
 
@@ -79,17 +79,17 @@ Now click on `Save Cluster` to save your cluster information.
 
 Your kubernetes cluster gets mapped with the Devtron when you save your kubernetes cluster Configuration. Now the agents of devtron will be installed on your cluster so that the components of devtron can communicate to your cluster. When the agent starts installing on your cluster, you can check the status of the agents in the Cluster & Environment tab also.
 
-![](../.gitbook/assets/cluster_gc4.png)
+![](../images/global-configurations/cluster-and-environments/gc-cluster-agents.png)
 
 Click on `Details` to check what got installed inside the agents. A new window will be popped up displaying all the details about these agents.
 
-![](../.gitbook/assets/cluster_gc5.png)
+![](../images/global-configurations/cluster-and-environments/gc-cluster-agents-details.png)
 
 ### Add Environment
 
 Once you have added your cluster in Cluster & Environment, you can add the environment also. Click on `Add Environment`, a window will be opened. Give a name to your environment in the `Environment Name` box and provide a namespace corresponding to your environment in the `Namespace` input box. Now choose if your environment is for Production purposes or for Non-production purposes. Production and Non-production options are only for tagging purposes. Click on `Save` and your environment will be created.
 
-![](../.gitbook/assets/cluster_gc6.png)
+![](../images/global-configurations/cluster-and-environments/gc-cluster-add-environment.png)
 
 You can update an already created environment, Select and click on the environment which you want to update. You can only change Production and Non-production options here.
 
@@ -97,7 +97,7 @@ You can update an already created environment, Select and click on the environme
 
 You can not change the Environment name and Namespace name.
 
-![](../.gitbook/assets/cluster_gc7.png)
+![](../images/global-configurations/cluster-and-environments/gc-cluster-update-environment.png)
 
 Click on `Update` to update your environment.
 

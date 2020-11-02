@@ -16,7 +16,7 @@ Glocal configurations are used to configure your Git Providers, Docker Registry,
 * Password/Auth token
 * User auth
 
-![](../.gitbook/assets/git_account_gc1.png)
+![](../images/global-configurations/git-accounts/gc-add-gitaccount.png)
 
 #### 1. Name
 
@@ -34,7 +34,7 @@ Here you have to provide the type of Authentication required by your version con
 
 If you select `Anonymous` then you do not have to provide any username, password, and authentication token. Just click on `Save` to save your git account provider details. 
 
-![](../.gitbook/assets/git_account_gc2.png)
+![](../images/global-configurations/git-accounts/gc-git-account-configure.png)
 
 
 
@@ -42,7 +42,7 @@ If you select `Anonymous` then you do not have to provide any username, password
 
 If you select Password/Auth token then you have to provide the `Access token` for the authentication of your version controller account inside the Access token box. Click on `Save` to save your git account provider details.
 
-![](../.gitbook/assets/git_account_gc3.png)
+![](../images/global-configurations/git-accounts/gc-git-account-configure-password.png)
 
 
 
@@ -50,17 +50,16 @@ If you select Password/Auth token then you have to provide the `Access token` fo
 
 If you choose `User auth` then you have to provide the `Username` and `Password` of your version controller account. Click on `Save` to save your git account provider details.
 
-![](../.gitbook/assets/git_account_gc4.png)
+![](../images/global-configurations/git-accounts/gc-git-account-configure-user-auth.png)
 
 ### Update Git Account
 
 You can update your saved git account settings at any point in time. Click on the git account which you want to update. Make changes and click on \`Update to save you changes.
 
-![](../.gitbook/assets/git_account_gc5.png)
+![](../images/global-configurations/git-accounts/gc-edit-git-account.png)
 
 #### Note:
 
 You can enable and disable your git account setting. If you enable it, then you are able to see the git account in the drop-down of Git provider.
 
-![](../.gitbook/assets/git_account_gc6.png)
-
+![](../images/global-configurations/git-accounts/gc-added-git-accounts.png)

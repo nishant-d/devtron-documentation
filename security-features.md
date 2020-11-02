@@ -35,7 +35,7 @@ You can find the Vulnerabilities `Build History` Page if you have enabled the `S
 
 Your Application-&gt; Build History-&gt; Select pipeline-&gt; Go to Security Tab.
 
-![](.gitbook/assets/security-feature1.png)
+![](images/security-features/security-feature-build-history-security.png)
 
 Here you can see all the vulnerabilities found in the build image.
 
@@ -59,17 +59,17 @@ You can see details of these vulnerabilities by expanding the `Show Source Info`
 
 See the below image.
 
-![](.gitbook/assets/security-feature2.png)
+![](images/security-features/security-feature-deployed-image.png)
 
 Click on the `Show Source Info` option. A window will be expanded with two options- Changes and Security. Click on the Security tab to view details about the vulnerabilities in the code.
 
-![](.gitbook/assets/security-feature3%20%281%29.png)
+![](images/security-features/security-feature-deployed-image-security.png)
 
 **Find Vulnerabilities on the App Details Page**
 
 You can find Vulnerabilities on the `App Details` page too. Here we are displaying the total number of vulnerabilities found in the code and their Severity Level wise segregation.
 
-![](.gitbook/assets/security-feature4.png)
+![](images/security-features/security-feature-app-details-vulnerability.png)
 
 ### Security
 
@@ -81,11 +81,11 @@ It displays the “Vulnerability count and Severity Level” on a priority basis
 
 You can directly `Search` your application using the Search bar or you can `filter out` your requirement according to Severity, Clusters, and Environment.
 
-![](.gitbook/assets/security-feature5.png)
+![](images/security-features/security-feature-securitytab-security-scan.png)
 
 Now if you click on the severity level of vulnerability it will show you the list of all vulnerabilities along with other details.
 
-![](.gitbook/assets/security-feature6.png)
+![](images/security-features/security-feature-securitytab-list-vulnerability.png)
 
 ### Security Policies:
 
@@ -106,7 +106,7 @@ Policies work in hierarchical order.
 
 Order to be followed- First Global and second Cluster and so on as you can see the order of the options
 
-![](.gitbook/assets/security-feature7.png)
+![](images/security-features/security-feature-global-security-policies.png)
 
 **Some examples of how policies can be defined**
 
@@ -116,7 +116,7 @@ Users can block all the critical vulnerabilities and allow the moderate and low 
 
 To configure these policies, click on the drop-down option of the severity levels and select Block or Allow.
 
-![](.gitbook/assets/security-feature8.png)
+![](images/security-features/security-feature-global-security-policies-global.png)
 
 ### Configure Cluster Security Policy
 
