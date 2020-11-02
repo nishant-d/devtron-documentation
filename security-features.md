@@ -63,7 +63,7 @@ See the below image.
 
 Click on the `Show Source Info` option. A window will be expanded with two options- Changes and Security. Click on the Security tab to view details about the vulnerabilities in the code.
 
-![](images/security-features/security-feature3%20%281%29.png)
+![](images/security-features/security-feature3.png)
 
 **Find Vulnerabilities on the App Details Page**
 
