@@ -1,0 +1,2 @@
+# Security Scan - Current image
+

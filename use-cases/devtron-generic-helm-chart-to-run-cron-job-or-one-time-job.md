@@ -1,5 +1,6 @@
 # Devtron Generic Helm Chart To Run Cron Job Or One Time Job
 
+
 ### Using Devtron-generic-Helm Chart to run Cron Job or One Time job
 
 You can discover over 200 Charts from the Devtron Chart store to perform different tasks such as to deploy a YAML file.
@@ -8,17 +9,17 @@ You can use `Devtron-generic-Helm Chart` to run the cron jobs or one time job.
 
 Select the `Devtron-generic Helm Chart` from the Devtron Chart Store.
 
-![](../.gitbook/assets/gc-1.jpg)
+![](./images/devtron-generic-helm-chart-to-run-cron-job-or-one-time-job/use-case-chart-store.jpg)
 
 Select the Chart Version and the Chart Value of the Chart.
 
 And, then Click on `Deploy`
 
-![](../.gitbook/assets/gc-2.jpg)
+![](./images/devtron-generic-helm-chart-to-run-cron-job-or-one-time-job/use-case-deploy-chart.jpg)
 
 **Configure Devtron-generic-helm chart**
 
-![](../.gitbook/assets/gc-4.jpg)
+![](./images/devtron-generic-helm-chart-to-run-cron-job-or-one-time-job/use-case-devtron-genric-configuration)
 
 Click on **Deploy Chart**
 
@@ -31,4 +32,3 @@ Click on **Deploy Chart**
 | `Chart Values` | Select the Chart Value or Create a Custom Value |
 
 In **values.yaml**, you can specify the YAML file that schedules the cron job for your application.
-
