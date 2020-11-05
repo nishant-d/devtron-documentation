@@ -1,7 +1,19 @@
 # Table of contents
 
+* [Introduction](README.md)
+* [What is Devtron?](what-is-devtron.md)
+* [What is AppOps?](what-is-appops.md)
+* [Why Devtron?](why-devtron.md)
+
 ## Setup
 
+* [Getting Started](setup/getting-started/README.md)
+  * [Installation with default values](setup/getting-started/installation-with-default-values.md)
+  * [Global Configurations](setup/getting-started/global-configurations.md)
+  * [Deploying sample springboot app](setup/getting-started/deploying-sample-springboot-app.md)
+  * [Other quickstart apps](setup/getting-started/other-quickstart-apps.md)
+* [Detailed Installation instructions](setup/detailed-installation-instructions.md)
+* [Upgrade Devtron](setup/upgrade-devtron.md)
 
 ## User Guide
 * [Introduction](README.md)
