@@ -13,7 +13,7 @@
 
 ## User Guide
 
-* [Introduction](user-guide/readme.md)
+* [Introduction](user-guide/user-guide.md)
 * [Creating Application](user-guide/creating-application/README.md)
   * [Git Material](user-guide/creating-application/git-material.md)
   * [Docker Build Configuration](user-guide/creating-application/docker-build-configuration.md)
