@@ -47,7 +47,7 @@ $ kubectl -n devtroncd get secret devtron-secret -o jsonpath='{.data.ACD_PASSWOR
 
 All parameters mentioned in the `values.yaml` are mandatory.
 
-First section is ***secrets.env*** and it has following properties
+**First section is ***secrets.env*** and it has following properties**
 
 | Parameter | Description | Default |
 |:----------|:------------|:--------|
@@ -55,7 +55,12 @@ First section is ***secrets.env*** and it has following properties
 | GIT_TOKEN | git token for the gitops work flow, please note this is not for source code of repo and this token should have full access to create, delete, update repository (required) |  |
 | WEBHOOK_TOKEN | If you want to continue using jenkins for CI then please provide this for authentication of requests (optional)  |  |
 
-Second section is ***configs*** and has following properties
+
+<br><br>
+
+**Second section is ***configs*** and has following properties**
+
+<br>
 
 | Parameter | Description | Default |
 |:----------|:------------|:--------|
@@ -75,6 +80,8 @@ Second section is ***configs*** and has following properties
 | CHARTMUSEUM_STORAGE_AMAZON_REGION | AWS region for bucket defined in previous step to store charts | |
 | EXTERNAL_SECRET_AMAZON_REGION | AWS region for secret manager to pick |  |
 | PROMETHEUS_URL | url of prometheus where all cluster data is stored, if this is wrong, you will not be able to see application metrics like cpu, ram, http status code, latency and throughput |  |
+
+<br>
 
 example of DEX_CONFIG is
 
