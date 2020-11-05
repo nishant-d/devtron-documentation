@@ -44,7 +44,6 @@ It is designed as a self-serve platform for operationalizing and maintaining app
 - ***Advanced logging*** with grep and json search 
 - Intelligent ***correlation between events, logs*** for faster triangulation of issue 
 - Auto issue identification 
-</details>
 
 #### Enterprise Grade security and compliances
  
