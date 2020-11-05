@@ -42,7 +42,7 @@ For login use username:`admin` and for password run command mentioned below.
 $ kubectl -n devtroncd get secret devtron-secret -o jsonpath='{.data.ACD_PASSWORD}' | base64 -d
 ```
 
-### Configuration
+## Configuration
 
 All parameters mentioned in the `values.yaml` are mandatory.
 
@@ -93,5 +93,6 @@ DEX_CONFIG: |-
 ```
 
 **Please Note:** 
+
 Ensure that the cluster has access to the DEFAULT\_CACHE\_BUCKET, DEFAULT\_BUILD\_LOGS\_BUCKET, CHARTMUSEUM\_STORAGE\_AMAZON\_BUCKET and AWS secrets backends \(SSM & secrets manager\)
 
