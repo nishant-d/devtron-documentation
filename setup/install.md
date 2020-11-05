@@ -4,7 +4,9 @@
 
 Devtron Helm chart is available at
 
-https://github.com/devtron-labs/devtron-installation-script/tree/main/charts
+https://github.com/devtron-labs/devtron-installation-script/tree/main/charts 
+
+***To Install Run following command***
 
 ```bash
 $ git clone https://github.com/devtron-labs/devtron-installation-script.git
