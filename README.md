@@ -14,7 +14,7 @@
 It is designed as a self-serve platform for operationalizing and maintaining applications (AppOps) on kubernetes in a developer friendly way. 
 <br>
 <br>
-<img src="./preview.gif">
+![](./preview.gif)
 <br>
 <br>
 ### Some of the benefits  provided by devtron are: 
