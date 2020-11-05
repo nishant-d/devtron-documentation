@@ -1,2 +1,2 @@
 # Devtron Documentation
-Initial commit for the documentation of the Devtron platform
+Devtron is an open source software delivery workflow for kubernetes written in go.
