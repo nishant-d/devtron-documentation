@@ -50,7 +50,7 @@ All parameters mentioned in the `values.yaml` are mandatory.
 First section is ***secrets.env*** and it has following properties
 
 | Parameter | Description | Default |
-|----------:|:------------|:--------|
+|:----------|:------------|:--------|
 | POSTGRESQL_PASSWORD | password for postgres database (required) | change-me |
 | GIT_TOKEN | git token for the gitops work flow, please note this is not for source code of repo and this token should have full access to create, delete, update repository (required) |  |
 | WEBHOOK_TOKEN | If you want to continue using jenkins for CI then please provide this for authentication of requests (optional)  |  |
@@ -58,7 +58,7 @@ First section is ***secrets.env*** and it has following properties
 Second section is ***configs*** and has following properties
 
 | Parameter | Description | Default |
-|----------:|:------------|:--------|
+|:----------|:------------|:--------|
 | BASE_URL_SCHEME | either of http or https | http |
 | BASE_URL | url without scheme and trailing slash (required) `eg. devtron.ai` | `change-me` |
 | DEX_CONFIG | dex config if you want to integrate login with SSO (optional) for more information check [Argocd documentation](https://argoproj.github.io/argo-cd/operator-manual/user-management/) | 
