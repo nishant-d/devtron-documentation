@@ -1,8 +1,7 @@
 # Start Using Devtron
 
-## configure docker registry 
-Once devtron platform setup is complete we need to setup docker registry config for pushing images. 
-Please Refer instruction on [setting docker config](../user-guide/global-configurations/docker-registries.md) 
+##### configure docker registry 
+Please [setup docker registry](../user-guide/global-configurations/docker-registries.md)  before deploying application.
 
 ## Deploying Applications
 
