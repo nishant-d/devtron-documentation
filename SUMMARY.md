@@ -1,9 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [What is Devtron?](what-is-devtron.md)
-* [What is AppOps?](what-is-appops.md)
-* [Why Devtron?](why-devtron.md)
+
 
 ## Setup
 
