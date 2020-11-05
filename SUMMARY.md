@@ -4,13 +4,12 @@
 
 ## Setup
 
-* [Getting Started](setup/getting-started/README.md)
-  * [Installation with default values](setup/getting-started/installation-with-default-values.md)
+* [Installing Devtron](setup/install.md)
+* [Start Using devtron](setup/getting-started/README.md)
   * [Global Configurations](setup/getting-started/global-configurations.md)
   * [Deploying sample springboot app](setup/getting-started/deploying-sample-springboot-app.md)
   * [Other quickstart apps](setup/getting-started/other-quickstart-apps.md)
 * [Detailed Installation instructions](setup/detailed-installation-instructions.md)
-* [Upgrade Devtron](setup/upgrade-devtron.md)
 
 ## User Guide
 
