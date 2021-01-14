@@ -1,6 +1,6 @@
 # Git Accounts
 
-Glocal configurations are used to configure your Git Providers, Docker Registry, Kubernetes clusters, different environments, User Management, and different Notifications for your application. We have segregated all the configurations and we will discuss how to configure all these one by one.
+Global configurations are used to configure your Git Providers, Docker Registry, Kubernetes clusters, different environments, User Management, and different Notifications for your application. We have segregated all the configurations and we will discuss how to configure all these one by one.
 
 ## Git Account Configuration
 
