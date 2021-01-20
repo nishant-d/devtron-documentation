@@ -39,9 +39,9 @@ If you select Password/Auth token then you have to provide the `Access token` fo
 
 ![](../../.gitbook/assets/gc-git-account-configure-password%20%281%29.png)
 
-* **User auth**
+* **Password/Auth token**
 
-If you choose `User auth` then you have to provide the `Username` and `Password` of your version controller account. Click on `Save` to save your git account provider details.
+If you select Password/Auth token then you have to provide the `Access token` for the authentication of your version controller account inside the Access token box. Click on `Save` to save your git account provider details.
 
 ![](../../.gitbook/assets/gc-git-account-configure-user-auth%20%281%29.png)
 
