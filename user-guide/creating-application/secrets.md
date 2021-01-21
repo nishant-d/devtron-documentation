@@ -35,15 +35,15 @@ There are five Data types that you can use to save your secret.
 
 Specify the Volume Mount folder path in `Volume Mount Path`, a path where the data volume needs to be mounted. This volume will be accessible to the Containers running in a pod.
 
-![](../../.gitbook/assets/secret-volume-path%20%281%29.jpg)
+![](../../.gitbook/assets/secret3.jpg)
 
 Click on `Save Secret` to save the secret.
 
-![](../../.gitbook/assets/secret-created%20%281%29.png)
+![](../../.gitbook/assets/secret-created.png)
 
 You can see the Secret is added.
 
-![](../../.gitbook/assets/created-secret%20%281%29.gif)
+![](../../.gitbook/assets/arora3%20%282%29.gif)
 
 ## Update Secrets
 
@@ -51,7 +51,7 @@ You can update your secrets anytime later, but you cannot change the name of you
 
 To update secrets, click on the secret you wish to update.
 
-![](../../.gitbook/assets/updating_secrets%20%282%29.png)
+![](../../.gitbook/assets/updating_secrets.png)
 
 Click on `Update Secret` to update your secret.
 

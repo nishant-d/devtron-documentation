@@ -92,7 +92,7 @@ DEX_CONFIG: |-
         - abc.com
 ```
 
-**Please Note:** 
+**Please Note:**
 
 Ensure that the cluster has access to the DEFAULT\_CACHE\_BUCKET, DEFAULT\_BUILD\_LOGS\_BUCKET, CHARTMUSEUM\_STORAGE\_AMAZON\_BUCKET and AWS secrets backends \(SSM & secrets manager\)
 

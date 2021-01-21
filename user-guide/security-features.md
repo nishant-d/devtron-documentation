@@ -81,11 +81,11 @@ It displays the “Vulnerability count and Severity Level” on a priority basis
 
 You can directly `Search` your application using the Search bar or you can `filter out` your requirement according to Severity, Clusters, and Environment.
 
-![](../.gitbook/assets/security-feature-securitytab-security-scan.png)
+![](../.gitbook/assets/security-feature-securitytab-security-scan%20%282%29.png)
 
 Now if you click on the severity level of vulnerability it will show you the list of all vulnerabilities along with other details.
 
-![](../.gitbook/assets/security-feature-securitytab-list-vulnerability.png)
+![](../.gitbook/assets/security-feature-securitytab-list-vulnerability%20%282%29.png)
 
 ## Security Policies:
 
@@ -116,7 +116,7 @@ Users can block all the critical vulnerabilities and allow the moderate and low 
 
 To configure these policies, click on the drop-down option of the severity levels and select Block or Allow.
 
-![](../.gitbook/assets/security-feature-global-security-policies-global.png)
+![](../.gitbook/assets/security-feature8%20%282%29.png)
 
 ## Configure Cluster Security Policy
 

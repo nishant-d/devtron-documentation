@@ -6,7 +6,7 @@ Deployment configuration is the Manifest for the application, it defines the run
 2. Yaml file
 3. Show application metrics
 
-![](../../.gitbook/assets/deployment-template%20%281%29.gif)
+![](../../.gitbook/assets/deployment-template%20%282%29.gif)
 
 ### 1. Chart version
 

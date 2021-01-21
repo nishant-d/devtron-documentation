@@ -7,7 +7,6 @@
 * [Installing Devtron](setup/install.md)
 * [Start Using devtron](setup/start-using.md)
 
-
 ## User Guide
 
 * [Creating Application](user-guide/creating-application/README.md)

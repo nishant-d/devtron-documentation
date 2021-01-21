@@ -67,5 +67,5 @@ The syntax is: `http://<hostname>/<path>/`
 
 _**path**_ will be the one that you have given in Step 3 while configuring the Deployment Template.
 
-![](../../.gitbook/assets/use-case-django-view-edemo-data.jpg)
+![](../../.gitbook/assets/demo.jpg)
 

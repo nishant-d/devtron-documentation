@@ -36,7 +36,7 @@ This section is used for those Scripts which you want to execute before building
 
 You can add one stage or more than one stage in a CI Pipeline.
 
-![](../../../.gitbook/assets/pre_build%20%282%29.jpg)
+![](../../../.gitbook/assets/pre_build.jpg)
 
 **\(b\) Docker build**
 
@@ -70,7 +70,7 @@ You can also update any configuration of an already created CI Pipeline, except 
 
 Click on your CI Pipeline, to update your CI Pipeline. A window will be popped up with all the details of the current pipeline.
 
-![](../../../.gitbook/assets/edit_pipeline%20%284%29.jpg)
+![](../../../.gitbook/assets/edit_pipeline%20%282%29.jpg)
 
 Make your changes and click on `Update Pipeline` to update your Pipeline.
 
@@ -80,7 +80,7 @@ You can only delete CI Pipeline if you have no CD Pipeline created in your workf
 
 To Delete a CI Pipeline, go to the `App Configurations` and then click on `Workflow` editor
 
-![](../../../.gitbook/assets/edit_pipeline%20%283%29.jpg)
+![](../../../.gitbook/assets/edit_pipeline%20%281%29.jpg)
 
 Click on `Delete Pipeline` to delete the CD Pipeline
 
@@ -90,7 +90,7 @@ Users can run the Test case using the Devtron Dashboard or by including the Test
 
 The test cases given in the script will run before the Test Cases given in the devtron.ci.yaml
 
-![](../../../.gitbook/assets/ci-yaml%20%281%29.jpg)
+![](../../../.gitbook/assets/yaml%20%283%29.jpg)
 
 | Field | Description |
 | :--- | :--- |
@@ -121,5 +121,5 @@ You can send the ‘Payload script’ to your CI tools such as Jenkins and Devtr
 
 If one code is shared across multiple applications, Linked CI Pipeline can be used, and only one image will be built for multiple applications because if there is only one build, it is not advisable to create multiple CI Pipelines.
 
-![](../../../.gitbook/assets/linked%20%282%29.jpg)
+![](../../../.gitbook/assets/linked%20%283%29.jpg)
 
