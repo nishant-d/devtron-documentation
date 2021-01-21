@@ -36,7 +36,7 @@ This section is used for those Scripts which you want to execute before building
 
 You can add one stage or more than one stage in a CI Pipeline.
 
-![](../../../.gitbook/assets/pre_build%20%283%29.jpg)
+![](../../../.gitbook/assets/pre_build%20%284%29.jpg)
 
 **\(b\) Docker build**
 
@@ -70,7 +70,7 @@ You can also update any configuration of an already created CI Pipeline, except 
 
 Click on your CI Pipeline, to update your CI Pipeline. A window will be popped up with all the details of the current pipeline.
 
-![](../../../.gitbook/assets/edit_pipeline%20%283%29.jpg)
+![](../../../.gitbook/assets/edit_pipeline%20%285%29.jpg)
 
 Make your changes and click on `Update Pipeline` to update your Pipeline.
 
@@ -107,7 +107,7 @@ The test cases given in the script will run before the Test Cases given in the d
 
 You can use Devtron for Deployments on Kubernetes while still using your own CI tool such as Jenkins. External CI features can be used for such cases where the CI tool is hosted outside the Devtron platform.
 
-![](../../../.gitbook/assets/external_pipeline%20%283%29.jpg)
+![](../../../.gitbook/assets/external_pipeline%20%284%29.jpg)
 
 You can send the ‘Payload script’ to your CI tools such as Jenkins and Devtron will receive the build image every time the CI Service is triggered or you can use the Webhook URL which will build an image every time CI Service is triggered using Devtron Dashboard.
 

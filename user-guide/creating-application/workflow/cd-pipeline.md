@@ -2,7 +2,7 @@
 
 ## Create CD Pipeline
 
-![](../../../.gitbook/assets/cd-pipeline-console%20%282%29.png)
+![](../../../.gitbook/assets/cd-pipeline-console%20%283%29.png)
 
 Click on **“+”** sign on CI Pipeline to attach a CD Pipeline to it.
 
@@ -23,7 +23,7 @@ CD pipeline configuration has below options to be configured:
 | Deployment Strategy | Select the type of deployment strategy that you want to enable by clicking `Add Deployment Strategy` |
 | Post-deployment stage | Run any configuration and provide secrets after the deployment |
 
-![](../../../.gitbook/assets/configuring-cd-pipeline%20%281%29.png)
+![](../../../.gitbook/assets/configuring-cd-pipeline%20%282%29.png)
 
 ### 1. Pipeline Name
 
@@ -81,7 +81,7 @@ Post-deployment stages are similar to pre-deployment stages. The difference is, 
 
 You can use Config Map and Secrets in post deployments as well, as defined in Pre-Deployment stages
 
-![](../../../.gitbook/assets/cd_post_build%20%282%29.jpg)
+![](../../../.gitbook/assets/cd_post_build%20%283%29.jpg)
 
 You have configured the CD pipeline, now click on `Create Pipeline` to save it. You can see your newly created CD Pipeline on the Workflow tab attached to the corresponding CI Pipeline.
 

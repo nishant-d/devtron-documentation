@@ -2,7 +2,7 @@
 
 ## Triggering CI Pipelines
 
-![](../../.gitbook/assets/trigger-console%20%282%29.jpg)
+![](../../.gitbook/assets/trigger-console%20%283%29.jpg)
 
 The CI Pipeline can be triggered by selecting **Select Material**
 

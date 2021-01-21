@@ -113,5 +113,5 @@ To view student data by student id, GET Request is:
 
 _**path**_ will be the one that you have given in Step 3 while configuring the Deployment Template.
 
-![](../../.gitbook/assets/use-cases-springboot-view-student-data-with-id%20%283%29.jpg)
+![](../../.gitbook/assets/use-cases-springboot-view-student-data-with-id%20%284%29.jpg)
 

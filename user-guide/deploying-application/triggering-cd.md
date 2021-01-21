@@ -2,7 +2,7 @@
 
 ## Triggering CD Pipelines
 
-![](../../.gitbook/assets/trigger-select-image.jpg)
+![](../../.gitbook/assets/trigger-select-image%20%281%29.jpg)
 
 After CI Pipeline is complete, CD Pipeline can be triggered by Clicking on _Select Image_.
 

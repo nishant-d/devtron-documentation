@@ -77,7 +77,7 @@ There are four different view access levels/Role available for both User and Gro
 * **Admin**: User\(s\)/Group\(s\) who have `Admin` permission can view, trigger, and edit selected applications.
 * **Manager**: User\(s\)/Group\(s\) under manager also have the `Admin` permissions but apart from that they can create, edit, and delete the selected applications, can also manage `User access` but the user can only give permissions on those applications which the user has access to.
 
-![](../../.gitbook/assets/gc-user-access-configure-direct-permission%20%281%29.jpg)
+![](../../.gitbook/assets/gc-user-access-configure-direct-permission%20%282%29.jpg)
 
 You can add multiple rows, for Direct Permissions.
 
@@ -139,7 +139,7 @@ Once you have given the group name and group description.
 
 Then, control the access permissions of groups in the Direct Permissions section. Manage the Project, Environment, Application, and Role access the same as we discuss in the above users section.
 
-![](../../.gitbook/assets/gc-user-access-add-group-configure%20%281%29.jpg)
+![](../../.gitbook/assets/gc-user-access-add-group-configure%20%282%29.jpg)
 
 You can add multiple rows, for the Direct Permissions section.
 
@@ -153,7 +153,7 @@ You can edit the group permissions, by clicking on the `downward arrow.`
 
 Then you can edit the user permissions here.
 
-![](../../.gitbook/assets/gc-user-access-add-group-edit-configure.jpg)
+![](../../.gitbook/assets/gc-user-access-add-group-edit-configure%20%281%29.jpg)
 
 Once you are done editing the group permissions. Click on `Save`.
 

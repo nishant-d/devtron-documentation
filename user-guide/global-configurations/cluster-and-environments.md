@@ -73,7 +73,7 @@ Now click on `Save Cluster` to save your cluster information.
 
 Your kubernetes cluster gets mapped with the Devtron when you save your kubernetes cluster Configuration. Now the agents of devtron will be installed on your cluster so that the components of devtron can communicate to your cluster. When the agent starts installing on your cluster, you can check the status of the agents in the Cluster & Environment tab also.
 
-![](../../.gitbook/assets/gc-cluster-agents%20%283%29.png)
+![](../../.gitbook/assets/gc-cluster-agents%20%284%29.png)
 
 Click on `Details` to check what got installed inside the agents. A new window will be popped up displaying all the details about these agents.
 
@@ -83,7 +83,7 @@ Click on `Details` to check what got installed inside the agents. A new window w
 
 Once you have added your cluster in Cluster & Environment, you can add the environment also. Click on `Add Environment`, a window will be opened. Give a name to your environment in the `Environment Name` box and provide a namespace corresponding to your environment in the `Namespace` input box. Now choose if your environment is for Production purposes or for Non-production purposes. Production and Non-production options are only for tagging purposes. Click on `Save` and your environment will be created.
 
-![](../../.gitbook/assets/gc-cluster-add-environment%20%282%29.png)
+![](../../.gitbook/assets/gc-cluster-add-environment%20%283%29.png)
 
 You can update an already created environment, Select and click on the environment which you want to update. You can only change Production and Non-production options here.
 

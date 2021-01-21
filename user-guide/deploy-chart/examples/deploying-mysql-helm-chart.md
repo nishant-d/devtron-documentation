@@ -10,7 +10,7 @@ stable/mysql Helm chart bootstraps a single node MySQL deployment on a Kubernete
 
 Select the `Charts` section from the left pane, you will be landed to the `Chart Store` page. Click on `Discover` and find `stable/mongodb-replicaset` Helm Chart.
 
-![](../../../.gitbook/assets/chart21%20%281%29.jpg)
+![](../../../.gitbook/assets/chart21%20%282%29.jpg)
 
 ## 2. Configure the Chart
 
@@ -39,7 +39,7 @@ Set the following parameters in the chart, to be later used to connect mysql wit
 | `mysqluser` | Username of new user to create |
 | `mysqlPassword` | Password for the new user. Ignored if existing secret is provided |
 
-![](../../../.gitbook/assets/chart4o%20%282%29.jpg)
+![](../../../.gitbook/assets/chart4o%20%283%29.jpg)
 
 Click on `Deploy` to deploy the Chart
 
@@ -59,5 +59,5 @@ Click on the `Status` or check the logs of the pods to debug the issue.
 
 Copy the service name, it will be used to connect your application to mySQL.
 
-![](../../../.gitbook/assets/sql2%20%282%29.png)
+![](../../../.gitbook/assets/sql2%20%283%29.png)
 

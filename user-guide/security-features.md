@@ -63,7 +63,7 @@ See the below image.
 
 Click on the `Show Source Info` option. A window will be expanded with two options- Changes and Security. Click on the Security tab to view details about the vulnerabilities in the code.
 
-![](../.gitbook/assets/security-feature-deployed-image-security%20%283%29.png)
+![](../.gitbook/assets/security-feature-deployed-image-security%20%284%29.png)
 
 **Find Vulnerabilities on the App Details Page**
 
@@ -81,11 +81,11 @@ It displays the “Vulnerability count and Severity Level” on a priority basis
 
 You can directly `Search` your application using the Search bar or you can `filter out` your requirement according to Severity, Clusters, and Environment.
 
-![](../.gitbook/assets/security-feature-securitytab-security-scan%20%281%29.png)
+![](../.gitbook/assets/security-feature-securitytab-security-scan%20%282%29.png)
 
 Now if you click on the severity level of vulnerability it will show you the list of all vulnerabilities along with other details.
 
-![](../.gitbook/assets/security-feature-securitytab-list-vulnerability%20%281%29.png)
+![](../.gitbook/assets/security-feature-securitytab-list-vulnerability%20%282%29.png)
 
 ## Security Policies:
 

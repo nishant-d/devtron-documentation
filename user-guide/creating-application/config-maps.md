@@ -4,7 +4,7 @@ The ConfigMap API resource holds key-value pairs of configuration data that can 
 
 Click on `Add ConfigMap` to add a config map to your application.
 
-![](../../.gitbook/assets/ad-confgimap%20%281%29.jpg)
+![](../../.gitbook/assets/ad-confgimap%20%282%29.jpg)
 
 ## Configure the ConfigMap
 
@@ -99,13 +99,13 @@ You have to ensure that the External ConfigMap exists and is available to the po
 
 The config map is created.
 
-![](../../.gitbook/assets/created-configmap%20%283%29.gif)
+![](../../.gitbook/assets/created-configmap%20%284%29.gif)
 
 ## Update ConfigMap
 
 You can update your configmap anytime later but you cannot change the name of your configmap. If you want to change the name of the configmap then you have to create a new configmap. To update configmap, click on the configmap you have created make changes as required.
 
-![](../../.gitbook/assets/update_configmap%20%283%29.png)
+![](../../.gitbook/assets/update_configmap%20%284%29.png)
 
 Click on `Update Configmap` to update your configmap.
 

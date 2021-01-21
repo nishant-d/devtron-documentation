@@ -14,13 +14,13 @@ This guide will introduce you to how to deploy the mongoDB's Helm chart.
 
 Select the `Charts` section from the left pane, you will be landed to the `Chart Store` page. Click on `Discover` and find `stable/mongodb-replicaset` Helm Chart.
 
-![](../../../.gitbook/assets/first%20%282%29.jpg)
+![](../../../.gitbook/assets/first%20%283%29.jpg)
 
 ## 2. Configure the Chart
 
 After selecting the stable/mongodb helm chart, click on `Deploy`
 
-![](../../../.gitbook/assets/second%20%281%29.jpg)
+![](../../../.gitbook/assets/second%20%282%29.jpg)
 
 Enter the following details, to deploy mongoDB chart:
 
@@ -38,7 +38,7 @@ In this example `replicas` is set to **1** and `persistenceVolume` is set to **f
 
 To learn about different parameters used in the chart, you can check [Documentation of mongodb Helm chart](https://hub.helm.sh/charts/bitnami/mongodb)
 
-![](../../../.gitbook/assets/mongo1%20%281%29.jpg)
+![](../../../.gitbook/assets/mongo1%20%282%29.jpg)
 
 Click on `Deploy` after you have finished configuring the chart.
 

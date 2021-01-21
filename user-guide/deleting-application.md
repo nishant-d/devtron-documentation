@@ -6,13 +6,13 @@ Clicking on `Delete Application` will not delete your application if you have wo
 
 If your Application contains workflows in the Workflow Editor. So,when you Click on `Delete Application`, you will see the following prompt.
 
-![](../.gitbook/assets/deleting-warnning.jpg)
+![](../.gitbook/assets/deleting-warnning%20%281%29.jpg)
 
 Click on `View Workflows` to view and delete your workflows in the application.
 
 To delete the workflows in your application, you must first delete all the pipelines\(CD Pipeline, CI Pipeline or Linked CI Pipeline or External CI Pipeline if there are any\).
 
-![](../.gitbook/assets/deleting-workflow.jpg)
+![](../.gitbook/assets/deleting-workflow%20%281%29.jpg)
 
 After you have deleted all the pipelines in the workflow, you can delete that particular workflow.
 

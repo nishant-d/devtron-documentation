@@ -8,13 +8,13 @@ You can use `Devtron-generic-Helm Chart` to run the cron jobs or one time job.
 
 Select the `Devtron-generic Helm Chart` from the Devtron Chart Store.
 
-![](../../.gitbook/assets/use-case-chart-store%20%281%29.jpg)
+![](../../.gitbook/assets/use-case-chart-store%20%282%29.jpg)
 
 Select the Chart Version and the Chart Value of the Chart.
 
 And, then Click on `Deploy`
 
-![](../../.gitbook/assets/use-case-deploy-chart.jpg)
+![](../../.gitbook/assets/use-case-deploy-chart%20%281%29.jpg)
 
 **Configure Devtron-generic-helm chart**
 

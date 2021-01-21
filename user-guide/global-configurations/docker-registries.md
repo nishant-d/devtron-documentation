@@ -20,7 +20,7 @@ You will see below the input fields to configure the docker registry.
 * Registry URL
 * Set as default
 
-![](../../.gitbook/assets/gc-docker-add%20%282%29.png)
+![](../../.gitbook/assets/gc-docker-add%20%283%29.png)
 
 ### Name
 

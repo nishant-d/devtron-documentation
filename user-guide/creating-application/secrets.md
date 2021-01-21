@@ -39,7 +39,7 @@ Specify the Volume Mount folder path in `Volume Mount Path`, a path where the da
 
 Click on `Save Secret` to save the secret.
 
-![](../../.gitbook/assets/secret-created%20%283%29.png)
+![](../../.gitbook/assets/secret-created%20%284%29.png)
 
 You can see the Secret is added.
 
