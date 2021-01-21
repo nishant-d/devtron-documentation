@@ -34,7 +34,7 @@ $ kubectl apply -n devtroncd -f charts/template/devtron-installer.yaml
 Devtron dashboard in now available at the `BASE_URL/dashboard`, where `BASE_URL` is
 
 * same as provided in `values.yaml` in case of installation via helm chart 
-* provided in `charts/template/configmap-secret.yaml` in case of installation via kubectl.
+* provided in `charts/devtron/template/configmap-secret.yaml` in case of installation via kubectl.
 
 For login use username:`admin` and for password run command mentioned below.
 
