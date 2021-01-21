@@ -18,7 +18,7 @@ After you have deleted all the pipelines in the workflow, you can delete that pa
 
 Similarly, delete all the workflows in the application.
 
-![](../.gitbook/assets/deleting-delete-application.jpg)
+![](../.gitbook/assets/delete_app3%20%281%29.jpg)
 
 Now, Click on `Delete Application` to delete the application.
 

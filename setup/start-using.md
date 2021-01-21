@@ -1,7 +1,8 @@
-# Start Using Devtron
+# Start Using devtron
 
-##### configure docker registry 
-Please [setup docker registry](../user-guide/global-configurations/docker-registries.md)  before deploying application.
+#### configure docker registry
+
+Please [setup docker registry](../user-guide/global-configurations/docker-registries.md) before deploying application.
 
 ## Deploying Applications
 
@@ -13,9 +14,5 @@ Please use [this spring boot app](https://github.com/nishant-d/demo.git) repo fo
 
 ### deploy helm chart
 
-for deploying helm chart follow [helm chart installation guide](../user-guide/deploy-chart/README.md)
-
-
-
-
+for deploying helm chart follow [helm chart installation guide](../user-guide/deploy-chart/)
 

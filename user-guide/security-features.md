@@ -35,7 +35,7 @@ You can find the Vulnerabilities `Build History` Page if you have enabled the `S
 
 Your Application-&gt; Build History-&gt; Select pipeline-&gt; Go to Security Tab.
 
-![](../.gitbook/assets/security-feature-build-history-security.png)
+![](../.gitbook/assets/security-feature-build-history-security%20%281%29.png)
 
 Here you can see all the vulnerabilities found in the build image.
 
@@ -59,11 +59,11 @@ You can see details of these vulnerabilities by expanding the `Show Source Info`
 
 See the below image.
 
-![](../.gitbook/assets/security-feature-deployed-image.png)
+![](../.gitbook/assets/security-feature-deployed-image%20%281%29.png)
 
 Click on the `Show Source Info` option. A window will be expanded with two options- Changes and Security. Click on the Security tab to view details about the vulnerabilities in the code.
 
-![](../.gitbook/assets/security-feature-deployed-image-security.png)
+![](../.gitbook/assets/security-feature-deployed-image-security%20%283%29.png)
 
 **Find Vulnerabilities on the App Details Page**
 
@@ -81,11 +81,11 @@ It displays the “Vulnerability count and Severity Level” on a priority basis
 
 You can directly `Search` your application using the Search bar or you can `filter out` your requirement according to Severity, Clusters, and Environment.
 
-![](../.gitbook/assets/security-feature-securitytab-security-scan.png)
+![](../.gitbook/assets/security-feature-securitytab-security-scan%20%281%29.png)
 
 Now if you click on the severity level of vulnerability it will show you the list of all vulnerabilities along with other details.
 
-![](../.gitbook/assets/security-feature-securitytab-list-vulnerability.png)
+![](../.gitbook/assets/security-feature-securitytab-list-vulnerability%20%281%29.png)
 
 ## Security Policies:
 
@@ -116,7 +116,7 @@ Users can block all the critical vulnerabilities and allow the moderate and low 
 
 To configure these policies, click on the drop-down option of the severity levels and select Block or Allow.
 
-![](../.gitbook/assets/security-feature-global-security-policies-global.png)
+![](../.gitbook/assets/security-feature8.png)
 
 ## Configure Cluster Security Policy
 
